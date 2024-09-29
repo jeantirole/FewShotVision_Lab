@@ -1,2 +1,2 @@
 # FewShotVision_Lab
-FewShotVision_Lab
+for Remote-Sensing Few-shot seg 
