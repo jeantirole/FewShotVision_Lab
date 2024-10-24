@@ -1,0 +1,2216 @@
+Caching images and labels:   0%|          | 0/258 [00:00<?, ?it/s]Caching images and labels:   0%|          | 0/258 [00:00<?, ?it/s]Caching images and labels:   0%|          | 0/258 [00:00<?, ?it/s]INFO:__mp_main__:Preparing dataset
+Caching images and labels:   0%|          | 0/258 [00:00<?, ?it/s]Caching images and labels:   2%|▏         | 4/258 [00:00<00:06, 38.76it/s]Caching images and labels:   2%|▏         | 4/258 [00:00<00:06, 38.76it/s]Caching images and labels:   2%|▏         | 4/258 [00:00<00:06, 38.97it/s]Caching images and labels:   2%|▏         | 4/258 [00:00<00:06, 38.25it/s]Caching images and labels:   3%|▎         | 9/258 [00:00<00:05, 42.67it/s]Caching images and labels:   3%|▎         | 9/258 [00:00<00:05, 42.60it/s]Caching images and labels:   3%|▎         | 9/258 [00:00<00:05, 42.64it/s]Caching images and labels:   3%|▎         | 9/258 [00:00<00:05, 42.30it/s]Caching images and labels:   5%|▌         | 14/258 [00:00<00:05, 43.59it/s]Caching images and labels:   5%|▌         | 14/258 [00:00<00:05, 43.72it/s]Caching images and labels:   5%|▌         | 14/258 [00:00<00:05, 43.03it/s]Caching images and labels:   5%|▌         | 14/258 [00:00<00:05, 43.24it/s]Caching images and labels:   7%|▋         | 19/258 [00:00<00:05, 41.84it/s]Caching images and labels:   7%|▋         | 19/258 [00:00<00:05, 42.26it/s]Caching images and labels:   7%|▋         | 19/258 [00:00<00:05, 41.44it/s]Caching images and labels:   7%|▋         | 19/258 [00:00<00:05, 41.61it/s]Caching images and labels:   9%|▉         | 24/258 [00:00<00:05, 40.34it/s]Caching images and labels:   9%|▉         | 24/258 [00:00<00:05, 40.81it/s]Caching images and labels:   9%|▉         | 24/258 [00:00<00:05, 40.28it/s]Caching images and labels:   9%|▉         | 24/258 [00:00<00:05, 40.27it/s]Caching images and labels:  11%|█         | 29/258 [00:00<00:05, 41.19it/s]Caching images and labels:  11%|█         | 29/258 [00:00<00:05, 41.75it/s]Caching images and labels:  11%|█         | 29/258 [00:00<00:05, 41.26it/s]Caching images and labels:  11%|█         | 29/258 [00:00<00:05, 41.01it/s]Caching images and labels:  13%|█▎        | 34/258 [00:00<00:05, 41.91it/s]Caching images and labels:  13%|█▎        | 34/258 [00:00<00:05, 42.79it/s]Caching images and labels:  13%|█▎        | 34/258 [00:00<00:05, 42.11it/s]Caching images and labels:  13%|█▎        | 34/258 [00:00<00:05, 41.74it/s]Caching images and labels:  15%|█▌        | 39/258 [00:00<00:04, 43.92it/s]Caching images and labels:  16%|█▌        | 40/258 [00:00<00:04, 45.52it/s]Caching images and labels:  15%|█▌        | 39/258 [00:00<00:04, 44.30it/s]Caching images and labels:  15%|█▌        | 39/258 [00:00<00:05, 43.78it/s]Caching images and labels:  17%|█▋        | 44/258 [00:01<00:04, 43.07it/s]Caching images and labels:  17%|█▋        | 44/258 [00:01<00:04, 43.05it/s]Caching images and labels:  17%|█▋        | 45/258 [00:01<00:04, 43.00it/s]Caching images and labels:  17%|█▋        | 44/258 [00:01<00:04, 42.86it/s]Caching images and labels:  19%|█▉        | 49/258 [00:01<00:05, 39.47it/s]Caching images and labels:  19%|█▉        | 49/258 [00:01<00:05, 39.12it/s]Caching images and labels:  19%|█▉        | 50/258 [00:01<00:05, 39.15it/s]Caching images and labels:  19%|█▉        | 49/258 [00:01<00:05, 39.01it/s]Caching images and labels:  21%|██        | 53/258 [00:01<00:05, 37.56it/s]Caching images and labels:  21%|██        | 54/258 [00:01<00:05, 36.69it/s]Caching images and labels:  21%|██        | 54/258 [00:01<00:05, 36.35it/s]Caching images and labels:  21%|██        | 54/258 [00:01<00:05, 38.37it/s]Caching images and labels:  22%|██▏       | 58/258 [00:01<00:05, 35.85it/s]Caching images and labels:  22%|██▏       | 58/258 [00:01<00:05, 38.68it/s]Caching images and labels:  22%|██▏       | 58/258 [00:01<00:05, 35.65it/s]Caching images and labels:  22%|██▏       | 58/258 [00:01<00:05, 37.57it/s]Caching images and labels:  24%|██▍       | 62/258 [00:01<00:05, 35.46it/s]Caching images and labels:  24%|██▍       | 62/258 [00:01<00:05, 36.69it/s]Caching images and labels:  24%|██▍       | 62/258 [00:01<00:05, 37.46it/s]Caching images and labels:  24%|██▍       | 62/258 [00:01<00:05, 35.31it/s]Caching images and labels:  26%|██▌       | 66/258 [00:01<00:05, 32.74it/s]Caching images and labels:  26%|██▌       | 66/258 [00:01<00:05, 33.52it/s]Caching images and labels:  26%|██▌       | 66/258 [00:01<00:05, 32.68it/s]Caching images and labels:  26%|██▌       | 66/258 [00:01<00:05, 34.00it/s]Caching images and labels:  27%|██▋       | 70/258 [00:01<00:05, 32.15it/s]Caching images and labels:  27%|██▋       | 70/258 [00:01<00:05, 33.03it/s]Caching images and labels:  27%|██▋       | 70/258 [00:01<00:05, 32.68it/s]Caching images and labels:  27%|██▋       | 70/258 [00:01<00:05, 32.12it/s]filename /home/eric/data/trainset/images/viru_27.tif
+filename /home/eric/data/trainset/labels/viru_27.tif
+filename /home/eric/data/trainset/images/christchurch_23.tif
+filename /home/eric/data/trainset/labels/christchurch_23.tif
+filename /home/eric/data/trainset/images/daressalaam_51.tif
+filename /home/eric/data/trainset/labels/daressalaam_51.tif
+filename /home/eric/data/trainset/images/baybay_17.tif
+filename /home/eric/data/trainset/labels/baybay_17.tif
+filename /home/eric/data/trainset/images/kyoto_8.tif
+filename /home/eric/data/trainset/labels/kyoto_8.tif
+filename /home/eric/data/trainset/images/melbourne_51.tif
+filename /home/eric/data/trainset/labels/melbourne_51.tif
+filename /home/eric/data/trainset/images/melbourne_24.tif
+filename /home/eric/data/trainset/labels/melbourne_24.tif
+filename /home/eric/data/trainset/images/al_qurnah_63.tif
+filename /home/eric/data/trainset/labels/al_qurnah_63.tif
+filename /home/eric/data/trainset/images/austin_2.tif
+filename /home/eric/data/trainset/labels/austin_2.tif
+filename /home/eric/data/trainset/images/pomorskie_28.tif
+filename /home/eric/data/trainset/labels/pomorskie_28.tif
+filename /home/eric/data/trainset/images/bielefeld_5.tif
+filename /home/eric/data/trainset/labels/bielefeld_5.tif
+filename /home/eric/data/trainset/images/wielkopolskie_21.tif
+filename /home/eric/data/trainset/labels/wielkopolskie_21.tif
+filename /home/eric/data/trainset/images/kagera_58.tif
+filename /home/eric/data/trainset/labels/kagera_58.tif
+filename /home/eric/data/trainset/images/chiclayo_40.tif
+filename /home/eric/data/trainset/labels/chiclayo_40.tif
+filename /home/eric/data/trainset/images/chiangmai_13.tif
+filename /home/eric/data/trainset/labels/chiangmai_13.tif
+filename /home/eric/data/trainset/images/austin_38.tif
+filename /home/eric/data/trainset/labels/austin_38.tif
+filename /home/eric/data/trainset/images/monrovia_25.tif
+filename /home/eric/data/trainset/labels/monrovia_25.tif
+filename /home/eric/data/trainset/images/koeln_10.tif
+filename /home/eric/data/trainset/labels/koeln_10.tif
+filename /home/eric/data/trainset/images/pomorskie_1.tif
+filename /home/eric/data/trainset/labels/pomorskie_1.tif
+filename /home/eric/data/trainset/images/baybay_5.tif
+filename /home/eric/data/trainset/labels/baybay_5.tif
+filename /home/eric/data/trainset/images/chincha_1.tif
+filename /home/eric/data/trainset/labels/chincha_1.tif
+filename /home/eric/data/trainset/images/austin_44.tif
+filename /home/eric/data/trainset/labels/austin_44.tif
+filename /home/eric/data/trainset/images/dortmund_44.tif
+filename /home/eric/data/trainset/labels/dortmund_44.tif
+filename /home/eric/data/trainset/images/svaneti_20.tif
+filename /home/eric/data/trainset/labels/svaneti_20.tif
+filename /home/eric/data/trainset/images/zanzibar_10.tif
+filename /home/eric/data/trainset/labels/zanzibar_10.tif
+filename /home/eric/data/trainset/images/buenos_aires_26.tif
+filename /home/eric/data/trainset/labels/buenos_aires_26.tif
+filename /home/eric/data/trainset/images/kyoto_55.tif
+filename /home/eric/data/trainset/labels/kyoto_55.tif
+filename /home/eric/data/trainset/images/piura_8.tif
+filename /home/eric/data/trainset/labels/piura_8.tif
+filename /home/eric/data/trainset/images/dortmund_65.tif
+filename /home/eric/data/trainset/labels/dortmund_65.tif
+filename /home/eric/data/trainset/images/viru_19.tif
+filename /home/eric/data/trainset/labels/viru_19.tif
+filename /home/eric/data/trainset/images/western_25.tif
+filename /home/eric/data/trainset/labels/western_25.tif
+filename /home/eric/data/trainset/images/baybay_3.tif
+filename /home/eric/data/trainset/labels/baybay_3.tif
+filename /home/eric/data/trainset/images/muenster_51.tif
+filename /home/eric/data/trainset/labels/muenster_51.tif
+filename /home/eric/data/trainset/images/melbourne_11.tif
+filename /home/eric/data/trainset/labels/melbourne_11.tif
+filename /home/eric/data/trainset/images/accra_27.tif
+filename /home/eric/data/trainset/labels/accra_27.tif
+filename /home/eric/data/trainset/images/ngaoundere_20.tif
+filename /home/eric/data/trainset/labels/ngaoundere_20.tif
+filename /home/eric/data/trainset/images/ulaanbaatar_27.tif
+filename /home/eric/data/trainset/labels/ulaanbaatar_27.tif
+filename /home/eric/data/trainset/images/viru_15.tif
+filename /home/eric/data/trainset/labels/viru_15.tif
+filename /home/eric/data/trainset/images/malopolskie_12.tif
+filename /home/eric/data/trainset/labels/malopolskie_12.tif
+filename /home/eric/data/trainset/images/malopolskie_7.tif
+filename /home/eric/data/trainset/labels/malopolskie_7.tif
+filename /home/eric/data/trainset/images/muenster_28.tif
+filename /home/eric/data/trainset/labels/muenster_28.tif
+filename /home/eric/data/trainset/images/daressalaam_64.tif
+filename /home/eric/data/trainset/labels/daressalaam_64.tif
+filename /home/eric/data/trainset/images/zachodniopomorskie_11.tif
+filename /home/eric/data/trainset/labels/zachodniopomorskie_11.tif
+filename /home/eric/data/trainset/images/kagera_52.tif
+filename /home/eric/data/trainset/labels/kagera_52.tif
+filename /home/eric/data/trainset/images/tyrolw_53.tif
+filename /home/eric/data/trainset/labels/tyrolw_53.tif
+filename /home/eric/data/trainset/images/chicago_1.tif
+filename /home/eric/data/trainset/labels/chicago_1.tif
+filename /home/eric/data/trainset/images/pointenoire_10.tif
+filename /home/eric/data/trainset/labels/pointenoire_10.tif
+filename /home/eric/data/trainset/images/paris_36.tif
+filename /home/eric/data/trainset/labels/paris_36.tif
+filename /home/eric/data/trainset/images/tyrolw_63.tif
+filename /home/eric/data/trainset/labels/tyrolw_63.tif
+filename /home/eric/data/trainset/images/koeln_32.tif
+filename /home/eric/data/trainset/labels/koeln_32.tif
+filename /home/eric/data/trainset/images/tokyo_14.tif
+filename /home/eric/data/trainset/labels/tokyo_14.tif
+filename /home/eric/data/trainset/images/bielefeld_1.tif
+filename /home/eric/data/trainset/labels/bielefeld_1.tif
+filename /home/eric/data/trainset/images/christchurch_42.tif
+filename /home/eric/data/trainset/labels/christchurch_42.tif
+filename /home/eric/data/trainset/images/mahe_51.tif
+filename /home/eric/data/trainset/labels/mahe_51.tif
+filename /home/eric/data/trainset/images/lambayeque_46.tif
+filename /home/eric/data/trainset/labels/lambayeque_46.tif
+filename /home/eric/data/trainset/images/lodzkie_5.tif
+filename /home/eric/data/trainset/labels/lodzkie_5.tif
+filename /home/eric/data/trainset/images/san_tome_25.tif
+filename /home/eric/data/trainset/labels/san_tome_25.tif
+filename /home/eric/data/trainset/images/chincha_12.tif
+filename /home/eric/data/trainset/labels/chincha_12.tif
+filename /home/eric/data/trainset/images/sechura_25.tif
+filename /home/eric/data/trainset/labels/sechura_25.tif
+filename /home/eric/data/trainset/images/daressalaam_77.tif
+filename /home/eric/data/trainset/labels/daressalaam_77.tif
+filename /home/eric/data/trainset/images/slaskie_4.tif
+filename /home/eric/data/trainset/labels/slaskie_4.tif
+filename /home/eric/data/trainset/images/tokyo_65.tif
+filename /home/eric/data/trainset/labels/tokyo_65.tif
+filename /home/eric/data/trainset/images/austin_36.tif
+filename /home/eric/data/trainset/labels/austin_36.tif
+filename /home/eric/data/trainset/images/duesseldorf_44.tif
+filename /home/eric/data/trainset/labels/duesseldorf_44.tif
+filename /home/eric/data/trainset/images/maputo_10.tif
+filename /home/eric/data/trainset/labels/maputo_10.tif
+filename /home/eric/data/trainset/images/khartoum_46.tif
+filename /home/eric/data/trainset/labels/khartoum_46.tif
+filename /home/eric/data/trainset/images/podkarpackie_19.tif
+filename /home/eric/data/trainset/labels/podkarpackie_19.tif
+filename /home/eric/data/trainset/images/dortmund_7.tif
+filename /home/eric/data/trainset/labels/dortmund_7.tif
+filename /home/eric/data/trainset/images/piura_46.tif
+filename /home/eric/data/trainset/labels/piura_46.tif
+filename /home/eric/data/trainset/images/bogota_7.tif
+filename /home/eric/data/trainset/labels/bogota_7.tif
+filename /home/eric/data/trainset/images/dhaka_28.tif
+filename /home/eric/data/trainset/labels/dhaka_28.tif
+filename /home/eric/data/trainset/images/lodzkie_18.tif
+filename /home/eric/data/trainset/labels/lodzkie_18.tif
+filename filename /home/eric/data/trainset/images/viru_27.tif
+filename /home/eric/data/trainset/labels/viru_27.tif
+filename /home/eric/data/trainset/images/christchurch_23.tif
+filename /home/eric/data/trainset/labels/christchurch_23.tif
+filename /home/eric/data/trainset/images/daressalaam_51.tif
+filename /home/eric/data/trainset/labels/daressalaam_51.tif
+filename /home/eric/data/trainset/images/baybay_17.tif
+filename /home/eric/data/trainset/labels/baybay_17.tif
+filename /home/eric/data/trainset/images/kyoto_8.tif
+filename /home/eric/data/trainset/labels/kyoto_8.tif
+filename /home/eric/data/trainset/images/melbourne_51.tif
+filename /home/eric/data/trainset/labels/melbourne_51.tif
+filename /home/eric/data/trainset/images/melbourne_24.tif
+filename /home/eric/data/trainset/labels/melbourne_24.tif
+filename /home/eric/data/trainset/images/al_qurnah_63.tif
+filename /home/eric/data/trainset/labels/al_qurnah_63.tif
+filename /home/eric/data/trainset/images/austin_2.tif
+filename /home/eric/data/trainset/labels/austin_2.tif
+filename /home/eric/data/trainset/images/pomorskie_28.tif
+filename /home/eric/data/trainset/labels/pomorskie_28.tif
+filename /home/eric/data/trainset/images/bielefeld_5.tif
+filename /home/eric/data/trainset/labels/bielefeld_5.tif
+filename /home/eric/data/trainset/images/wielkopolskie_21.tif
+filename /home/eric/data/trainset/labels/wielkopolskie_21.tif
+filename /home/eric/data/trainset/images/kagera_58.tif
+filename /home/eric/data/trainset/labels/kagera_58.tif
+filename /home/eric/data/trainset/images/chiclayo_40.tif
+filename /home/eric/data/trainset/labels/chiclayo_40.tif
+filename /home/eric/data/trainset/images/chiangmai_13.tif
+filename /home/eric/data/trainset/labels/chiangmai_13.tif
+filename /home/eric/data/trainset/images/austin_38.tif
+filename /home/eric/data/trainset/labels/austin_38.tif
+filename /home/eric/data/trainset/images/monrovia_25.tif
+filename /home/eric/data/trainset/labels/monrovia_25.tif
+filename /home/eric/data/trainset/images/koeln_10.tif
+filename /home/eric/data/trainset/labels/koeln_10.tif
+filename /home/eric/data/trainset/images/pomorskie_1.tif
+filename /home/eric/data/trainset/labels/pomorskie_1.tif
+filename /home/eric/data/trainset/images/baybay_5.tif
+filename /home/eric/data/trainset/labels/baybay_5.tif
+filename /home/eric/data/trainset/images/chincha_1.tif
+filename /home/eric/data/trainset/labels/chincha_1.tif
+filename /home/eric/data/trainset/images/austin_44.tif
+filename /home/eric/data/trainset/labels/austin_44.tif
+filename /home/eric/data/trainset/images/dortmund_44.tif
+filename /home/eric/data/trainset/labels/dortmund_44.tif
+filename /home/eric/data/trainset/images/svaneti_20.tif
+filename /home/eric/data/trainset/labels/svaneti_20.tif
+filename /home/eric/data/trainset/images/zanzibar_10.tif
+filename /home/eric/data/trainset/labels/zanzibar_10.tif
+filename /home/eric/data/trainset/images/buenos_aires_26.tif
+filename /home/eric/data/trainset/labels/buenos_aires_26.tif
+filename /home/eric/data/trainset/images/kyoto_55.tif
+filename /home/eric/data/trainset/labels/kyoto_55.tif
+filename /home/eric/data/trainset/images/piura_8.tif
+filename /home/eric/data/trainset/labels/piura_8.tif
+filename /home/eric/data/trainset/images/dortmund_65.tif
+filename /home/eric/data/trainset/labels/dortmund_65.tif
+filename /home/eric/data/trainset/images/viru_19.tif
+filename /home/eric/data/trainset/labels/viru_19.tif
+filename /home/eric/data/trainset/images/western_25.tif
+filename /home/eric/data/trainset/labels/western_25.tif
+filename /home/eric/data/trainset/images/baybay_3.tif
+filename /home/eric/data/trainset/labels/baybay_3.tif
+filename /home/eric/data/trainset/images/muenster_51.tif
+filename /home/eric/data/trainset/labels/muenster_51.tif
+filename /home/eric/data/trainset/images/melbourne_11.tif
+filename /home/eric/data/trainset/labels/melbourne_11.tif
+filename /home/eric/data/trainset/images/accra_27.tif
+filename /home/eric/data/trainset/labels/accra_27.tif
+filename /home/eric/data/trainset/images/ngaoundere_20.tif
+filename /home/eric/data/trainset/labels/ngaoundere_20.tif
+filename /home/eric/data/trainset/images/ulaanbaatar_27.tif
+filename /home/eric/data/trainset/labels/ulaanbaatar_27.tif
+filename /home/eric/data/trainset/images/viru_15.tif
+filename /home/eric/data/trainset/labels/viru_15.tif
+filename /home/eric/data/trainset/images/malopolskie_12.tif
+filename /home/eric/data/trainset/labels/malopolskie_12.tif
+filename /home/eric/data/trainset/images/malopolskie_7.tif
+filename /home/eric/data/trainset/labels/malopolskie_7.tif
+filename /home/eric/data/trainset/images/muenster_28.tif
+filename /home/eric/data/trainset/labels/muenster_28.tif
+filename /home/eric/data/trainset/images/daressalaam_64.tif
+filename /home/eric/data/trainset/labels/daressalaam_64.tif
+filename /home/eric/data/trainset/images/zachodniopomorskie_11.tif
+filename /home/eric/data/trainset/labels/zachodniopomorskie_11.tif
+filename /home/eric/data/trainset/images/kagera_52.tif
+filename /home/eric/data/trainset/labels/kagera_52.tif
+filename /home/eric/data/trainset/images/tyrolw_53.tif
+filename /home/eric/data/trainset/labels/tyrolw_53.tif
+filename /home/eric/data/trainset/images/chicago_1.tif
+filename /home/eric/data/trainset/labels/chicago_1.tif
+filename /home/eric/data/trainset/images/pointenoire_10.tif
+filename /home/eric/data/trainset/labels/pointenoire_10.tif
+filename /home/eric/data/trainset/images/paris_36.tif
+filename /home/eric/data/trainset/labels/paris_36.tif
+filename /home/eric/data/trainset/images/tyrolw_63.tif
+filename /home/eric/data/trainset/labels/tyrolw_63.tif
+filename /home/eric/data/trainset/images/koeln_32.tif
+filename /home/eric/data/trainset/labels/koeln_32.tif
+filename /home/eric/data/trainset/images/tokyo_14.tif
+filename /home/eric/data/trainset/labels/tokyo_14.tif
+filename /home/eric/data/trainset/images/bielefeld_1.tif
+filename /home/eric/data/trainset/labels/bielefeld_1.tif
+filename /home/eric/data/trainset/images/christchurch_42.tif
+filename /home/eric/data/trainset/labels/christchurch_42.tif
+filename /home/eric/data/trainset/images/mahe_51.tif
+filename /home/eric/data/trainset/labels/mahe_51.tif
+filename /home/eric/data/trainset/images/lambayeque_46.tif
+filename /home/eric/data/trainset/labels/lambayeque_46.tif
+filename /home/eric/data/trainset/images/lodzkie_5.tif
+filename /home/eric/data/trainset/labels/lodzkie_5.tif
+filename /home/eric/data/trainset/images/san_tome_25.tif
+filename /home/eric/data/trainset/labels/san_tome_25.tif
+filename /home/eric/data/trainset/images/chincha_12.tif
+filename /home/eric/data/trainset/labels/chincha_12.tif
+filename /home/eric/data/trainset/images/sechura_25.tif
+filename /home/eric/data/trainset/labels/sechura_25.tif
+filename /home/eric/data/trainset/images/daressalaam_77.tif
+filename /home/eric/data/trainset/labels/daressalaam_77.tif
+filename /home/eric/data/trainset/images/slaskie_4.tif
+filename /home/eric/data/trainset/labels/slaskie_4.tif
+filename /home/eric/data/trainset/images/tokyo_65.tif
+filename /home/eric/data/trainset/labels/tokyo_65.tif
+filename /home/eric/data/trainset/images/austin_36.tif
+filename /home/eric/data/trainset/labels/austin_36.tif
+filename /home/eric/data/trainset/images/duesseldorf_44.tif
+filename /home/eric/data/trainset/labels/duesseldorf_44.tif
+filename /home/eric/data/trainset/images/maputo_10.tif
+filename /home/eric/data/trainset/labels/maputo_10.tif
+filename /home/eric/data/trainset/images/khartoum_46.tif
+filename /home/eric/data/trainset/labels/khartoum_46.tif
+filename /home/eric/data/trainset/images/podkarpackie_19.tif
+filename /home/eric/data/trainset/labels/podkarpackie_19.tif
+filename /home/eric/data/trainset/images/dortmund_7.tif
+filename /home/eric/data/trainset/labels/dortmund_7.tif
+filename /home/eric/data/trainset/images/piura_46.tif
+filename /home/eric/data/trainset/labels/piura_46.tif
+filename /home/eric/data/trainset/images/bogota_7.tif
+filename /home/eric/data/trainset/labels/bogota_7.tif
+filename /home/eric/data/trainset/images/dhaka_28.tif
+filename /home/eric/data/trainset/labels/dhaka_28.tif
+filename /home/eric/data/trainset/images/lodzkie_18.tif
+filename /home/eric/data/trainset/labels/lodzkie_18.tif
+filename filename /home/eric/data/trainset/images/viru_27.tif
+filename /home/eric/data/trainset/labels/viru_27.tif
+filename /home/eric/data/trainset/images/christchurch_23.tif
+filename /home/eric/data/trainset/labels/christchurch_23.tif
+filename /home/eric/data/trainset/images/daressalaam_51.tif
+filename /home/eric/data/trainset/labels/daressalaam_51.tif
+filename /home/eric/data/trainset/images/baybay_17.tif
+filename /home/eric/data/trainset/labels/baybay_17.tif
+filename /home/eric/data/trainset/images/kyoto_8.tif
+filename /home/eric/data/trainset/labels/kyoto_8.tif
+filename /home/eric/data/trainset/images/melbourne_51.tif
+filename /home/eric/data/trainset/labels/melbourne_51.tif
+filename /home/eric/data/trainset/images/melbourne_24.tif
+filename /home/eric/data/trainset/labels/melbourne_24.tif
+filename /home/eric/data/trainset/images/al_qurnah_63.tif
+filename /home/eric/data/trainset/labels/al_qurnah_63.tif
+filename /home/eric/data/trainset/images/austin_2.tif
+filename /home/eric/data/trainset/labels/austin_2.tif
+filename /home/eric/data/trainset/images/pomorskie_28.tif
+filename /home/eric/data/trainset/labels/pomorskie_28.tif
+filename /home/eric/data/trainset/images/bielefeld_5.tif
+filename /home/eric/data/trainset/labels/bielefeld_5.tif
+filename /home/eric/data/trainset/images/wielkopolskie_21.tif
+filename /home/eric/data/trainset/labels/wielkopolskie_21.tif
+filename /home/eric/data/trainset/images/kagera_58.tif
+filename /home/eric/data/trainset/labels/kagera_58.tif
+filename /home/eric/data/trainset/images/chiclayo_40.tif
+filename /home/eric/data/trainset/labels/chiclayo_40.tif
+filename /home/eric/data/trainset/images/chiangmai_13.tif
+filename /home/eric/data/trainset/labels/chiangmai_13.tif
+filename /home/eric/data/trainset/images/austin_38.tif
+filename /home/eric/data/trainset/labels/austin_38.tif
+filename /home/eric/data/trainset/images/monrovia_25.tif
+filename /home/eric/data/trainset/labels/monrovia_25.tif
+filename /home/eric/data/trainset/images/koeln_10.tif
+filename /home/eric/data/trainset/labels/koeln_10.tif
+filename /home/eric/data/trainset/images/pomorskie_1.tif
+filename /home/eric/data/trainset/labels/pomorskie_1.tif
+filename /home/eric/data/trainset/images/baybay_5.tif
+filename /home/eric/data/trainset/labels/baybay_5.tif
+filename /home/eric/data/trainset/images/chincha_1.tif
+filename /home/eric/data/trainset/labels/chincha_1.tif
+filename /home/eric/data/trainset/images/austin_44.tif
+filename /home/eric/data/trainset/labels/austin_44.tif
+filename /home/eric/data/trainset/images/dortmund_44.tif
+filename /home/eric/data/trainset/labels/dortmund_44.tif
+filename /home/eric/data/trainset/images/svaneti_20.tif
+filename /home/eric/data/trainset/labels/svaneti_20.tif
+filename /home/eric/data/trainset/images/zanzibar_10.tif
+filename /home/eric/data/trainset/labels/zanzibar_10.tif
+filename /home/eric/data/trainset/images/buenos_aires_26.tif
+filename /home/eric/data/trainset/labels/buenos_aires_26.tif
+filename /home/eric/data/trainset/images/kyoto_55.tif
+filename /home/eric/data/trainset/labels/kyoto_55.tif
+filename /home/eric/data/trainset/images/piura_8.tif
+filename /home/eric/data/trainset/labels/piura_8.tif
+filename /home/eric/data/trainset/images/dortmund_65.tif
+filename /home/eric/data/trainset/labels/dortmund_65.tif
+filename /home/eric/data/trainset/images/viru_19.tif
+filename /home/eric/data/trainset/labels/viru_19.tif
+filename /home/eric/data/trainset/images/western_25.tif
+filename /home/eric/data/trainset/labels/western_25.tif
+filename /home/eric/data/trainset/images/baybay_3.tif
+filename /home/eric/data/trainset/labels/baybay_3.tif
+filename /home/eric/data/trainset/images/muenster_51.tif
+filename /home/eric/data/trainset/labels/muenster_51.tif
+filename /home/eric/data/trainset/images/melbourne_11.tif
+filename /home/eric/data/trainset/labels/melbourne_11.tif
+filename /home/eric/data/trainset/images/accra_27.tif
+filename /home/eric/data/trainset/labels/accra_27.tif
+filename /home/eric/data/trainset/images/ngaoundere_20.tif
+filename /home/eric/data/trainset/labels/ngaoundere_20.tif
+filename /home/eric/data/trainset/images/ulaanbaatar_27.tif
+filename /home/eric/data/trainset/labels/ulaanbaatar_27.tif
+filename /home/eric/data/trainset/images/viru_15.tif
+filename /home/eric/data/trainset/labels/viru_15.tif
+filename /home/eric/data/trainset/images/malopolskie_12.tif
+filename /home/eric/data/trainset/labels/malopolskie_12.tif
+filename /home/eric/data/trainset/images/malopolskie_7.tif
+filename /home/eric/data/trainset/labels/malopolskie_7.tif
+filename /home/eric/data/trainset/images/muenster_28.tif
+filename /home/eric/data/trainset/labels/muenster_28.tif
+filename /home/eric/data/trainset/images/daressalaam_64.tif
+filename /home/eric/data/trainset/labels/daressalaam_64.tif
+filename /home/eric/data/trainset/images/zachodniopomorskie_11.tif
+filename /home/eric/data/trainset/labels/zachodniopomorskie_11.tif
+filename /home/eric/data/trainset/images/kagera_52.tif
+filename /home/eric/data/trainset/labels/kagera_52.tif
+filename /home/eric/data/trainset/images/tyrolw_53.tif
+filename /home/eric/data/trainset/labels/tyrolw_53.tif
+filename /home/eric/data/trainset/images/chicago_1.tif
+filename /home/eric/data/trainset/labels/chicago_1.tif
+filename /home/eric/data/trainset/images/pointenoire_10.tif
+filename /home/eric/data/trainset/labels/pointenoire_10.tif
+filename /home/eric/data/trainset/images/paris_36.tif
+filename /home/eric/data/trainset/labels/paris_36.tif
+filename /home/eric/data/trainset/images/tyrolw_63.tif
+filename /home/eric/data/trainset/labels/tyrolw_63.tif
+filename /home/eric/data/trainset/images/koeln_32.tif
+filename /home/eric/data/trainset/labels/koeln_32.tif
+filename /home/eric/data/trainset/images/tokyo_14.tif
+filename /home/eric/data/trainset/labels/tokyo_14.tif
+filename /home/eric/data/trainset/images/bielefeld_1.tif
+filename /home/eric/data/trainset/labels/bielefeld_1.tif
+filename /home/eric/data/trainset/images/christchurch_42.tif
+filename /home/eric/data/trainset/labels/christchurch_42.tif
+filename /home/eric/data/trainset/images/mahe_51.tif
+filename /home/eric/data/trainset/labels/mahe_51.tif
+filename /home/eric/data/trainset/images/lambayeque_46.tif
+filename /home/eric/data/trainset/labels/lambayeque_46.tif
+filename /home/eric/data/trainset/images/lodzkie_5.tif
+filename /home/eric/data/trainset/labels/lodzkie_5.tif
+filename /home/eric/data/trainset/images/san_tome_25.tif
+filename /home/eric/data/trainset/labels/san_tome_25.tif
+filename /home/eric/data/trainset/images/chincha_12.tif
+filename /home/eric/data/trainset/labels/chincha_12.tif
+filename /home/eric/data/trainset/images/sechura_25.tif
+filename /home/eric/data/trainset/labels/sechura_25.tif
+filename /home/eric/data/trainset/images/daressalaam_77.tif
+filename /home/eric/data/trainset/labels/daressalaam_77.tif
+filename /home/eric/data/trainset/images/slaskie_4.tif
+filename /home/eric/data/trainset/labels/slaskie_4.tif
+filename /home/eric/data/trainset/images/tokyo_65.tif
+filename /home/eric/data/trainset/labels/tokyo_65.tif
+filename /home/eric/data/trainset/images/austin_36.tif
+filename /home/eric/data/trainset/labels/austin_36.tif
+filename /home/eric/data/trainset/images/duesseldorf_44.tif
+filename /home/eric/data/trainset/labels/duesseldorf_44.tif
+filename /home/eric/data/trainset/images/maputo_10.tif
+filename /home/eric/data/trainset/labels/maputo_10.tif
+filename /home/eric/data/trainset/images/khartoum_46.tif
+filename /home/eric/data/trainset/labels/khartoum_46.tif
+filename /home/eric/data/trainset/images/podkarpackie_19.tif
+filename /home/eric/data/trainset/labels/podkarpackie_19.tif
+filename /home/eric/data/trainset/images/dortmund_7.tif
+filename /home/eric/data/trainset/labels/dortmund_7.tif
+filename /home/eric/data/trainset/images/piura_46.tif
+filename /home/eric/data/trainset/labels/piura_46.tif
+filename /home/eric/data/trainset/images/bogota_7.tif
+filename /home/eric/data/trainset/labels/bogota_7.tif
+filename /home/eric/data/trainset/images/dhaka_28.tif
+filename /home/eric/data/trainset/labels/dhaka_28.tif
+filename /home/eric/data/trainset/images/lodzkie_18.tif
+filename /home/eric/data/trainset/labels/lodzkie_18.tif
+filename filename /home/eric/data/trainset/images/viru_27.tif
+filename /home/eric/data/trainset/labels/viru_27.tif
+filename /home/eric/data/trainset/images/christchurch_23.tif
+filename /home/eric/data/trainset/labels/christchurch_23.tif
+filename /home/eric/data/trainset/images/daressalaam_51.tif
+filename /home/eric/data/trainset/labels/daressalaam_51.tif
+filename /home/eric/data/trainset/images/baybay_17.tif
+filename /home/eric/data/trainset/labels/baybay_17.tif
+filename /home/eric/data/trainset/images/kyoto_8.tif
+filename /home/eric/data/trainset/labels/kyoto_8.tif
+filename /home/eric/data/trainset/images/melbourne_51.tif
+filename /home/eric/data/trainset/labels/melbourne_51.tif
+filename /home/eric/data/trainset/images/melbourne_24.tif
+filename /home/eric/data/trainset/labels/melbourne_24.tif
+filename /home/eric/data/trainset/images/al_qurnah_63.tif
+filename /home/eric/data/trainset/labels/al_qurnah_63.tif
+filename /home/eric/data/trainset/images/austin_2.tif
+filename /home/eric/data/trainset/labels/austin_2.tif
+filename /home/eric/data/trainset/images/pomorskie_28.tif
+filename /home/eric/data/trainset/labels/pomorskie_28.tif
+filename /home/eric/data/trainset/images/bielefeld_5.tif
+filename /home/eric/data/trainset/labels/bielefeld_5.tif
+filename /home/eric/data/trainset/images/wielkopolskie_21.tif
+filename /home/eric/data/trainset/labels/wielkopolskie_21.tif
+filename /home/eric/data/trainset/images/kagera_58.tif
+filename /home/eric/data/trainset/labels/kagera_58.tif
+filename /home/eric/data/trainset/images/chiclayo_40.tif
+filename /home/eric/data/trainset/labels/chiclayo_40.tif
+filename /home/eric/data/trainset/images/chiangmai_13.tif
+filename /home/eric/data/trainset/labels/chiangmai_13.tif
+filename /home/eric/data/trainset/images/austin_38.tif
+filename /home/eric/data/trainset/labels/austin_38.tif
+filename /home/eric/data/trainset/images/monrovia_25.tif
+filename /home/eric/data/trainset/labels/monrovia_25.tif
+filename /home/eric/data/trainset/images/koeln_10.tif
+filename /home/eric/data/trainset/labels/koeln_10.tif
+filename /home/eric/data/trainset/images/pomorskie_1.tif
+filename /home/eric/data/trainset/labels/pomorskie_1.tif
+filename /home/eric/data/trainset/images/baybay_5.tif
+filename /home/eric/data/trainset/labels/baybay_5.tif
+filename /home/eric/data/trainset/images/chincha_1.tif
+filename /home/eric/data/trainset/labels/chincha_1.tif
+filename /home/eric/data/trainset/images/austin_44.tif
+filename /home/eric/data/trainset/labels/austin_44.tif
+filename /home/eric/data/trainset/images/dortmund_44.tif
+filename /home/eric/data/trainset/labels/dortmund_44.tif
+filename /home/eric/data/trainset/images/svaneti_20.tif
+filename /home/eric/data/trainset/labels/svaneti_20.tif
+filename /home/eric/data/trainset/images/zanzibar_10.tif
+filename /home/eric/data/trainset/labels/zanzibar_10.tif
+filename /home/eric/data/trainset/images/buenos_aires_26.tif
+filename /home/eric/data/trainset/labels/buenos_aires_26.tif
+filename /home/eric/data/trainset/images/kyoto_55.tif
+filename /home/eric/data/trainset/labels/kyoto_55.tif
+filename /home/eric/data/trainset/images/piura_8.tif
+filename /home/eric/data/trainset/labels/piura_8.tif
+filename /home/eric/data/trainset/images/dortmund_65.tif
+filename /home/eric/data/trainset/labels/dortmund_65.tif
+filename /home/eric/data/trainset/images/viru_19.tif
+filename /home/eric/data/trainset/labels/viru_19.tif
+filename /home/eric/data/trainset/images/western_25.tif
+filename /home/eric/data/trainset/labels/western_25.tif
+filename /home/eric/data/trainset/images/baybay_3.tif
+filename /home/eric/data/trainset/labels/baybay_3.tif
+filename /home/eric/data/trainset/images/muenster_51.tif
+filename /home/eric/data/trainset/labels/muenster_51.tif
+filename /home/eric/data/trainset/images/melbourne_11.tif
+filename /home/eric/data/trainset/labels/melbourne_11.tif
+filename /home/eric/data/trainset/images/accra_27.tif
+filename /home/eric/data/trainset/labels/accra_27.tif
+filename /home/eric/data/trainset/images/ngaoundere_20.tif
+filename /home/eric/data/trainset/labels/ngaoundere_20.tif
+filename /home/eric/data/trainset/images/ulaanbaatar_27.tif
+filename /home/eric/data/trainset/labels/ulaanbaatar_27.tif
+filename /home/eric/data/trainset/images/viru_15.tif
+filename /home/eric/data/trainset/labels/viru_15.tif
+filename /home/eric/data/trainset/images/malopolskie_12.tif
+filename /home/eric/data/trainset/labels/malopolskie_12.tif
+filename /home/eric/data/trainset/images/malopolskie_7.tif
+filename /home/eric/data/trainset/labels/malopolskie_7.tif
+filename /home/eric/data/trainset/images/muenster_28.tif
+filename /home/eric/data/trainset/labels/muenster_28.tif
+filename /home/eric/data/trainset/images/daressalaam_64.tif
+filename /home/eric/data/trainset/labels/daressalaam_64.tif
+filename /home/eric/data/trainset/images/zachodniopomorskie_11.tif
+filename /home/eric/data/trainset/labels/zachodniopomorskie_11.tif
+filename /home/eric/data/trainset/images/kagera_52.tif
+filename /home/eric/data/trainset/labels/kagera_52.tif
+filename /home/eric/data/trainset/images/tyrolw_53.tif
+filename /home/eric/data/trainset/labels/tyrolw_53.tif
+filename /home/eric/data/trainset/images/chicago_1.tif
+filename /home/eric/data/trainset/labels/chicago_1.tif
+filename /home/eric/data/trainset/images/pointenoire_10.tif
+filename /home/eric/data/trainset/labels/pointenoire_10.tif
+filename /home/eric/data/trainset/images/paris_36.tif
+filename /home/eric/data/trainset/labels/paris_36.tif
+filename /home/eric/data/trainset/images/tyrolw_63.tif
+filename /home/eric/data/trainset/labels/tyrolw_63.tif
+filename /home/eric/data/trainset/images/koeln_32.tif
+filename /home/eric/data/trainset/labels/koeln_32.tif
+filename /home/eric/data/trainset/images/tokyo_14.tif
+filename /home/eric/data/trainset/labels/tokyo_14.tif
+filename /home/eric/data/trainset/images/bielefeld_1.tif
+filename /home/eric/data/trainset/labels/bielefeld_1.tif
+filename /home/eric/data/trainset/images/christchurch_42.tif
+filename /home/eric/data/trainset/labels/christchurch_42.tif
+filename /home/eric/data/trainset/images/mahe_51.tif
+filename /home/eric/data/trainset/labels/mahe_51.tif
+filename /home/eric/data/trainset/images/lambayeque_46.tif
+filename /home/eric/data/trainset/labels/lambayeque_46.tif
+filename /home/eric/data/trainset/images/lodzkie_5.tif
+filename /home/eric/data/trainset/labels/lodzkie_5.tif
+filename /home/eric/data/trainset/images/san_tome_25.tif
+filename /home/eric/data/trainset/labels/san_tome_25.tif
+filename /home/eric/data/trainset/images/chincha_12.tif
+filename /home/eric/data/trainset/labels/chincha_12.tif
+filename /home/eric/data/trainset/images/sechura_25.tif
+filename /home/eric/data/trainset/labels/sechura_25.tif
+filename /home/eric/data/trainset/images/daressalaam_77.tif
+filename /home/eric/data/trainset/labels/daressalaam_77.tif
+filename /home/eric/data/trainset/images/slaskie_4.tif
+filename /home/eric/data/trainset/labels/slaskie_4.tif
+filename /home/eric/data/trainset/images/tokyo_65.tif
+filename /home/eric/data/trainset/labels/tokyo_65.tif
+filename /home/eric/data/trainset/images/austin_36.tif
+filename /home/eric/data/trainset/labels/austin_36.tif
+filename /home/eric/data/trainset/images/duesseldorf_44.tif
+filename /home/eric/data/trainset/labels/duesseldorf_44.tif
+filename /home/eric/data/trainset/images/maputo_10.tif
+filename /home/eric/data/trainset/labels/maputo_10.tif
+filename /home/eric/data/trainset/images/khartoum_46.tif
+filename /home/eric/data/trainset/labels/khartoum_46.tif
+filename /home/eric/data/trainset/images/podkarpackie_19.tif
+filename /home/eric/data/trainset/labels/podkarpackie_19.tif
+filename /home/eric/data/trainset/images/dortmund_7.tif
+filename /home/eric/data/trainset/labels/dortmund_7.tif
+filename /home/eric/data/trainset/images/piura_46.tif
+filename /home/eric/data/trainset/labels/piura_46.tif
+filename /home/eric/data/trainset/images/bogota_7.tif
+filename /home/eric/data/trainset/labels/bogota_7.tif
+filename /home/eric/data/trainset/images/dhaka_28.tif
+filename /home/eric/data/trainset/labels/dhaka_28.tif
+filename /home/eric/data/trainset/images/lodzkie_18.tif
+filename /home/eric/data/trainset/labels/lodzkie_18.tif
+filename Caching images and labels:  29%|██▊       | 74/258 [00:01<00:05, 32.08it/s]Caching images and labels:  29%|██▊       | 74/258 [00:01<00:05, 32.47it/s]Caching images and labels:  29%|██▊       | 74/258 [00:01<00:05, 32.70it/s]Caching images and labels:  29%|██▊       | 74/258 [00:01<00:05, 31.70it/s]Caching images and labels:  30%|███       | 78/258 [00:02<00:05, 30.75it/s]Caching images and labels:  30%|███       | 78/258 [00:02<00:05, 30.85it/s]Caching images and labels:  30%|███       | 78/258 [00:02<00:05, 30.99it/s]Caching images and labels:  30%|███       | 78/258 [00:02<00:05, 31.16it/s]Caching images and labels:  32%|███▏      | 82/258 [00:02<00:05, 31.99it/s]Caching images and labels:  32%|███▏      | 82/258 [00:02<00:05, 32.31it/s]Caching images and labels:  32%|███▏      | 82/258 [00:02<00:05, 32.07it/s]Caching images and labels:  32%|███▏      | 82/258 [00:02<00:05, 32.18it/s]Caching images and labels:  33%|███▎      | 86/258 [00:02<00:05, 33.07it/s]Caching images and labels:  33%|███▎      | 86/258 [00:02<00:05, 32.89it/s]Caching images and labels:  33%|███▎      | 86/258 [00:02<00:05, 32.98it/s]Caching images and labels:  33%|███▎      | 86/258 [00:02<00:05, 32.82it/s]Caching images and labels:  35%|███▍      | 90/258 [00:02<00:05, 32.80it/s]Caching images and labels:  35%|███▍      | 90/258 [00:02<00:05, 32.63it/s]Caching images and labels:  35%|███▍      | 90/258 [00:02<00:05, 32.67it/s]Caching images and labels:  35%|███▍      | 90/258 [00:02<00:05, 32.73it/s]Caching images and labels:  36%|███▋      | 94/258 [00:02<00:05, 30.01it/s]Caching images and labels:  36%|███▋      | 94/258 [00:02<00:05, 30.10it/s]Caching images and labels:  36%|███▋      | 94/258 [00:02<00:05, 30.07it/s]Caching images and labels:  36%|███▋      | 94/258 [00:02<00:05, 30.03it/s]Caching images and labels:  38%|███▊      | 98/258 [00:02<00:05, 31.48it/s]Caching images and labels:  38%|███▊      | 98/258 [00:02<00:05, 31.55it/s]Caching images and labels:  38%|███▊      | 98/258 [00:02<00:05, 31.52it/s]Caching images and labels:  38%|███▊      | 98/258 [00:02<00:05, 31.49it/s]Caching images and labels:  40%|███▉      | 102/258 [00:02<00:04, 31.90it/s]Caching images and labels:  40%|███▉      | 102/258 [00:02<00:04, 31.95it/s]Caching images and labels:  40%|███▉      | 102/258 [00:02<00:04, 31.90it/s]Caching images and labels:  40%|███▉      | 102/258 [00:02<00:04, 31.92it/s]Caching images and labels:  41%|████      | 106/258 [00:03<00:04, 30.46it/s]Caching images and labels:  41%|████      | 106/258 [00:02<00:04, 30.50it/s]Caching images and labels:  41%|████      | 106/258 [00:03<00:04, 30.48it/s]Caching images and labels:  41%|████      | 106/258 [00:02<00:04, 30.49it/s]Caching images and labels:  43%|████▎     | 110/258 [00:03<00:04, 30.41it/s]Caching images and labels:  43%|████▎     | 110/258 [00:03<00:04, 30.38it/s]Caching images and labels:  43%|████▎     | 110/258 [00:03<00:04, 30.41it/s]Caching images and labels:  43%|████▎     | 110/258 [00:03<00:04, 30.39it/s]Caching images and labels:  44%|████▍     | 114/258 [00:03<00:04, 29.59it/s]Caching images and labels:  44%|████▍     | 114/258 [00:03<00:04, 29.61it/s]Caching images and labels:  44%|████▍     | 114/258 [00:03<00:04, 29.61it/s]Caching images and labels:  44%|████▍     | 114/258 [00:03<00:04, 29.60it/s]Caching images and labels:  46%|████▌     | 118/258 [00:03<00:04, 30.49it/s]Caching images and labels:  46%|████▌     | 118/258 [00:03<00:04, 30.47it/s]Caching images and labels:  46%|████▌     | 118/258 [00:03<00:04, 30.48it/s]Caching images and labels:  46%|████▌     | 118/258 [00:03<00:04, 30.46it/s]Caching images and labels:  47%|████▋     | 122/258 [00:03<00:04, 31.13it/s]Caching images and labels:  47%|████▋     | 122/258 [00:03<00:04, 31.12it/s]Caching images and labels:  47%|████▋     | 122/258 [00:03<00:04, 31.06it/s]Caching images and labels:  47%|████▋     | 122/258 [00:03<00:04, 30.14it/s]Caching images and labels:  49%|████▉     | 126/258 [00:03<00:04, 32.26it/s]Caching images and labels:  49%|████▉     | 126/258 [00:03<00:04, 32.27it/s]Caching images and labels:  49%|████▉     | 126/258 [00:03<00:04, 32.26it/s]Caching images and labels:  49%|████▉     | 127/258 [00:03<00:04, 32.70it/s]Caching images and labels:  50%|█████     | 130/258 [00:03<00:04, 31.89it/s]Caching images and labels:  50%|█████     | 130/258 [00:03<00:04, 31.90it/s]Caching images and labels:  50%|█████     | 130/258 [00:03<00:04, 31.89it/s]Caching images and labels:  51%|█████     | 131/258 [00:03<00:03, 32.30it/s]Caching images and labels:  52%|█████▏    | 134/258 [00:03<00:03, 31.66it/s]Caching images and labels:  52%|█████▏    | 134/258 [00:03<00:03, 31.65it/s]Caching images and labels:  52%|█████▏    | 134/258 [00:03<00:03, 31.65it/s]Caching images and labels:  52%|█████▏    | 135/258 [00:03<00:03, 31.95it/s]Caching images and labels:  53%|█████▎    | 138/258 [00:03<00:03, 32.25it/s]Caching images and labels:  53%|█████▎    | 138/258 [00:04<00:03, 32.25it/s]Caching images and labels:  53%|█████▎    | 138/258 [00:04<00:03, 32.24it/s]Caching images and labels:  54%|█████▍    | 139/258 [00:04<00:03, 32.37it/s]Caching images and labels:  55%|█████▌    | 142/258 [00:04<00:03, 32.23it/s]Caching images and labels:  55%|█████▌    | 142/258 [00:04<00:03, 32.22it/s]Caching images and labels:  55%|█████▌    | 142/258 [00:04<00:03, 32.15it/s]Caching images and labels:  55%|█████▌    | 143/258 [00:04<00:03, 32.00it/s]/home/eric/data/trainset/images/chicago_16.tif
+filename /home/eric/data/trainset/labels/chicago_16.tif
+filename /home/eric/data/trainset/images/kyoto_47.tif
+filename /home/eric/data/trainset/labels/kyoto_47.tif
+filename /home/eric/data/trainset/images/ulaanbaatar_1.tif
+filename /home/eric/data/trainset/labels/ulaanbaatar_1.tif
+filename /home/eric/data/trainset/images/dortmund_34.tif
+filename /home/eric/data/trainset/labels/dortmund_34.tif
+filename /home/eric/data/trainset/images/paris_58.tif
+filename /home/eric/data/trainset/labels/paris_58.tif
+filename /home/eric/data/trainset/images/chicago_15.tif
+filename /home/eric/data/trainset/labels/chicago_15.tif
+filename /home/eric/data/trainset/images/slaskie_34.tif
+filename /home/eric/data/trainset/labels/slaskie_34.tif
+filename /home/eric/data/trainset/images/podkarpackie_11.tif
+filename /home/eric/data/trainset/labels/podkarpackie_11.tif
+filename /home/eric/data/trainset/images/lambayeque_5.tif
+filename /home/eric/data/trainset/labels/lambayeque_5.tif
+filename /home/eric/data/trainset/images/western_4.tif
+filename /home/eric/data/trainset/labels/western_4.tif
+filename /home/eric/data/trainset/images/monrovia_21.tif
+filename /home/eric/data/trainset/labels/monrovia_21.tif
+filename /home/eric/data/trainset/images/daressalaam_12.tif
+filename /home/eric/data/trainset/labels/daressalaam_12.tif
+filename /home/eric/data/trainset/images/pointenoire_3.tif
+filename /home/eric/data/trainset/labels/pointenoire_3.tif
+filename /home/eric/data/trainset/images/mahe_54.tif
+filename /home/eric/data/trainset/labels/mahe_54.tif
+filename /home/eric/data/trainset/images/svaneti_51.tif
+filename /home/eric/data/trainset/labels/svaneti_51.tif
+filename /home/eric/data/trainset/images/lodzkie_8.tif
+filename /home/eric/data/trainset/labels/lodzkie_8.tif
+filename /home/eric/data/trainset/images/tyrolw_64.tif
+filename /home/eric/data/trainset/labels/tyrolw_64.tif
+filename /home/eric/data/trainset/images/dhaka_65.tif
+filename /home/eric/data/trainset/labels/dhaka_65.tif
+filename /home/eric/data/trainset/images/kampala_4.tif
+filename /home/eric/data/trainset/labels/kampala_4.tif
+filename /home/eric/data/trainset/images/kitsap_12.tif
+filename /home/eric/data/trainset/labels/kitsap_12.tif
+filename /home/eric/data/trainset/images/tyrolw_11.tif
+filename /home/eric/data/trainset/labels/tyrolw_11.tif
+filename /home/eric/data/trainset/images/duesseldorf_5.tif
+filename /home/eric/data/trainset/labels/duesseldorf_5.tif
+filename /home/eric/data/trainset/images/slaskie_33.tif
+filename /home/eric/data/trainset/labels/slaskie_33.tif
+filename /home/eric/data/trainset/images/mahe_58.tif
+filename /home/eric/data/trainset/labels/mahe_58.tif
+filename /home/eric/data/trainset/images/melbourne_67.tif
+filename /home/eric/data/trainset/labels/melbourne_67.tif
+filename /home/eric/data/trainset/images/kyoto_13.tif
+filename /home/eric/data/trainset/labels/kyoto_13.tif
+filename /home/eric/data/trainset/images/san_tome_9.tif
+filename /home/eric/data/trainset/labels/san_tome_9.tif
+filename /home/eric/data/trainset/images/chincha_35.tif
+filename /home/eric/data/trainset/labels/chincha_35.tif
+filename /home/eric/data/trainset/images/podlaskie_7.tif
+filename /home/eric/data/trainset/labels/podlaskie_7.tif
+filename /home/eric/data/trainset/images/coxsbazar_80.tif
+filename /home/eric/data/trainset/labels/coxsbazar_80.tif
+filename /home/eric/data/trainset/images/kitsap_30.tif
+filename /home/eric/data/trainset/labels/kitsap_30.tif
+filename /home/eric/data/trainset/images/lohur_20.tif
+filename /home/eric/data/trainset/labels/lohur_20.tif
+filename /home/eric/data/trainset/images/vienna_9.tif
+filename /home/eric/data/trainset/labels/vienna_9.tif
+filename /home/eric/data/trainset/images/lambayeque_41.tif
+filename /home/eric/data/trainset/labels/lambayeque_41.tif
+filename /home/eric/data/trainset/images/melbourne_12.tif
+filename /home/eric/data/trainset/labels/melbourne_12.tif
+filename /home/eric/data/trainset/images/podlaskie_10.tif
+filename /home/eric/data/trainset/labels/podlaskie_10.tif
+filename /home/eric/data/trainset/images/chicago_29.tif
+filename /home/eric/data/trainset/labels/chicago_29.tif
+filename /home/eric/data/trainset/images/mahe_5.tif
+filename /home/eric/data/trainset/labels/mahe_5.tif
+filename /home/eric/data/trainset/images/vienna_37.tif
+filename /home/eric/data/trainset/labels/vienna_37.tif
+filename /home/eric/data/trainset/images/lima_2.tif
+filename /home/eric/data/trainset/labels/lima_2.tif
+filename /home/eric/data/trainset/images/shanghai_64.tif
+filename /home/eric/data/trainset/labels/shanghai_64.tif
+filename /home/eric/data/trainset/images/baybay_15.tif
+filename /home/eric/data/trainset/labels/baybay_15.tif
+filename /home/eric/data/trainset/images/rio_43.tif
+filename /home/eric/data/trainset/labels/rio_43.tif
+filename /home/eric/data/trainset/images/piura_1.tif
+filename /home/eric/data/trainset/labels/piura_1.tif
+filename /home/eric/data/trainset/images/dortmund_42.tif
+filename /home/eric/data/trainset/labels/dortmund_42.tif
+filename /home/eric/data/trainset/images/tokyo_1.tif
+filename /home/eric/data/trainset/labels/tokyo_1.tif
+filename /home/eric/data/trainset/images/lima_36.tif
+filename /home/eric/data/trainset/labels/lima_36.tif
+filename /home/eric/data/trainset/images/dolnoslaskie_32.tif
+filename /home/eric/data/trainset/labels/dolnoslaskie_32.tif
+filename /home/eric/data/trainset/images/malopolskie_8.tif
+filename /home/eric/data/trainset/labels/malopolskie_8.tif
+filename /home/eric/data/trainset/images/chicago_47.tif
+filename /home/eric/data/trainset/labels/chicago_47.tif
+filename /home/eric/data/trainset/images/santiago_32.tif
+filename /home/eric/data/trainset/labels/santiago_32.tif
+filename /home/eric/data/trainset/images/kyoto_30.tif
+filename /home/eric/data/trainset/labels/kyoto_30.tif
+filename /home/eric/data/trainset/images/san_tome_5.tif
+filename /home/eric/data/trainset/labels/san_tome_5.tif
+filename /home/eric/data/trainset/images/mazowieckie_9.tif
+filename /home/eric/data/trainset/labels/mazowieckie_9.tif
+filename /home/eric/data/trainset/images/swietokrzyskie_34.tif
+filename /home/eric/data/trainset/labels/swietokrzyskie_34.tif
+filename /home/eric/data/trainset/images/pisco_20.tif
+filename /home/eric/data/trainset/labels/pisco_20.tif
+filename /home/eric/data/trainset/images/dortmund_49.tif
+filename /home/eric/data/trainset/labels/dortmund_49.tif
+filename /home/eric/data/trainset/images/maputo_8.tif
+filename /home/eric/data/trainset/labels/maputo_8.tif
+filename /home/eric/data/trainset/images/baybay_23.tif
+filename /home/eric/data/trainset/labels/baybay_23.tif
+filename /home/eric/data/trainset/images/chicago_35.tif
+filename /home/eric/data/trainset/labels/chicago_35.tif
+filename /home/eric/data/trainset/images/zanzibar_8.tif
+filename /home/eric/data/trainset/labels/zanzibar_8.tif
+filename /home/eric/data/trainset/images/rosario_3.tif
+filename /home/eric/data/trainset/labels/rosario_3.tif
+filename /home/eric/data/trainset/images/piura_24.tif
+filename /home/eric/data/trainset/labels/piura_24.tif
+filename /home/eric/data/trainset/images/chisinau_58.tif
+filename /home/eric/data/trainset/labels/chisinau_58.tif
+filename /home/eric/data/trainset/images/kujawsko-pomorskie_22.tif
+filename /home/eric/data/trainset/labels/kujawsko-pomorskie_22.tif
+filename /home/eric/data/trainset/images/mazowieckie_16.tif
+filename /home/eric/data/trainset/labels/mazowieckie_16.tif
+filename /home/eric/data/trainset/images/rosario_5.tif
+filename /home/eric/data/trainset/labels/rosario_5.tif
+filename /home/eric/data/trainset/images/svaneti_17.tif
+filename /home/eric/data/trainset/labels/svaneti_17.tif
+filename /home/eric/data/trainset/images/khartoum_70.tif
+filename /home/eric/data/trainset/labels/khartoum_70.tif
+filename /home/eric/data/trainset/images/abancay_26.tif
+filename /home/eric/data/trainset/labels/abancay_26.tif
+filename /home/eric/data/trainset/images/paris_57.tif
+filename /home/eric/data/trainset/labels/paris_57.tif
+filename /home/eric/data/trainset/images/swietokrzyskie_9.tif
+filename /home/eric/data/trainset/labels/swietokrzyskie_9.tif
+filename /home/eric/data/trainset/images/aachen_20.tif
+filename /home/eric/data/trainset/images/chicago_16.tif
+filename /home/eric/data/trainset/labels/chicago_16.tif
+filename /home/eric/data/trainset/images/kyoto_47.tif
+filename /home/eric/data/trainset/labels/kyoto_47.tif
+filename /home/eric/data/trainset/images/ulaanbaatar_1.tif
+filename /home/eric/data/trainset/labels/ulaanbaatar_1.tif
+filename /home/eric/data/trainset/images/dortmund_34.tif
+filename /home/eric/data/trainset/labels/dortmund_34.tif
+filename /home/eric/data/trainset/images/paris_58.tif
+filename /home/eric/data/trainset/labels/paris_58.tif
+filename /home/eric/data/trainset/images/chicago_15.tif
+filename /home/eric/data/trainset/labels/chicago_15.tif
+filename /home/eric/data/trainset/images/slaskie_34.tif
+filename /home/eric/data/trainset/labels/slaskie_34.tif
+filename /home/eric/data/trainset/images/podkarpackie_11.tif
+filename /home/eric/data/trainset/labels/podkarpackie_11.tif
+filename /home/eric/data/trainset/images/lambayeque_5.tif
+filename /home/eric/data/trainset/labels/lambayeque_5.tif
+filename /home/eric/data/trainset/images/western_4.tif
+filename /home/eric/data/trainset/labels/western_4.tif
+filename /home/eric/data/trainset/images/monrovia_21.tif
+filename /home/eric/data/trainset/labels/monrovia_21.tif
+filename /home/eric/data/trainset/images/daressalaam_12.tif
+filename /home/eric/data/trainset/labels/daressalaam_12.tif
+filename /home/eric/data/trainset/images/pointenoire_3.tif
+filename /home/eric/data/trainset/labels/pointenoire_3.tif
+filename /home/eric/data/trainset/images/mahe_54.tif
+filename /home/eric/data/trainset/labels/mahe_54.tif
+filename /home/eric/data/trainset/images/svaneti_51.tif
+filename /home/eric/data/trainset/labels/svaneti_51.tif
+filename /home/eric/data/trainset/images/lodzkie_8.tif
+filename /home/eric/data/trainset/labels/lodzkie_8.tif
+filename /home/eric/data/trainset/images/tyrolw_64.tif
+filename /home/eric/data/trainset/labels/tyrolw_64.tif
+filename /home/eric/data/trainset/images/dhaka_65.tif
+filename /home/eric/data/trainset/labels/dhaka_65.tif
+filename /home/eric/data/trainset/images/kampala_4.tif
+filename /home/eric/data/trainset/labels/kampala_4.tif
+filename /home/eric/data/trainset/images/kitsap_12.tif
+filename /home/eric/data/trainset/labels/kitsap_12.tif
+filename /home/eric/data/trainset/images/tyrolw_11.tif
+filename /home/eric/data/trainset/labels/tyrolw_11.tif
+filename /home/eric/data/trainset/images/duesseldorf_5.tif
+filename /home/eric/data/trainset/labels/duesseldorf_5.tif
+filename /home/eric/data/trainset/images/slaskie_33.tif
+filename /home/eric/data/trainset/labels/slaskie_33.tif
+filename /home/eric/data/trainset/images/mahe_58.tif
+filename /home/eric/data/trainset/labels/mahe_58.tif
+filename /home/eric/data/trainset/images/melbourne_67.tif
+filename /home/eric/data/trainset/labels/melbourne_67.tif
+filename /home/eric/data/trainset/images/kyoto_13.tif
+filename /home/eric/data/trainset/labels/kyoto_13.tif
+filename /home/eric/data/trainset/images/san_tome_9.tif
+filename /home/eric/data/trainset/labels/san_tome_9.tif
+filename /home/eric/data/trainset/images/chincha_35.tif
+filename /home/eric/data/trainset/labels/chincha_35.tif
+filename /home/eric/data/trainset/images/podlaskie_7.tif
+filename /home/eric/data/trainset/labels/podlaskie_7.tif
+filename /home/eric/data/trainset/images/coxsbazar_80.tif
+filename /home/eric/data/trainset/labels/coxsbazar_80.tif
+filename /home/eric/data/trainset/images/kitsap_30.tif
+filename /home/eric/data/trainset/labels/kitsap_30.tif
+filename /home/eric/data/trainset/images/lohur_20.tif
+filename /home/eric/data/trainset/labels/lohur_20.tif
+filename /home/eric/data/trainset/images/vienna_9.tif
+filename /home/eric/data/trainset/labels/vienna_9.tif
+filename /home/eric/data/trainset/images/lambayeque_41.tif
+filename /home/eric/data/trainset/labels/lambayeque_41.tif
+filename /home/eric/data/trainset/images/melbourne_12.tif
+filename /home/eric/data/trainset/labels/melbourne_12.tif
+filename /home/eric/data/trainset/images/podlaskie_10.tif
+filename /home/eric/data/trainset/labels/podlaskie_10.tif
+filename /home/eric/data/trainset/images/chicago_29.tif
+filename /home/eric/data/trainset/labels/chicago_29.tif
+filename /home/eric/data/trainset/images/mahe_5.tif
+filename /home/eric/data/trainset/labels/mahe_5.tif
+filename /home/eric/data/trainset/images/vienna_37.tif
+filename /home/eric/data/trainset/labels/vienna_37.tif
+filename /home/eric/data/trainset/images/lima_2.tif
+filename /home/eric/data/trainset/labels/lima_2.tif
+filename /home/eric/data/trainset/images/shanghai_64.tif
+filename /home/eric/data/trainset/labels/shanghai_64.tif
+filename /home/eric/data/trainset/images/baybay_15.tif
+filename /home/eric/data/trainset/labels/baybay_15.tif
+filename /home/eric/data/trainset/images/rio_43.tif
+filename /home/eric/data/trainset/labels/rio_43.tif
+filename /home/eric/data/trainset/images/piura_1.tif
+filename /home/eric/data/trainset/labels/piura_1.tif
+filename /home/eric/data/trainset/images/dortmund_42.tif
+filename /home/eric/data/trainset/labels/dortmund_42.tif
+filename /home/eric/data/trainset/images/tokyo_1.tif
+filename /home/eric/data/trainset/labels/tokyo_1.tif
+filename /home/eric/data/trainset/images/lima_36.tif
+filename /home/eric/data/trainset/labels/lima_36.tif
+filename /home/eric/data/trainset/images/dolnoslaskie_32.tif
+filename /home/eric/data/trainset/labels/dolnoslaskie_32.tif
+filename /home/eric/data/trainset/images/malopolskie_8.tif
+filename /home/eric/data/trainset/labels/malopolskie_8.tif
+filename /home/eric/data/trainset/images/chicago_47.tif
+filename /home/eric/data/trainset/labels/chicago_47.tif
+filename /home/eric/data/trainset/images/santiago_32.tif
+filename /home/eric/data/trainset/labels/santiago_32.tif
+filename /home/eric/data/trainset/images/kyoto_30.tif
+filename /home/eric/data/trainset/labels/kyoto_30.tif
+filename /home/eric/data/trainset/images/san_tome_5.tif
+filename /home/eric/data/trainset/labels/san_tome_5.tif
+filename /home/eric/data/trainset/images/mazowieckie_9.tif
+filename /home/eric/data/trainset/labels/mazowieckie_9.tif
+filename /home/eric/data/trainset/images/swietokrzyskie_34.tif
+filename /home/eric/data/trainset/labels/swietokrzyskie_34.tif
+filename /home/eric/data/trainset/images/pisco_20.tif
+filename /home/eric/data/trainset/labels/pisco_20.tif
+filename /home/eric/data/trainset/images/dortmund_49.tif
+filename /home/eric/data/trainset/labels/dortmund_49.tif
+filename /home/eric/data/trainset/images/maputo_8.tif
+filename /home/eric/data/trainset/labels/maputo_8.tif
+filename /home/eric/data/trainset/images/baybay_23.tif
+filename /home/eric/data/trainset/labels/baybay_23.tif
+filename /home/eric/data/trainset/images/chicago_35.tif
+filename /home/eric/data/trainset/labels/chicago_35.tif
+filename /home/eric/data/trainset/images/zanzibar_8.tif
+filename /home/eric/data/trainset/labels/zanzibar_8.tif
+filename /home/eric/data/trainset/images/rosario_3.tif
+filename /home/eric/data/trainset/labels/rosario_3.tif
+filename /home/eric/data/trainset/images/piura_24.tif
+filename /home/eric/data/trainset/labels/piura_24.tif
+filename /home/eric/data/trainset/images/chisinau_58.tif
+filename /home/eric/data/trainset/labels/chisinau_58.tif
+filename /home/eric/data/trainset/images/kujawsko-pomorskie_22.tif
+filename /home/eric/data/trainset/labels/kujawsko-pomorskie_22.tif
+filename /home/eric/data/trainset/images/mazowieckie_16.tif
+filename /home/eric/data/trainset/labels/mazowieckie_16.tif
+filename /home/eric/data/trainset/images/rosario_5.tif
+filename /home/eric/data/trainset/labels/rosario_5.tif
+filename /home/eric/data/trainset/images/svaneti_17.tif
+filename /home/eric/data/trainset/labels/svaneti_17.tif
+filename /home/eric/data/trainset/images/khartoum_70.tif
+filename /home/eric/data/trainset/labels/khartoum_70.tif
+filename /home/eric/data/trainset/images/abancay_26.tif
+filename /home/eric/data/trainset/labels/abancay_26.tif
+filename /home/eric/data/trainset/images/paris_57.tif
+filename /home/eric/data/trainset/labels/paris_57.tif
+filename /home/eric/data/trainset/images/swietokrzyskie_9.tif
+filename /home/eric/data/trainset/labels/swietokrzyskie_9.tif
+filename /home/eric/data/trainset/images/aachen_20.tif
+filename /home/eric/data/trainset/images/chicago_16.tif
+filename /home/eric/data/trainset/labels/chicago_16.tif
+filename /home/eric/data/trainset/images/kyoto_47.tif
+filename /home/eric/data/trainset/labels/kyoto_47.tif
+filename /home/eric/data/trainset/images/ulaanbaatar_1.tif
+filename /home/eric/data/trainset/labels/ulaanbaatar_1.tif
+filename /home/eric/data/trainset/images/dortmund_34.tif
+filename /home/eric/data/trainset/labels/dortmund_34.tif
+filename /home/eric/data/trainset/images/paris_58.tif
+filename /home/eric/data/trainset/labels/paris_58.tif
+filename /home/eric/data/trainset/images/chicago_15.tif
+filename /home/eric/data/trainset/labels/chicago_15.tif
+filename /home/eric/data/trainset/images/slaskie_34.tif
+filename /home/eric/data/trainset/labels/slaskie_34.tif
+filename /home/eric/data/trainset/images/podkarpackie_11.tif
+filename /home/eric/data/trainset/labels/podkarpackie_11.tif
+filename /home/eric/data/trainset/images/lambayeque_5.tif
+filename /home/eric/data/trainset/labels/lambayeque_5.tif
+filename /home/eric/data/trainset/images/western_4.tif
+filename /home/eric/data/trainset/labels/western_4.tif
+filename /home/eric/data/trainset/images/monrovia_21.tif
+filename /home/eric/data/trainset/labels/monrovia_21.tif
+filename /home/eric/data/trainset/images/daressalaam_12.tif
+filename /home/eric/data/trainset/labels/daressalaam_12.tif
+filename /home/eric/data/trainset/images/pointenoire_3.tif
+filename /home/eric/data/trainset/labels/pointenoire_3.tif
+filename /home/eric/data/trainset/images/mahe_54.tif
+filename /home/eric/data/trainset/labels/mahe_54.tif
+filename /home/eric/data/trainset/images/svaneti_51.tif
+filename /home/eric/data/trainset/labels/svaneti_51.tif
+filename /home/eric/data/trainset/images/lodzkie_8.tif
+filename /home/eric/data/trainset/labels/lodzkie_8.tif
+filename /home/eric/data/trainset/images/tyrolw_64.tif
+filename /home/eric/data/trainset/labels/tyrolw_64.tif
+filename /home/eric/data/trainset/images/dhaka_65.tif
+filename /home/eric/data/trainset/labels/dhaka_65.tif
+filename /home/eric/data/trainset/images/kampala_4.tif
+filename /home/eric/data/trainset/labels/kampala_4.tif
+filename /home/eric/data/trainset/images/kitsap_12.tif
+filename /home/eric/data/trainset/labels/kitsap_12.tif
+filename /home/eric/data/trainset/images/tyrolw_11.tif
+filename /home/eric/data/trainset/labels/tyrolw_11.tif
+filename /home/eric/data/trainset/images/duesseldorf_5.tif
+filename /home/eric/data/trainset/labels/duesseldorf_5.tif
+filename /home/eric/data/trainset/images/slaskie_33.tif
+filename /home/eric/data/trainset/labels/slaskie_33.tif
+filename /home/eric/data/trainset/images/mahe_58.tif
+filename /home/eric/data/trainset/labels/mahe_58.tif
+filename /home/eric/data/trainset/images/melbourne_67.tif
+filename /home/eric/data/trainset/labels/melbourne_67.tif
+filename /home/eric/data/trainset/images/kyoto_13.tif
+filename /home/eric/data/trainset/labels/kyoto_13.tif
+filename /home/eric/data/trainset/images/san_tome_9.tif
+filename /home/eric/data/trainset/labels/san_tome_9.tif
+filename /home/eric/data/trainset/images/chincha_35.tif
+filename /home/eric/data/trainset/labels/chincha_35.tif
+filename /home/eric/data/trainset/images/podlaskie_7.tif
+filename /home/eric/data/trainset/labels/podlaskie_7.tif
+filename /home/eric/data/trainset/images/coxsbazar_80.tif
+filename /home/eric/data/trainset/labels/coxsbazar_80.tif
+filename /home/eric/data/trainset/images/kitsap_30.tif
+filename /home/eric/data/trainset/labels/kitsap_30.tif
+filename /home/eric/data/trainset/images/lohur_20.tif
+filename /home/eric/data/trainset/labels/lohur_20.tif
+filename /home/eric/data/trainset/images/vienna_9.tif
+filename /home/eric/data/trainset/labels/vienna_9.tif
+filename /home/eric/data/trainset/images/lambayeque_41.tif
+filename /home/eric/data/trainset/labels/lambayeque_41.tif
+filename /home/eric/data/trainset/images/melbourne_12.tif
+filename /home/eric/data/trainset/labels/melbourne_12.tif
+filename /home/eric/data/trainset/images/podlaskie_10.tif
+filename /home/eric/data/trainset/labels/podlaskie_10.tif
+filename /home/eric/data/trainset/images/chicago_29.tif
+filename /home/eric/data/trainset/labels/chicago_29.tif
+filename /home/eric/data/trainset/images/mahe_5.tif
+filename /home/eric/data/trainset/labels/mahe_5.tif
+filename /home/eric/data/trainset/images/vienna_37.tif
+filename /home/eric/data/trainset/labels/vienna_37.tif
+filename /home/eric/data/trainset/images/lima_2.tif
+filename /home/eric/data/trainset/labels/lima_2.tif
+filename /home/eric/data/trainset/images/shanghai_64.tif
+filename /home/eric/data/trainset/labels/shanghai_64.tif
+filename /home/eric/data/trainset/images/baybay_15.tif
+filename /home/eric/data/trainset/labels/baybay_15.tif
+filename /home/eric/data/trainset/images/rio_43.tif
+filename /home/eric/data/trainset/labels/rio_43.tif
+filename /home/eric/data/trainset/images/piura_1.tif
+filename /home/eric/data/trainset/labels/piura_1.tif
+filename /home/eric/data/trainset/images/dortmund_42.tif
+filename /home/eric/data/trainset/labels/dortmund_42.tif
+filename /home/eric/data/trainset/images/tokyo_1.tif
+filename /home/eric/data/trainset/labels/tokyo_1.tif
+filename /home/eric/data/trainset/images/lima_36.tif
+filename /home/eric/data/trainset/labels/lima_36.tif
+filename /home/eric/data/trainset/images/dolnoslaskie_32.tif
+filename /home/eric/data/trainset/labels/dolnoslaskie_32.tif
+filename /home/eric/data/trainset/images/malopolskie_8.tif
+filename /home/eric/data/trainset/labels/malopolskie_8.tif
+filename /home/eric/data/trainset/images/chicago_47.tif
+filename /home/eric/data/trainset/labels/chicago_47.tif
+filename /home/eric/data/trainset/images/santiago_32.tif
+filename /home/eric/data/trainset/labels/santiago_32.tif
+filename /home/eric/data/trainset/images/kyoto_30.tif
+filename /home/eric/data/trainset/labels/kyoto_30.tif
+filename /home/eric/data/trainset/images/san_tome_5.tif
+filename /home/eric/data/trainset/labels/san_tome_5.tif
+filename /home/eric/data/trainset/images/mazowieckie_9.tif
+filename /home/eric/data/trainset/labels/mazowieckie_9.tif
+filename /home/eric/data/trainset/images/swietokrzyskie_34.tif
+filename /home/eric/data/trainset/labels/swietokrzyskie_34.tif
+filename /home/eric/data/trainset/images/pisco_20.tif
+filename /home/eric/data/trainset/labels/pisco_20.tif
+filename /home/eric/data/trainset/images/dortmund_49.tif
+filename /home/eric/data/trainset/labels/dortmund_49.tif
+filename /home/eric/data/trainset/images/maputo_8.tif
+filename /home/eric/data/trainset/labels/maputo_8.tif
+filename /home/eric/data/trainset/images/baybay_23.tif
+filename /home/eric/data/trainset/labels/baybay_23.tif
+filename /home/eric/data/trainset/images/chicago_35.tif
+filename /home/eric/data/trainset/labels/chicago_35.tif
+filename /home/eric/data/trainset/images/zanzibar_8.tif
+filename /home/eric/data/trainset/labels/zanzibar_8.tif
+filename /home/eric/data/trainset/images/rosario_3.tif
+filename /home/eric/data/trainset/labels/rosario_3.tif
+filename /home/eric/data/trainset/images/piura_24.tif
+filename /home/eric/data/trainset/labels/piura_24.tif
+filename /home/eric/data/trainset/images/chisinau_58.tif
+filename /home/eric/data/trainset/labels/chisinau_58.tif
+filename /home/eric/data/trainset/images/kujawsko-pomorskie_22.tif
+filename /home/eric/data/trainset/labels/kujawsko-pomorskie_22.tif
+filename /home/eric/data/trainset/images/mazowieckie_16.tif
+filename /home/eric/data/trainset/labels/mazowieckie_16.tif
+filename /home/eric/data/trainset/images/rosario_5.tif
+filename /home/eric/data/trainset/labels/rosario_5.tif
+filename /home/eric/data/trainset/images/svaneti_17.tif
+filename /home/eric/data/trainset/labels/svaneti_17.tif
+filename /home/eric/data/trainset/images/khartoum_70.tif
+filename /home/eric/data/trainset/labels/khartoum_70.tif
+filename /home/eric/data/trainset/images/abancay_26.tif
+filename /home/eric/data/trainset/labels/abancay_26.tif
+filename /home/eric/data/trainset/images/paris_57.tif
+filename /home/eric/data/trainset/labels/paris_57.tif
+filename /home/eric/data/trainset/images/swietokrzyskie_9.tif
+filename /home/eric/data/trainset/labels/swietokrzyskie_9.tif
+filename /home/eric/data/trainset/images/aachen_20.tif
+filename /home/eric/data/trainset/images/chicago_16.tif
+filename /home/eric/data/trainset/labels/chicago_16.tif
+filename /home/eric/data/trainset/images/kyoto_47.tif
+filename /home/eric/data/trainset/labels/kyoto_47.tif
+filename /home/eric/data/trainset/images/ulaanbaatar_1.tif
+filename /home/eric/data/trainset/labels/ulaanbaatar_1.tif
+filename /home/eric/data/trainset/images/dortmund_34.tif
+filename /home/eric/data/trainset/labels/dortmund_34.tif
+filename /home/eric/data/trainset/images/paris_58.tif
+filename /home/eric/data/trainset/labels/paris_58.tif
+filename /home/eric/data/trainset/images/chicago_15.tif
+filename /home/eric/data/trainset/labels/chicago_15.tif
+filename /home/eric/data/trainset/images/slaskie_34.tif
+filename /home/eric/data/trainset/labels/slaskie_34.tif
+filename /home/eric/data/trainset/images/podkarpackie_11.tif
+filename /home/eric/data/trainset/labels/podkarpackie_11.tif
+filename /home/eric/data/trainset/images/lambayeque_5.tif
+filename /home/eric/data/trainset/labels/lambayeque_5.tif
+filename /home/eric/data/trainset/images/western_4.tif
+filename /home/eric/data/trainset/labels/western_4.tif
+filename /home/eric/data/trainset/images/monrovia_21.tif
+filename /home/eric/data/trainset/labels/monrovia_21.tif
+filename /home/eric/data/trainset/images/daressalaam_12.tif
+filename /home/eric/data/trainset/labels/daressalaam_12.tif
+filename /home/eric/data/trainset/images/pointenoire_3.tif
+filename /home/eric/data/trainset/labels/pointenoire_3.tif
+filename /home/eric/data/trainset/images/mahe_54.tif
+filename /home/eric/data/trainset/labels/mahe_54.tif
+filename /home/eric/data/trainset/images/svaneti_51.tif
+filename /home/eric/data/trainset/labels/svaneti_51.tif
+filename /home/eric/data/trainset/images/lodzkie_8.tif
+filename /home/eric/data/trainset/labels/lodzkie_8.tif
+filename /home/eric/data/trainset/images/tyrolw_64.tif
+filename /home/eric/data/trainset/labels/tyrolw_64.tif
+filename /home/eric/data/trainset/images/dhaka_65.tif
+filename /home/eric/data/trainset/labels/dhaka_65.tif
+filename /home/eric/data/trainset/images/kampala_4.tif
+filename /home/eric/data/trainset/labels/kampala_4.tif
+filename /home/eric/data/trainset/images/kitsap_12.tif
+filename /home/eric/data/trainset/labels/kitsap_12.tif
+filename /home/eric/data/trainset/images/tyrolw_11.tif
+filename /home/eric/data/trainset/labels/tyrolw_11.tif
+filename /home/eric/data/trainset/images/duesseldorf_5.tif
+filename /home/eric/data/trainset/labels/duesseldorf_5.tif
+filename /home/eric/data/trainset/images/slaskie_33.tif
+filename /home/eric/data/trainset/labels/slaskie_33.tif
+filename /home/eric/data/trainset/images/mahe_58.tif
+filename /home/eric/data/trainset/labels/mahe_58.tif
+filename /home/eric/data/trainset/images/melbourne_67.tif
+filename /home/eric/data/trainset/labels/melbourne_67.tif
+filename /home/eric/data/trainset/images/kyoto_13.tif
+filename /home/eric/data/trainset/labels/kyoto_13.tif
+filename /home/eric/data/trainset/images/san_tome_9.tif
+filename /home/eric/data/trainset/labels/san_tome_9.tif
+filename /home/eric/data/trainset/images/chincha_35.tif
+filename /home/eric/data/trainset/labels/chincha_35.tif
+filename /home/eric/data/trainset/images/podlaskie_7.tif
+filename /home/eric/data/trainset/labels/podlaskie_7.tif
+filename /home/eric/data/trainset/images/coxsbazar_80.tif
+filename /home/eric/data/trainset/labels/coxsbazar_80.tif
+filename /home/eric/data/trainset/images/kitsap_30.tif
+filename /home/eric/data/trainset/labels/kitsap_30.tif
+filename /home/eric/data/trainset/images/lohur_20.tif
+filename /home/eric/data/trainset/labels/lohur_20.tif
+filename /home/eric/data/trainset/images/vienna_9.tif
+filename /home/eric/data/trainset/labels/vienna_9.tif
+filename /home/eric/data/trainset/images/lambayeque_41.tif
+filename /home/eric/data/trainset/labels/lambayeque_41.tif
+filename /home/eric/data/trainset/images/melbourne_12.tif
+filename /home/eric/data/trainset/labels/melbourne_12.tif
+filename /home/eric/data/trainset/images/podlaskie_10.tif
+filename /home/eric/data/trainset/labels/podlaskie_10.tif
+filename /home/eric/data/trainset/images/chicago_29.tif
+filename /home/eric/data/trainset/labels/chicago_29.tif
+filename /home/eric/data/trainset/images/mahe_5.tif
+filename /home/eric/data/trainset/labels/mahe_5.tif
+filename /home/eric/data/trainset/images/vienna_37.tif
+filename /home/eric/data/trainset/labels/vienna_37.tif
+filename /home/eric/data/trainset/images/lima_2.tif
+filename /home/eric/data/trainset/labels/lima_2.tif
+filename /home/eric/data/trainset/images/shanghai_64.tif
+filename /home/eric/data/trainset/labels/shanghai_64.tif
+filename /home/eric/data/trainset/images/baybay_15.tif
+filename /home/eric/data/trainset/labels/baybay_15.tif
+filename /home/eric/data/trainset/images/rio_43.tif
+filename /home/eric/data/trainset/labels/rio_43.tif
+filename /home/eric/data/trainset/images/piura_1.tif
+filename /home/eric/data/trainset/labels/piura_1.tif
+filename /home/eric/data/trainset/images/dortmund_42.tif
+filename /home/eric/data/trainset/labels/dortmund_42.tif
+filename /home/eric/data/trainset/images/tokyo_1.tif
+filename /home/eric/data/trainset/labels/tokyo_1.tif
+filename /home/eric/data/trainset/images/lima_36.tif
+filename /home/eric/data/trainset/labels/lima_36.tif
+filename /home/eric/data/trainset/images/dolnoslaskie_32.tif
+filename /home/eric/data/trainset/labels/dolnoslaskie_32.tif
+filename /home/eric/data/trainset/images/malopolskie_8.tif
+filename /home/eric/data/trainset/labels/malopolskie_8.tif
+filename /home/eric/data/trainset/images/chicago_47.tif
+filename /home/eric/data/trainset/labels/chicago_47.tif
+filename /home/eric/data/trainset/images/santiago_32.tif
+filename /home/eric/data/trainset/labels/santiago_32.tif
+filename /home/eric/data/trainset/images/kyoto_30.tif
+filename /home/eric/data/trainset/labels/kyoto_30.tif
+filename /home/eric/data/trainset/images/san_tome_5.tif
+filename /home/eric/data/trainset/labels/san_tome_5.tif
+filename /home/eric/data/trainset/images/mazowieckie_9.tif
+filename /home/eric/data/trainset/labels/mazowieckie_9.tif
+filename /home/eric/data/trainset/images/swietokrzyskie_34.tif
+filename /home/eric/data/trainset/labels/swietokrzyskie_34.tif
+filename /home/eric/data/trainset/images/pisco_20.tif
+filename /home/eric/data/trainset/labels/pisco_20.tif
+filename /home/eric/data/trainset/images/dortmund_49.tif
+filename /home/eric/data/trainset/labels/dortmund_49.tif
+filename /home/eric/data/trainset/images/maputo_8.tif
+filename /home/eric/data/trainset/labels/maputo_8.tif
+filename /home/eric/data/trainset/images/baybay_23.tif
+filename /home/eric/data/trainset/labels/baybay_23.tif
+filename /home/eric/data/trainset/images/chicago_35.tif
+filename /home/eric/data/trainset/labels/chicago_35.tif
+filename /home/eric/data/trainset/images/zanzibar_8.tif
+filename /home/eric/data/trainset/labels/zanzibar_8.tif
+filename /home/eric/data/trainset/images/rosario_3.tif
+filename /home/eric/data/trainset/labels/rosario_3.tif
+filename /home/eric/data/trainset/images/piura_24.tif
+filename /home/eric/data/trainset/labels/piura_24.tif
+filename /home/eric/data/trainset/images/chisinau_58.tif
+filename /home/eric/data/trainset/labels/chisinau_58.tif
+filename /home/eric/data/trainset/images/kujawsko-pomorskie_22.tif
+filename /home/eric/data/trainset/labels/kujawsko-pomorskie_22.tif
+filename /home/eric/data/trainset/images/mazowieckie_16.tif
+filename /home/eric/data/trainset/labels/mazowieckie_16.tif
+filename /home/eric/data/trainset/images/rosario_5.tif
+filename /home/eric/data/trainset/labels/rosario_5.tif
+filename /home/eric/data/trainset/images/svaneti_17.tif
+filename /home/eric/data/trainset/labels/svaneti_17.tif
+filename /home/eric/data/trainset/images/khartoum_70.tif
+filename /home/eric/data/trainset/labels/khartoum_70.tif
+filename /home/eric/data/trainset/images/abancay_26.tif
+filename /home/eric/data/trainset/labels/abancay_26.tif
+filename /home/eric/data/trainset/images/paris_57.tif
+filename /home/eric/data/trainset/labels/paris_57.tif
+filename /home/eric/data/trainset/images/swietokrzyskie_9.tif
+filename /home/eric/data/trainset/labels/swietokrzyskie_9.tif
+filename /home/eric/data/trainset/images/aachen_20.tif
+filename Caching images and labels:  57%|█████▋    | 146/258 [00:04<00:03, 31.55it/s]Caching images and labels:  57%|█████▋    | 146/258 [00:04<00:03, 31.55it/s]Caching images and labels:  57%|█████▋    | 146/258 [00:04<00:03, 31.58it/s]Caching images and labels:  57%|█████▋    | 147/258 [00:04<00:03, 31.37it/s]Caching images and labels:  58%|█████▊    | 150/258 [00:04<00:03, 32.17it/s]Caching images and labels:  58%|█████▊    | 150/258 [00:04<00:03, 32.17it/s]Caching images and labels:  58%|█████▊    | 150/258 [00:04<00:03, 32.18it/s]Caching images and labels:  59%|█████▊    | 151/258 [00:04<00:03, 31.46it/s]Caching images and labels:  60%|█████▉    | 154/258 [00:04<00:03, 29.85it/s]Caching images and labels:  60%|█████▉    | 154/258 [00:04<00:03, 29.85it/s]Caching images and labels:  60%|█████▉    | 154/258 [00:04<00:03, 29.84it/s]Caching images and labels:  60%|██████    | 155/258 [00:04<00:03, 29.00it/s]Caching images and labels:  61%|██████    | 158/258 [00:04<00:03, 28.70it/s]Caching images and labels:  61%|██████    | 158/258 [00:04<00:03, 28.70it/s]Caching images and labels:  61%|██████    | 158/258 [00:04<00:03, 28.98it/s]Caching images and labels:  61%|██████    | 158/258 [00:04<00:03, 28.70it/s]Caching images and labels:  63%|██████▎   | 162/258 [00:04<00:03, 28.65it/s]Caching images and labels:  63%|██████▎   | 162/258 [00:04<00:03, 28.66it/s]Caching images and labels:  63%|██████▎   | 162/258 [00:04<00:03, 28.83it/s]Caching images and labels:  63%|██████▎   | 162/258 [00:04<00:03, 28.64it/s]Caching images and labels:  64%|██████▍   | 165/258 [00:04<00:03, 28.88it/s]Caching images and labels:  64%|██████▍   | 165/258 [00:04<00:03, 28.89it/s]Caching images and labels:  64%|██████▍   | 165/258 [00:04<00:03, 29.03it/s]Caching images and labels:  64%|██████▍   | 165/258 [00:04<00:03, 28.87it/s]Caching images and labels:  66%|██████▌   | 169/258 [00:05<00:03, 29.06it/s]Caching images and labels:  66%|██████▌   | 169/258 [00:05<00:03, 29.17it/s]Caching images and labels:  66%|██████▌   | 169/258 [00:05<00:03, 29.06it/s]Caching images and labels:  66%|██████▌   | 169/258 [00:05<00:03, 29.05it/s]Caching images and labels:  67%|██████▋   | 173/258 [00:05<00:02, 30.42it/s]Caching images and labels:  67%|██████▋   | 173/258 [00:05<00:02, 30.42it/s]Caching images and labels:  67%|██████▋   | 173/258 [00:05<00:02, 30.42it/s]Caching images and labels:  67%|██████▋   | 173/258 [00:05<00:02, 30.52it/s]Caching images and labels:  69%|██████▊   | 177/258 [00:05<00:02, 31.64it/s]Caching images and labels:  69%|██████▊   | 177/258 [00:05<00:02, 31.65it/s]Caching images and labels:  69%|██████▊   | 177/258 [00:05<00:02, 31.64it/s]Caching images and labels:  69%|██████▊   | 177/258 [00:05<00:02, 31.73it/s]Caching images and labels:  70%|███████   | 181/258 [00:05<00:02, 30.27it/s]Caching images and labels:  70%|███████   | 181/258 [00:05<00:02, 30.25it/s]Caching images and labels:  70%|███████   | 181/258 [00:05<00:02, 30.31it/s]Caching images and labels:  70%|███████   | 181/258 [00:05<00:02, 30.25it/s]Caching images and labels:  72%|███████▏  | 185/258 [00:05<00:02, 31.39it/s]Caching images and labels:  72%|███████▏  | 185/258 [00:05<00:02, 31.38it/s]Caching images and labels:  72%|███████▏  | 185/258 [00:05<00:02, 31.43it/s]Caching images and labels:  72%|███████▏  | 185/258 [00:05<00:02, 31.38it/s]Caching images and labels:  73%|███████▎  | 189/258 [00:05<00:02, 32.84it/s]Caching images and labels:  73%|███████▎  | 189/258 [00:05<00:02, 32.84it/s]Caching images and labels:  73%|███████▎  | 189/258 [00:05<00:02, 32.84it/s]Caching images and labels:  73%|███████▎  | 189/258 [00:05<00:02, 32.88it/s]Caching images and labels:  75%|███████▍  | 193/258 [00:05<00:01, 33.91it/s]Caching images and labels:  75%|███████▍  | 193/258 [00:05<00:01, 33.90it/s]Caching images and labels:  75%|███████▍  | 193/258 [00:05<00:01, 33.90it/s]Caching images and labels:  75%|███████▍  | 193/258 [00:05<00:01, 33.93it/s]Caching images and labels:  76%|███████▋  | 197/258 [00:05<00:01, 32.21it/s]Caching images and labels:  76%|███████▋  | 197/258 [00:05<00:01, 32.20it/s]Caching images and labels:  76%|███████▋  | 197/258 [00:05<00:01, 32.20it/s]Caching images and labels:  76%|███████▋  | 197/258 [00:05<00:01, 32.22it/s]Caching images and labels:  78%|███████▊  | 201/258 [00:06<00:01, 33.07it/s]Caching images and labels:  78%|███████▊  | 201/258 [00:06<00:01, 33.07it/s]Caching images and labels:  78%|███████▊  | 201/258 [00:06<00:01, 31.81it/s]Caching images and labels:  78%|███████▊  | 201/258 [00:06<00:01, 31.64it/s]Caching images and labels:  79%|███████▉  | 205/258 [00:06<00:01, 33.07it/s]Caching images and labels:  79%|███████▉  | 205/258 [00:06<00:01, 33.07it/s]Caching images and labels:  79%|███████▉  | 205/258 [00:06<00:01, 32.98it/s]Caching images and labels:  79%|███████▉  | 205/258 [00:06<00:01, 32.88it/s]Caching images and labels:  81%|████████  | 209/258 [00:06<00:01, 32.17it/s]Caching images and labels:  81%|████████  | 209/258 [00:06<00:01, 31.67it/s]Caching images and labels:  81%|████████  | 209/258 [00:06<00:01, 32.07it/s]Caching images and labels:  81%|████████  | 209/258 [00:06<00:01, 31.67it/s]Caching images and labels:  83%|████████▎ | 213/258 [00:06<00:01, 31.48it/s]Caching images and labels:  83%|████████▎ | 213/258 [00:06<00:01, 31.48it/s]Caching images and labels:  83%|████████▎ | 213/258 [00:06<00:01, 31.81it/s]Caching images and labels:  83%|████████▎ | 213/258 [00:06<00:01, 31.74it/s]Caching images and labels:  84%|████████▍ | 217/258 [00:06<00:01, 28.80it/s]/home/eric/data/trainset/labels/aachen_20.tif
+filename /home/eric/data/trainset/images/kinshasa_4.tif
+filename /home/eric/data/trainset/labels/kinshasa_4.tif
+filename /home/eric/data/trainset/images/paris_68.tif
+filename /home/eric/data/trainset/labels/paris_68.tif
+filename /home/eric/data/trainset/images/ngaoundere_58.tif
+filename /home/eric/data/trainset/labels/ngaoundere_58.tif
+filename /home/eric/data/trainset/images/accra_37.tif
+filename /home/eric/data/trainset/labels/accra_37.tif
+filename /home/eric/data/trainset/images/tokyo_32.tif
+filename /home/eric/data/trainset/labels/tokyo_32.tif
+filename /home/eric/data/trainset/images/dortmund_33.tif
+filename /home/eric/data/trainset/labels/dortmund_33.tif
+filename /home/eric/data/trainset/images/vienna_55.tif
+filename /home/eric/data/trainset/labels/vienna_55.tif
+filename /home/eric/data/trainset/images/tyrolw_9.tif
+filename /home/eric/data/trainset/labels/tyrolw_9.tif
+filename /home/eric/data/trainset/images/buenos_aires_17.tif
+filename /home/eric/data/trainset/labels/buenos_aires_17.tif
+filename /home/eric/data/trainset/images/duesseldorf_66.tif
+filename /home/eric/data/trainset/labels/duesseldorf_66.tif
+filename /home/eric/data/trainset/images/austin_15.tif
+filename /home/eric/data/trainset/labels/austin_15.tif
+filename /home/eric/data/trainset/images/ica_5.tif
+filename /home/eric/data/trainset/labels/ica_5.tif
+filename /home/eric/data/trainset/images/mahe_19.tif
+filename /home/eric/data/trainset/labels/mahe_19.tif
+filename /home/eric/data/trainset/images/koeln_13.tif
+filename /home/eric/data/trainset/labels/koeln_13.tif
+filename /home/eric/data/trainset/images/swietokrzyskie_12.tif
+filename /home/eric/data/trainset/labels/swietokrzyskie_12.tif
+filename /home/eric/data/trainset/images/daressalaam_30.tif
+filename /home/eric/data/trainset/labels/daressalaam_30.tif
+filename /home/eric/data/trainset/images/duesseldorf_31.tif
+filename /home/eric/data/trainset/labels/duesseldorf_31.tif
+filename /home/eric/data/trainset/images/vienna_3.tif
+filename /home/eric/data/trainset/labels/vienna_3.tif
+filename /home/eric/data/trainset/images/malopolskie_39.tif
+filename /home/eric/data/trainset/labels/malopolskie_39.tif
+filename /home/eric/data/trainset/images/vegas_33.tif
+filename /home/eric/data/trainset/labels/vegas_33.tif
+filename /home/eric/data/trainset/images/ica_41.tif
+filename /home/eric/data/trainset/labels/ica_41.tif
+filename /home/eric/data/trainset/images/dhaka_64.tif
+filename /home/eric/data/trainset/labels/dhaka_64.tif
+filename /home/eric/data/trainset/images/vegas_8.tif
+filename /home/eric/data/trainset/labels/vegas_8.tif
+filename /home/eric/data/trainset/images/koeln_21.tif
+filename /home/eric/data/trainset/labels/koeln_21.tif
+filename /home/eric/data/trainset/images/san_tome_45.tif
+filename /home/eric/data/trainset/labels/san_tome_45.tif
+filename /home/eric/data/trainset/images/coxsbazar_70.tif
+filename /home/eric/data/trainset/labels/coxsbazar_70.tif
+filename /home/eric/data/trainset/images/swietokrzyskie_29.tif
+filename /home/eric/data/trainset/labels/swietokrzyskie_29.tif
+filename /home/eric/data/trainset/images/svaneti_61.tif
+filename /home/eric/data/trainset/labels/svaneti_61.tif
+filename /home/eric/data/trainset/images/maputo_12.tif
+filename /home/eric/data/trainset/labels/maputo_12.tif
+filename /home/eric/data/trainset/images/chiangmai_7.tif
+filename /home/eric/data/trainset/labels/chiangmai_7.tif
+filename /home/eric/data/trainset/images/kujawsko-pomorskie_7.tif
+filename /home/eric/data/trainset/labels/kujawsko-pomorskie_7.tif
+filename /home/eric/data/trainset/images/chiangmai_20.tif
+filename /home/eric/data/trainset/labels/chiangmai_20.tif
+filename /home/eric/data/trainset/images/christchurch_17.tif
+filename /home/eric/data/trainset/labels/christchurch_17.tif
+filename /home/eric/data/trainset/images/svaneti_38.tif
+filename /home/eric/data/trainset/labels/svaneti_38.tif
+filename /home/eric/data/trainset/images/bielefeld_2.tif
+filename /home/eric/data/trainset/labels/bielefeld_2.tif
+filename /home/eric/data/trainset/images/kitsap_13.tif
+filename /home/eric/data/trainset/labels/kitsap_13.tif
+filename /home/eric/data/trainset/images/paris_56.tif
+filename /home/eric/data/trainset/labels/paris_56.tif
+filename /home/eric/data/trainset/images/san_tome_28.tif
+filename /home/eric/data/trainset/labels/san_tome_28.tif
+filename /home/eric/data/trainset/images/tokyo_11.tif
+filename /home/eric/data/trainset/labels/tokyo_11.tif
+filename /home/eric/data/trainset/images/kagera_14.tif
+filename /home/eric/data/trainset/labels/kagera_14.tif
+filename /home/eric/data/trainset/images/santiago_63.tif
+filename /home/eric/data/trainset/labels/santiago_63.tif
+filename /home/eric/data/trainset/images/malopolskie_13.tif
+filename /home/eric/data/trainset/labels/malopolskie_13.tif
+filename /home/eric/data/trainset/images/pisco_30.tif
+filename /home/eric/data/trainset/labels/pisco_30.tif
+filename /home/eric/data/trainset/images/svaneti_8.tif
+filename /home/eric/data/trainset/labels/svaneti_8.tif
+filename /home/eric/data/trainset/images/piura_7.tif
+filename /home/eric/data/trainset/labels/piura_7.tif
+filename /home/eric/data/trainset/images/wielkopolskie_31.tif
+filename /home/eric/data/trainset/labels/wielkopolskie_31.tif
+filename /home/eric/data/trainset/images/maputo_16.tif
+filename /home/eric/data/trainset/labels/maputo_16.tif
+filename /home/eric/data/trainset/images/kagera_54.tif
+filename /home/eric/data/trainset/labels/kagera_54.tif
+filename /home/eric/data/trainset/images/duesseldorf_52.tif
+filename /home/eric/data/trainset/labels/duesseldorf_52.tif
+filename /home/eric/data/trainset/images/lambayeque_22.tif
+filename /home/eric/data/trainset/labels/lambayeque_22.tif
+filename /home/eric/data/trainset/images/muenster_65.tif
+filename /home/eric/data/trainset/labels/muenster_65.tif
+filename /home/eric/data/trainset/images/lubuskie_16.tif
+filename /home/eric/data/trainset/labels/lubuskie_16.tif
+filename /home/eric/data/trainset/images/baybay_49.tif
+filename /home/eric/data/trainset/labels/baybay_49.tif
+filename /home/eric/data/trainset/images/kujawsko-pomorskie_18.tif
+filename /home/eric/data/trainset/labels/kujawsko-pomorskie_18.tif
+filename /home/eric/data/trainset/images/rio_52.tif
+filename /home/eric/data/trainset/labels/rio_52.tif
+filename /home/eric/data/trainset/images/ica_13.tif
+filename /home/eric/data/trainset/labels/ica_13.tif
+filename /home/eric/data/trainset/images/soriano_17.tif
+filename /home/eric/data/trainset/labels/soriano_17.tif
+filename /home/eric/data/trainset/images/mazowieckie_33.tif
+filename /home/eric/data/trainset/labels/mazowieckie_33.tif
+filename /home/eric/data/trainset/images/chiclayo_47.tif
+filename /home/eric/data/trainset/labels/chiclayo_47.tif
+filename /home/eric/data/trainset/images/lodzkie_21.tif
+filename /home/eric/data/trainset/labels/lodzkie_21.tif
+filename /home/eric/data/trainset/images/chiclayo_26.tif
+filename /home/eric/data/trainset/labels/chiclayo_26.tif
+filename /home/eric/data/trainset/images/vegas_2.tif
+filename /home/eric/data/trainset/labels/vegas_2.tif
+filename /home/eric/data/trainset/images/austin_5.tif
+filename /home/eric/data/trainset/labels/austin_5.tif
+filename /home/eric/data/trainset/images/san_tome_4.tif
+filename /home/eric/data/trainset/labels/san_tome_4.tif
+filename /home/eric/data/trainset/images/khartoum_13.tif
+filename /home/eric/data/trainset/labels/khartoum_13.tif
+filename /home/eric/data/trainset/images/aachen_3.tif
+filename /home/eric/data/trainset/labels/aachen_3.tif
+filename /home/eric/data/trainset/images/abancay_16.tif
+filename /home/eric/data/trainset/labels/abancay_16.tif
+filename /home/eric/data/trainset/images/soriano_19.tif
+filename /home/eric/data/trainset/labels/soriano_19.tif
+filename /home/eric/data/trainset/images/dortmund_18.tif
+filename /home/eric/data/trainset/labels/dortmund_18.tif
+filename /home/eric/data/trainset/images/tyrolw_47.tif
+filename /home/eric/data/trainset/labels/tyrolw_47.tif
+filename /home/eric/data/trainset/images/accra_8.tif
+filename /home/eric/data/trainset/labels/accra_8.tif
+filename /home/eric/data/trainset/images/chicago_12.tif
+filename /home/eric/data/trainset/labels/chicago_12.tif
+filename Caching images and labels:  84%|████████▍ | 217/258 [00:06<00:01, 29.00it/s]/home/eric/data/trainset/labels/aachen_20.tif
+filename /home/eric/data/trainset/images/kinshasa_4.tif
+filename /home/eric/data/trainset/labels/kinshasa_4.tif
+filename /home/eric/data/trainset/images/paris_68.tif
+filename /home/eric/data/trainset/labels/paris_68.tif
+filename /home/eric/data/trainset/images/ngaoundere_58.tif
+filename /home/eric/data/trainset/labels/ngaoundere_58.tif
+filename /home/eric/data/trainset/images/accra_37.tif
+filename /home/eric/data/trainset/labels/accra_37.tif
+filename /home/eric/data/trainset/images/tokyo_32.tif
+filename /home/eric/data/trainset/labels/tokyo_32.tif
+filename /home/eric/data/trainset/images/dortmund_33.tif
+filename /home/eric/data/trainset/labels/dortmund_33.tif
+filename /home/eric/data/trainset/images/vienna_55.tif
+filename /home/eric/data/trainset/labels/vienna_55.tif
+filename /home/eric/data/trainset/images/tyrolw_9.tif
+filename /home/eric/data/trainset/labels/tyrolw_9.tif
+filename /home/eric/data/trainset/images/buenos_aires_17.tif
+filename /home/eric/data/trainset/labels/buenos_aires_17.tif
+filename /home/eric/data/trainset/images/duesseldorf_66.tif
+filename /home/eric/data/trainset/labels/duesseldorf_66.tif
+filename /home/eric/data/trainset/images/austin_15.tif
+filename /home/eric/data/trainset/labels/austin_15.tif
+filename /home/eric/data/trainset/images/ica_5.tif
+filename /home/eric/data/trainset/labels/ica_5.tif
+filename /home/eric/data/trainset/images/mahe_19.tif
+filename /home/eric/data/trainset/labels/mahe_19.tif
+filename /home/eric/data/trainset/images/koeln_13.tif
+filename /home/eric/data/trainset/labels/koeln_13.tif
+filename /home/eric/data/trainset/images/swietokrzyskie_12.tif
+filename /home/eric/data/trainset/labels/swietokrzyskie_12.tif
+filename /home/eric/data/trainset/images/daressalaam_30.tif
+filename /home/eric/data/trainset/labels/daressalaam_30.tif
+filename /home/eric/data/trainset/images/duesseldorf_31.tif
+filename /home/eric/data/trainset/labels/duesseldorf_31.tif
+filename /home/eric/data/trainset/images/vienna_3.tif
+filename /home/eric/data/trainset/labels/vienna_3.tif
+filename /home/eric/data/trainset/images/malopolskie_39.tif
+filename /home/eric/data/trainset/labels/malopolskie_39.tif
+filename /home/eric/data/trainset/images/vegas_33.tif
+filename /home/eric/data/trainset/labels/vegas_33.tif
+filename /home/eric/data/trainset/images/ica_41.tif
+filename /home/eric/data/trainset/labels/ica_41.tif
+filename /home/eric/data/trainset/images/dhaka_64.tif
+filename /home/eric/data/trainset/labels/dhaka_64.tif
+filename /home/eric/data/trainset/images/vegas_8.tif
+filename /home/eric/data/trainset/labels/vegas_8.tif
+filename /home/eric/data/trainset/images/koeln_21.tif
+filename /home/eric/data/trainset/labels/koeln_21.tif
+filename /home/eric/data/trainset/images/san_tome_45.tif
+filename /home/eric/data/trainset/labels/san_tome_45.tif
+filename /home/eric/data/trainset/images/coxsbazar_70.tif
+filename /home/eric/data/trainset/labels/coxsbazar_70.tif
+filename /home/eric/data/trainset/images/swietokrzyskie_29.tif
+filename /home/eric/data/trainset/labels/swietokrzyskie_29.tif
+filename /home/eric/data/trainset/images/svaneti_61.tif
+filename /home/eric/data/trainset/labels/svaneti_61.tif
+filename /home/eric/data/trainset/images/maputo_12.tif
+filename /home/eric/data/trainset/labels/maputo_12.tif
+filename /home/eric/data/trainset/images/chiangmai_7.tif
+filename /home/eric/data/trainset/labels/chiangmai_7.tif
+filename /home/eric/data/trainset/images/kujawsko-pomorskie_7.tif
+filename /home/eric/data/trainset/labels/kujawsko-pomorskie_7.tif
+filename /home/eric/data/trainset/images/chiangmai_20.tif
+filename /home/eric/data/trainset/labels/chiangmai_20.tif
+filename /home/eric/data/trainset/images/christchurch_17.tif
+filename /home/eric/data/trainset/labels/christchurch_17.tif
+filename /home/eric/data/trainset/images/svaneti_38.tif
+filename /home/eric/data/trainset/labels/svaneti_38.tif
+filename /home/eric/data/trainset/images/bielefeld_2.tif
+filename /home/eric/data/trainset/labels/bielefeld_2.tif
+filename /home/eric/data/trainset/images/kitsap_13.tif
+filename /home/eric/data/trainset/labels/kitsap_13.tif
+filename /home/eric/data/trainset/images/paris_56.tif
+filename /home/eric/data/trainset/labels/paris_56.tif
+filename /home/eric/data/trainset/images/san_tome_28.tif
+filename /home/eric/data/trainset/labels/san_tome_28.tif
+filename /home/eric/data/trainset/images/tokyo_11.tif
+filename /home/eric/data/trainset/labels/tokyo_11.tif
+filename /home/eric/data/trainset/images/kagera_14.tif
+filename /home/eric/data/trainset/labels/kagera_14.tif
+filename /home/eric/data/trainset/images/santiago_63.tif
+filename /home/eric/data/trainset/labels/santiago_63.tif
+filename /home/eric/data/trainset/images/malopolskie_13.tif
+filename /home/eric/data/trainset/labels/malopolskie_13.tif
+filename /home/eric/data/trainset/images/pisco_30.tif
+filename /home/eric/data/trainset/labels/pisco_30.tif
+filename /home/eric/data/trainset/images/svaneti_8.tif
+filename /home/eric/data/trainset/labels/svaneti_8.tif
+filename /home/eric/data/trainset/images/piura_7.tif
+filename /home/eric/data/trainset/labels/piura_7.tif
+filename /home/eric/data/trainset/images/wielkopolskie_31.tif
+filename /home/eric/data/trainset/labels/wielkopolskie_31.tif
+filename /home/eric/data/trainset/images/maputo_16.tif
+filename /home/eric/data/trainset/labels/maputo_16.tif
+filename /home/eric/data/trainset/images/kagera_54.tif
+filename /home/eric/data/trainset/labels/kagera_54.tif
+filename /home/eric/data/trainset/images/duesseldorf_52.tif
+filename /home/eric/data/trainset/labels/duesseldorf_52.tif
+filename /home/eric/data/trainset/images/lambayeque_22.tif
+filename /home/eric/data/trainset/labels/lambayeque_22.tif
+filename /home/eric/data/trainset/images/muenster_65.tif
+filename /home/eric/data/trainset/labels/muenster_65.tif
+filename /home/eric/data/trainset/images/lubuskie_16.tif
+filename /home/eric/data/trainset/labels/lubuskie_16.tif
+filename /home/eric/data/trainset/images/baybay_49.tif
+filename /home/eric/data/trainset/labels/baybay_49.tif
+filename /home/eric/data/trainset/images/kujawsko-pomorskie_18.tif
+filename /home/eric/data/trainset/labels/kujawsko-pomorskie_18.tif
+filename /home/eric/data/trainset/images/rio_52.tif
+filename /home/eric/data/trainset/labels/rio_52.tif
+filename /home/eric/data/trainset/images/ica_13.tif
+filename /home/eric/data/trainset/labels/ica_13.tif
+filename /home/eric/data/trainset/images/soriano_17.tif
+filename /home/eric/data/trainset/labels/soriano_17.tif
+filename /home/eric/data/trainset/images/mazowieckie_33.tif
+filename /home/eric/data/trainset/labels/mazowieckie_33.tif
+filename /home/eric/data/trainset/images/chiclayo_47.tif
+filename /home/eric/data/trainset/labels/chiclayo_47.tif
+filename /home/eric/data/trainset/images/lodzkie_21.tif
+filename /home/eric/data/trainset/labels/lodzkie_21.tif
+filename /home/eric/data/trainset/images/chiclayo_26.tif
+filename /home/eric/data/trainset/labels/chiclayo_26.tif
+filename /home/eric/data/trainset/images/vegas_2.tif
+filename /home/eric/data/trainset/labels/vegas_2.tif
+filename /home/eric/data/trainset/images/austin_5.tif
+filename /home/eric/data/trainset/labels/austin_5.tif
+filename /home/eric/data/trainset/images/san_tome_4.tif
+filename /home/eric/data/trainset/labels/san_tome_4.tif
+filename /home/eric/data/trainset/images/khartoum_13.tif
+filename /home/eric/data/trainset/labels/khartoum_13.tif
+filename /home/eric/data/trainset/images/aachen_3.tif
+filename /home/eric/data/trainset/labels/aachen_3.tif
+filename /home/eric/data/trainset/images/abancay_16.tif
+filename /home/eric/data/trainset/labels/abancay_16.tif
+filename /home/eric/data/trainset/images/soriano_19.tif
+filename /home/eric/data/trainset/labels/soriano_19.tif
+filename /home/eric/data/trainset/images/dortmund_18.tif
+filename /home/eric/data/trainset/labels/dortmund_18.tif
+filename /home/eric/data/trainset/images/tyrolw_47.tif
+filename /home/eric/data/trainset/labels/tyrolw_47.tif
+filename /home/eric/data/trainset/images/accra_8.tif
+filename /home/eric/data/trainset/labels/accra_8.tif
+filename /home/eric/data/trainset/images/chicago_12.tif
+filename /home/eric/data/trainset/labels/chicago_12.tif
+filename Caching images and labels:  84%|████████▍ | 217/258 [00:06<00:01, 28.91it/s]/home/eric/data/trainset/labels/aachen_20.tif
+filename /home/eric/data/trainset/images/kinshasa_4.tif
+filename /home/eric/data/trainset/labels/kinshasa_4.tif
+filename /home/eric/data/trainset/images/paris_68.tif
+filename /home/eric/data/trainset/labels/paris_68.tif
+filename /home/eric/data/trainset/images/ngaoundere_58.tif
+filename /home/eric/data/trainset/labels/ngaoundere_58.tif
+filename /home/eric/data/trainset/images/accra_37.tif
+filename /home/eric/data/trainset/labels/accra_37.tif
+filename /home/eric/data/trainset/images/tokyo_32.tif
+filename /home/eric/data/trainset/labels/tokyo_32.tif
+filename /home/eric/data/trainset/images/dortmund_33.tif
+filename /home/eric/data/trainset/labels/dortmund_33.tif
+filename /home/eric/data/trainset/images/vienna_55.tif
+filename /home/eric/data/trainset/labels/vienna_55.tif
+filename /home/eric/data/trainset/images/tyrolw_9.tif
+filename /home/eric/data/trainset/labels/tyrolw_9.tif
+filename /home/eric/data/trainset/images/buenos_aires_17.tif
+filename /home/eric/data/trainset/labels/buenos_aires_17.tif
+filename /home/eric/data/trainset/images/duesseldorf_66.tif
+filename /home/eric/data/trainset/labels/duesseldorf_66.tif
+filename /home/eric/data/trainset/images/austin_15.tif
+filename /home/eric/data/trainset/labels/austin_15.tif
+filename /home/eric/data/trainset/images/ica_5.tif
+filename /home/eric/data/trainset/labels/ica_5.tif
+filename /home/eric/data/trainset/images/mahe_19.tif
+filename /home/eric/data/trainset/labels/mahe_19.tif
+filename /home/eric/data/trainset/images/koeln_13.tif
+filename /home/eric/data/trainset/labels/koeln_13.tif
+filename /home/eric/data/trainset/images/swietokrzyskie_12.tif
+filename /home/eric/data/trainset/labels/swietokrzyskie_12.tif
+filename /home/eric/data/trainset/images/daressalaam_30.tif
+filename /home/eric/data/trainset/labels/daressalaam_30.tif
+filename /home/eric/data/trainset/images/duesseldorf_31.tif
+filename /home/eric/data/trainset/labels/duesseldorf_31.tif
+filename /home/eric/data/trainset/images/vienna_3.tif
+filename /home/eric/data/trainset/labels/vienna_3.tif
+filename /home/eric/data/trainset/images/malopolskie_39.tif
+filename /home/eric/data/trainset/labels/malopolskie_39.tif
+filename /home/eric/data/trainset/images/vegas_33.tif
+filename /home/eric/data/trainset/labels/vegas_33.tif
+filename /home/eric/data/trainset/images/ica_41.tif
+filename /home/eric/data/trainset/labels/ica_41.tif
+filename /home/eric/data/trainset/images/dhaka_64.tif
+filename /home/eric/data/trainset/labels/dhaka_64.tif
+filename /home/eric/data/trainset/images/vegas_8.tif
+filename /home/eric/data/trainset/labels/vegas_8.tif
+filename /home/eric/data/trainset/images/koeln_21.tif
+filename /home/eric/data/trainset/labels/koeln_21.tif
+filename /home/eric/data/trainset/images/san_tome_45.tif
+filename /home/eric/data/trainset/labels/san_tome_45.tif
+filename /home/eric/data/trainset/images/coxsbazar_70.tif
+filename /home/eric/data/trainset/labels/coxsbazar_70.tif
+filename /home/eric/data/trainset/images/swietokrzyskie_29.tif
+filename /home/eric/data/trainset/labels/swietokrzyskie_29.tif
+filename /home/eric/data/trainset/images/svaneti_61.tif
+filename /home/eric/data/trainset/labels/svaneti_61.tif
+filename /home/eric/data/trainset/images/maputo_12.tif
+filename /home/eric/data/trainset/labels/maputo_12.tif
+filename /home/eric/data/trainset/images/chiangmai_7.tif
+filename /home/eric/data/trainset/labels/chiangmai_7.tif
+filename /home/eric/data/trainset/images/kujawsko-pomorskie_7.tif
+filename /home/eric/data/trainset/labels/kujawsko-pomorskie_7.tif
+filename /home/eric/data/trainset/images/chiangmai_20.tif
+filename /home/eric/data/trainset/labels/chiangmai_20.tif
+filename /home/eric/data/trainset/images/christchurch_17.tif
+filename /home/eric/data/trainset/labels/christchurch_17.tif
+filename /home/eric/data/trainset/images/svaneti_38.tif
+filename /home/eric/data/trainset/labels/svaneti_38.tif
+filename /home/eric/data/trainset/images/bielefeld_2.tif
+filename /home/eric/data/trainset/labels/bielefeld_2.tif
+filename /home/eric/data/trainset/images/kitsap_13.tif
+filename /home/eric/data/trainset/labels/kitsap_13.tif
+filename /home/eric/data/trainset/images/paris_56.tif
+filename /home/eric/data/trainset/labels/paris_56.tif
+filename /home/eric/data/trainset/images/san_tome_28.tif
+filename /home/eric/data/trainset/labels/san_tome_28.tif
+filename /home/eric/data/trainset/images/tokyo_11.tif
+filename /home/eric/data/trainset/labels/tokyo_11.tif
+filename /home/eric/data/trainset/images/kagera_14.tif
+filename /home/eric/data/trainset/labels/kagera_14.tif
+filename /home/eric/data/trainset/images/santiago_63.tif
+filename /home/eric/data/trainset/labels/santiago_63.tif
+filename /home/eric/data/trainset/images/malopolskie_13.tif
+filename /home/eric/data/trainset/labels/malopolskie_13.tif
+filename /home/eric/data/trainset/images/pisco_30.tif
+filename /home/eric/data/trainset/labels/pisco_30.tif
+filename /home/eric/data/trainset/images/svaneti_8.tif
+filename /home/eric/data/trainset/labels/svaneti_8.tif
+filename /home/eric/data/trainset/images/piura_7.tif
+filename /home/eric/data/trainset/labels/piura_7.tif
+filename /home/eric/data/trainset/images/wielkopolskie_31.tif
+filename /home/eric/data/trainset/labels/wielkopolskie_31.tif
+filename /home/eric/data/trainset/images/maputo_16.tif
+filename /home/eric/data/trainset/labels/maputo_16.tif
+filename /home/eric/data/trainset/images/kagera_54.tif
+filename /home/eric/data/trainset/labels/kagera_54.tif
+filename /home/eric/data/trainset/images/duesseldorf_52.tif
+filename /home/eric/data/trainset/labels/duesseldorf_52.tif
+filename /home/eric/data/trainset/images/lambayeque_22.tif
+filename /home/eric/data/trainset/labels/lambayeque_22.tif
+filename /home/eric/data/trainset/images/muenster_65.tif
+filename /home/eric/data/trainset/labels/muenster_65.tif
+filename /home/eric/data/trainset/images/lubuskie_16.tif
+filename /home/eric/data/trainset/labels/lubuskie_16.tif
+filename /home/eric/data/trainset/images/baybay_49.tif
+filename /home/eric/data/trainset/labels/baybay_49.tif
+filename /home/eric/data/trainset/images/kujawsko-pomorskie_18.tif
+filename /home/eric/data/trainset/labels/kujawsko-pomorskie_18.tif
+filename /home/eric/data/trainset/images/rio_52.tif
+filename /home/eric/data/trainset/labels/rio_52.tif
+filename /home/eric/data/trainset/images/ica_13.tif
+filename /home/eric/data/trainset/labels/ica_13.tif
+filename /home/eric/data/trainset/images/soriano_17.tif
+filename /home/eric/data/trainset/labels/soriano_17.tif
+filename /home/eric/data/trainset/images/mazowieckie_33.tif
+filename /home/eric/data/trainset/labels/mazowieckie_33.tif
+filename /home/eric/data/trainset/images/chiclayo_47.tif
+filename /home/eric/data/trainset/labels/chiclayo_47.tif
+filename /home/eric/data/trainset/images/lodzkie_21.tif
+filename /home/eric/data/trainset/labels/lodzkie_21.tif
+filename /home/eric/data/trainset/images/chiclayo_26.tif
+filename /home/eric/data/trainset/labels/chiclayo_26.tif
+filename /home/eric/data/trainset/images/vegas_2.tif
+filename /home/eric/data/trainset/labels/vegas_2.tif
+filename /home/eric/data/trainset/images/austin_5.tif
+filename /home/eric/data/trainset/labels/austin_5.tif
+filename /home/eric/data/trainset/images/san_tome_4.tif
+filename /home/eric/data/trainset/labels/san_tome_4.tif
+filename /home/eric/data/trainset/images/khartoum_13.tif
+filename /home/eric/data/trainset/labels/khartoum_13.tif
+filename /home/eric/data/trainset/images/aachen_3.tif
+filename /home/eric/data/trainset/labels/aachen_3.tif
+filename /home/eric/data/trainset/images/abancay_16.tif
+filename /home/eric/data/trainset/labels/abancay_16.tif
+filename /home/eric/data/trainset/images/soriano_19.tif
+filename /home/eric/data/trainset/labels/soriano_19.tif
+filename /home/eric/data/trainset/images/dortmund_18.tif
+filename /home/eric/data/trainset/labels/dortmund_18.tif
+filename /home/eric/data/trainset/images/tyrolw_47.tif
+filename /home/eric/data/trainset/labels/tyrolw_47.tif
+filename /home/eric/data/trainset/images/accra_8.tif
+filename /home/eric/data/trainset/labels/accra_8.tif
+filename /home/eric/data/trainset/images/chicago_12.tif
+filename /home/eric/data/trainset/labels/chicago_12.tif
+filename Caching images and labels:  84%|████████▍ | 217/258 [00:06<00:01, 28.74it/s]/home/eric/data/trainset/labels/aachen_20.tif
+filename /home/eric/data/trainset/images/kinshasa_4.tif
+filename /home/eric/data/trainset/labels/kinshasa_4.tif
+filename /home/eric/data/trainset/images/paris_68.tif
+filename /home/eric/data/trainset/labels/paris_68.tif
+filename /home/eric/data/trainset/images/ngaoundere_58.tif
+filename /home/eric/data/trainset/labels/ngaoundere_58.tif
+filename /home/eric/data/trainset/images/accra_37.tif
+filename /home/eric/data/trainset/labels/accra_37.tif
+filename /home/eric/data/trainset/images/tokyo_32.tif
+filename /home/eric/data/trainset/labels/tokyo_32.tif
+filename /home/eric/data/trainset/images/dortmund_33.tif
+filename /home/eric/data/trainset/labels/dortmund_33.tif
+filename /home/eric/data/trainset/images/vienna_55.tif
+filename /home/eric/data/trainset/labels/vienna_55.tif
+filename /home/eric/data/trainset/images/tyrolw_9.tif
+filename /home/eric/data/trainset/labels/tyrolw_9.tif
+filename /home/eric/data/trainset/images/buenos_aires_17.tif
+filename /home/eric/data/trainset/labels/buenos_aires_17.tif
+filename /home/eric/data/trainset/images/duesseldorf_66.tif
+filename /home/eric/data/trainset/labels/duesseldorf_66.tif
+filename /home/eric/data/trainset/images/austin_15.tif
+filename /home/eric/data/trainset/labels/austin_15.tif
+filename /home/eric/data/trainset/images/ica_5.tif
+filename /home/eric/data/trainset/labels/ica_5.tif
+filename /home/eric/data/trainset/images/mahe_19.tif
+filename /home/eric/data/trainset/labels/mahe_19.tif
+filename /home/eric/data/trainset/images/koeln_13.tif
+filename /home/eric/data/trainset/labels/koeln_13.tif
+filename /home/eric/data/trainset/images/swietokrzyskie_12.tif
+filename /home/eric/data/trainset/labels/swietokrzyskie_12.tif
+filename /home/eric/data/trainset/images/daressalaam_30.tif
+filename /home/eric/data/trainset/labels/daressalaam_30.tif
+filename /home/eric/data/trainset/images/duesseldorf_31.tif
+filename /home/eric/data/trainset/labels/duesseldorf_31.tif
+filename /home/eric/data/trainset/images/vienna_3.tif
+filename /home/eric/data/trainset/labels/vienna_3.tif
+filename /home/eric/data/trainset/images/malopolskie_39.tif
+filename /home/eric/data/trainset/labels/malopolskie_39.tif
+filename /home/eric/data/trainset/images/vegas_33.tif
+filename /home/eric/data/trainset/labels/vegas_33.tif
+filename /home/eric/data/trainset/images/ica_41.tif
+filename /home/eric/data/trainset/labels/ica_41.tif
+filename /home/eric/data/trainset/images/dhaka_64.tif
+filename /home/eric/data/trainset/labels/dhaka_64.tif
+filename /home/eric/data/trainset/images/vegas_8.tif
+filename /home/eric/data/trainset/labels/vegas_8.tif
+filename /home/eric/data/trainset/images/koeln_21.tif
+filename /home/eric/data/trainset/labels/koeln_21.tif
+filename /home/eric/data/trainset/images/san_tome_45.tif
+filename /home/eric/data/trainset/labels/san_tome_45.tif
+filename /home/eric/data/trainset/images/coxsbazar_70.tif
+filename /home/eric/data/trainset/labels/coxsbazar_70.tif
+filename /home/eric/data/trainset/images/swietokrzyskie_29.tif
+filename /home/eric/data/trainset/labels/swietokrzyskie_29.tif
+filename /home/eric/data/trainset/images/svaneti_61.tif
+filename /home/eric/data/trainset/labels/svaneti_61.tif
+filename /home/eric/data/trainset/images/maputo_12.tif
+filename /home/eric/data/trainset/labels/maputo_12.tif
+filename /home/eric/data/trainset/images/chiangmai_7.tif
+filename /home/eric/data/trainset/labels/chiangmai_7.tif
+filename /home/eric/data/trainset/images/kujawsko-pomorskie_7.tif
+filename /home/eric/data/trainset/labels/kujawsko-pomorskie_7.tif
+filename /home/eric/data/trainset/images/chiangmai_20.tif
+filename /home/eric/data/trainset/labels/chiangmai_20.tif
+filename /home/eric/data/trainset/images/christchurch_17.tif
+filename /home/eric/data/trainset/labels/christchurch_17.tif
+filename /home/eric/data/trainset/images/svaneti_38.tif
+filename /home/eric/data/trainset/labels/svaneti_38.tif
+filename /home/eric/data/trainset/images/bielefeld_2.tif
+filename /home/eric/data/trainset/labels/bielefeld_2.tif
+filename /home/eric/data/trainset/images/kitsap_13.tif
+filename /home/eric/data/trainset/labels/kitsap_13.tif
+filename /home/eric/data/trainset/images/paris_56.tif
+filename /home/eric/data/trainset/labels/paris_56.tif
+filename /home/eric/data/trainset/images/san_tome_28.tif
+filename /home/eric/data/trainset/labels/san_tome_28.tif
+filename /home/eric/data/trainset/images/tokyo_11.tif
+filename /home/eric/data/trainset/labels/tokyo_11.tif
+filename /home/eric/data/trainset/images/kagera_14.tif
+filename /home/eric/data/trainset/labels/kagera_14.tif
+filename /home/eric/data/trainset/images/santiago_63.tif
+filename /home/eric/data/trainset/labels/santiago_63.tif
+filename /home/eric/data/trainset/images/malopolskie_13.tif
+filename /home/eric/data/trainset/labels/malopolskie_13.tif
+filename /home/eric/data/trainset/images/pisco_30.tif
+filename /home/eric/data/trainset/labels/pisco_30.tif
+filename /home/eric/data/trainset/images/svaneti_8.tif
+filename /home/eric/data/trainset/labels/svaneti_8.tif
+filename /home/eric/data/trainset/images/piura_7.tif
+filename /home/eric/data/trainset/labels/piura_7.tif
+filename /home/eric/data/trainset/images/wielkopolskie_31.tif
+filename /home/eric/data/trainset/labels/wielkopolskie_31.tif
+filename /home/eric/data/trainset/images/maputo_16.tif
+filename /home/eric/data/trainset/labels/maputo_16.tif
+filename /home/eric/data/trainset/images/kagera_54.tif
+filename /home/eric/data/trainset/labels/kagera_54.tif
+filename /home/eric/data/trainset/images/duesseldorf_52.tif
+filename /home/eric/data/trainset/labels/duesseldorf_52.tif
+filename /home/eric/data/trainset/images/lambayeque_22.tif
+filename /home/eric/data/trainset/labels/lambayeque_22.tif
+filename /home/eric/data/trainset/images/muenster_65.tif
+filename /home/eric/data/trainset/labels/muenster_65.tif
+filename /home/eric/data/trainset/images/lubuskie_16.tif
+filename /home/eric/data/trainset/labels/lubuskie_16.tif
+filename /home/eric/data/trainset/images/baybay_49.tif
+filename /home/eric/data/trainset/labels/baybay_49.tif
+filename /home/eric/data/trainset/images/kujawsko-pomorskie_18.tif
+filename /home/eric/data/trainset/labels/kujawsko-pomorskie_18.tif
+filename /home/eric/data/trainset/images/rio_52.tif
+filename /home/eric/data/trainset/labels/rio_52.tif
+filename /home/eric/data/trainset/images/ica_13.tif
+filename /home/eric/data/trainset/labels/ica_13.tif
+filename /home/eric/data/trainset/images/soriano_17.tif
+filename /home/eric/data/trainset/labels/soriano_17.tif
+filename /home/eric/data/trainset/images/mazowieckie_33.tif
+filename /home/eric/data/trainset/labels/mazowieckie_33.tif
+filename /home/eric/data/trainset/images/chiclayo_47.tif
+filename /home/eric/data/trainset/labels/chiclayo_47.tif
+filename /home/eric/data/trainset/images/lodzkie_21.tif
+filename /home/eric/data/trainset/labels/lodzkie_21.tif
+filename /home/eric/data/trainset/images/chiclayo_26.tif
+filename /home/eric/data/trainset/labels/chiclayo_26.tif
+filename /home/eric/data/trainset/images/vegas_2.tif
+filename /home/eric/data/trainset/labels/vegas_2.tif
+filename /home/eric/data/trainset/images/austin_5.tif
+filename /home/eric/data/trainset/labels/austin_5.tif
+filename /home/eric/data/trainset/images/san_tome_4.tif
+filename /home/eric/data/trainset/labels/san_tome_4.tif
+filename /home/eric/data/trainset/images/khartoum_13.tif
+filename /home/eric/data/trainset/labels/khartoum_13.tif
+filename /home/eric/data/trainset/images/aachen_3.tif
+filename /home/eric/data/trainset/labels/aachen_3.tif
+filename /home/eric/data/trainset/images/abancay_16.tif
+filename /home/eric/data/trainset/labels/abancay_16.tif
+filename /home/eric/data/trainset/images/soriano_19.tif
+filename /home/eric/data/trainset/labels/soriano_19.tif
+filename /home/eric/data/trainset/images/dortmund_18.tif
+filename /home/eric/data/trainset/labels/dortmund_18.tif
+filename /home/eric/data/trainset/images/tyrolw_47.tif
+filename /home/eric/data/trainset/labels/tyrolw_47.tif
+filename /home/eric/data/trainset/images/accra_8.tif
+filename /home/eric/data/trainset/labels/accra_8.tif
+filename /home/eric/data/trainset/images/chicago_12.tif
+filename /home/eric/data/trainset/labels/chicago_12.tif
+filename Caching images and labels:  85%|████████▌ | 220/258 [00:06<00:01, 27.83it/s]Caching images and labels:  85%|████████▌ | 220/258 [00:06<00:01, 27.84it/s]Caching images and labels:  85%|████████▌ | 220/258 [00:06<00:01, 27.95it/s]Caching images and labels:  85%|████████▌ | 220/258 [00:06<00:01, 27.94it/s]Caching images and labels:  87%|████████▋ | 224/258 [00:06<00:01, 29.56it/s]Caching images and labels:  87%|████████▋ | 224/258 [00:06<00:01, 29.54it/s]Caching images and labels:  87%|████████▋ | 224/258 [00:06<00:01, 29.64it/s]Caching images and labels:  87%|████████▋ | 224/258 [00:06<00:01, 29.63it/s]Caching images and labels:  88%|████████▊ | 227/258 [00:06<00:01, 28.79it/s]Caching images and labels:  88%|████████▊ | 227/258 [00:06<00:01, 28.79it/s]Caching images and labels:  88%|████████▊ | 228/258 [00:06<00:01, 29.32it/s]Caching images and labels:  88%|████████▊ | 228/258 [00:06<00:01, 29.32it/s]Caching images and labels:  90%|████████▉ | 231/258 [00:07<00:00, 30.76it/s]Caching images and labels:  90%|████████▉ | 231/258 [00:07<00:00, 30.77it/s]Caching images and labels:  90%|████████▉ | 232/258 [00:07<00:00, 31.00it/s]Caching images and labels:  90%|████████▉ | 232/258 [00:07<00:00, 31.00it/s]Caching images and labels:  91%|█████████ | 235/258 [00:07<00:00, 31.22it/s]Caching images and labels:  91%|█████████ | 235/258 [00:07<00:00, 31.20it/s]Caching images and labels:  91%|█████████▏| 236/258 [00:07<00:00, 31.27it/s]Caching images and labels:  91%|█████████▏| 236/258 [00:07<00:00, 31.26it/s]Caching images and labels:  93%|█████████▎| 239/258 [00:07<00:00, 31.93it/s]Caching images and labels:  93%|█████████▎| 239/258 [00:07<00:00, 31.92it/s]Caching images and labels:  93%|█████████▎| 240/258 [00:07<00:00, 32.16it/s]Caching images and labels:  93%|█████████▎| 240/258 [00:07<00:00, 32.15it/s]Caching images and labels:  94%|█████████▍| 243/258 [00:07<00:00, 33.31it/s]Caching images and labels:  94%|█████████▍| 243/258 [00:07<00:00, 33.28it/s]Caching images and labels:  95%|█████████▍| 244/258 [00:07<00:00, 33.42it/s]Caching images and labels:  95%|█████████▍| 244/258 [00:07<00:00, 33.43it/s]Caching images and labels:  96%|█████████▌| 247/258 [00:07<00:00, 34.13it/s]Caching images and labels:  96%|█████████▌| 247/258 [00:07<00:00, 34.12it/s]Caching images and labels:  96%|█████████▌| 248/258 [00:07<00:00, 34.12it/s]Caching images and labels:  96%|█████████▌| 248/258 [00:07<00:00, 34.12it/s]Caching images and labels:  97%|█████████▋| 251/258 [00:07<00:00, 34.22it/s]Caching images and labels:  97%|█████████▋| 251/258 [00:07<00:00, 34.22it/s]Caching images and labels:  98%|█████████▊| 252/258 [00:07<00:00, 33.02it/s]Caching images and labels:  98%|█████████▊| 252/258 [00:07<00:00, 32.91it/s]Caching images and labels:  99%|█████████▉| 255/258 [00:07<00:00, 33.38it/s]Caching images and labels:  99%|█████████▉| 255/258 [00:07<00:00, 33.37it/s]Caching images and labels:  99%|█████████▉| 256/258 [00:07<00:00, 33.87it/s]Caching images and labels:  99%|█████████▉| 256/258 [00:07<00:00, 33.91it/s]Caching images and labels: 100%|██████████| 258/258 [00:07<00:00, 32.97it/s]
+Caching images and labels: 100%|██████████| 258/258 [00:07<00:00, 32.89it/s]
+Caching images and labels: 100%|██████████| 258/258 [00:07<00:00, 32.83it/s]
+Caching images and labels: 100%|██████████| 258/258 [00:07<00:00, 32.94it/s]
+/home/eric/data/trainset/images/muenster_58.tif
+filename /home/eric/data/trainset/labels/muenster_58.tif
+filename /home/eric/data/trainset/images/muenster_9.tif
+filename /home/eric/data/trainset/labels/muenster_9.tif
+filename /home/eric/data/trainset/images/soriano_1.tif
+filename /home/eric/data/trainset/labels/soriano_1.tif
+filename /home/eric/data/trainset/images/christchurch_49.tif
+filename /home/eric/data/trainset/labels/christchurch_49.tif
+filename /home/eric/data/trainset/images/svaneti_35.tif
+filename /home/eric/data/trainset/labels/svaneti_35.tif
+filename /home/eric/data/trainset/images/kujawsko-pomorskie_14.tif
+filename /home/eric/data/trainset/labels/kujawsko-pomorskie_14.tif
+filename /home/eric/data/trainset/images/santiago_59.tif
+filename /home/eric/data/trainset/labels/santiago_59.tif
+filename /home/eric/data/trainset/images/daressalaam_60.tif
+filename /home/eric/data/trainset/labels/daressalaam_60.tif
+filename /home/eric/data/trainset/images/muenster_53.tif
+filename /home/eric/data/trainset/labels/muenster_53.tif
+filename /home/eric/data/trainset/images/vienna_64.tif
+filename /home/eric/data/trainset/labels/vienna_64.tif
+filename /home/eric/data/trainset/images/rio_63.tif
+filename /home/eric/data/trainset/labels/rio_63.tif
+filename /home/eric/data/trainset/images/abancay_31.tif
+filename /home/eric/data/trainset/labels/abancay_31.tif
+filename /home/eric/data/trainset/images/tokyo_18.tif
+filename /home/eric/data/trainset/labels/tokyo_18.tif
+filename /home/eric/data/trainset/images/ulaanbaatar_24.tif
+filename /home/eric/data/trainset/labels/ulaanbaatar_24.tif
+filename /home/eric/data/trainset/images/kagera_20.tif
+filename /home/eric/data/trainset/labels/kagera_20.tif
+filename /home/eric/data/trainset/images/ulaanbaatar_42.tif
+filename /home/eric/data/trainset/labels/ulaanbaatar_42.tif
+filename /home/eric/data/trainset/images/bielefeld_51.tif
+filename /home/eric/data/trainset/labels/bielefeld_51.tif
+filename /home/eric/data/trainset/images/podlaskie_9.tif
+filename /home/eric/data/trainset/labels/podlaskie_9.tif
+filename /home/eric/data/trainset/images/lubuskie_15.tif
+filename /home/eric/data/trainset/labels/lubuskie_15.tif
+filename /home/eric/data/trainset/images/viru_10.tif
+filename /home/eric/data/trainset/labels/viru_10.tif
+filename /home/eric/data/trainset/images/podkarpackie_8.tif
+filename /home/eric/data/trainset/labels/podkarpackie_8.tif
+filename /home/eric/data/trainset/images/lodzkie_2.tif
+filename /home/eric/data/trainset/labels/lodzkie_2.tif
+filename /home/eric/data/trainset/images/al_qurnah_24.tif
+filename /home/eric/data/trainset/labels/al_qurnah_24.tif
+filename /home/eric/data/trainset/images/buenos_aires_67.tif
+filename /home/eric/data/trainset/labels/buenos_aires_67.tif
+filename /home/eric/data/trainset/images/ica_17.tif
+filename /home/eric/data/trainset/labels/ica_17.tif
+filename /home/eric/data/trainset/images/dowa_17.tif
+filename /home/eric/data/trainset/labels/dowa_17.tif
+filename /home/eric/data/trainset/images/accra_31.tif
+filename /home/eric/data/trainset/labels/accra_31.tif
+filename /home/eric/data/trainset/images/pomorskie_11.tif
+filename /home/eric/data/trainset/labels/pomorskie_11.tif
+filename /home/eric/data/trainset/images/ulaanbaatar_38.tif
+filename /home/eric/data/trainset/labels/ulaanbaatar_38.tif
+filename /home/eric/data/trainset/images/pisco_13.tif
+filename /home/eric/data/trainset/labels/pisco_13.tif
+filename /home/eric/data/trainset/images/baybay_37.tif
+filename /home/eric/data/trainset/labels/baybay_37.tif
+filename /home/eric/data/trainset/images/tonga_60.tif
+filename /home/eric/data/trainset/labels/tonga_60.tif
+filename /home/eric/data/trainset/images/wielkopolskie_15.tif
+filename /home/eric/data/trainset/labels/wielkopolskie_15.tif
+filename /home/eric/data/trainset/images/zachodniopomorskie_2.tif
+filename /home/eric/data/trainset/labels/zachodniopomorskie_2.tif
+filename /home/eric/data/trainset/images/dortmund_9.tif
+filename /home/eric/data/trainset/labels/dortmund_9.tif
+filename /home/eric/data/trainset/images/buenos_aires_31.tif
+filename /home/eric/data/trainset/labels/buenos_aires_31.tif
+filename /home/eric/data/trainset/images/san_tome_22.tif
+filename /home/eric/data/trainset/labels/san_tome_22.tif
+filename /home/eric/data/trainset/images/lubuskie_20.tif
+filename /home/eric/data/trainset/labels/lubuskie_20.tif
+filename /home/eric/data/trainset/images/viru_24.tif
+filename /home/eric/data/trainset/labels/viru_24.tif
+filename /home/eric/data/trainset/images/coxsbazar_63.tif
+filename /home/eric/data/trainset/labels/coxsbazar_63.tif
+filename /home/eric/data/trainset/images/ica_33.tif
+filename /home/eric/data/trainset/labels/ica_33.tif
+/home/eric/data/trainset/images/muenster_58.tif
+filename /home/eric/data/trainset/labels/muenster_58.tif
+filename /home/eric/data/trainset/images/muenster_9.tif
+filename /home/eric/data/trainset/labels/muenster_9.tif
+filename /home/eric/data/trainset/images/soriano_1.tif
+filename /home/eric/data/trainset/labels/soriano_1.tif
+filename /home/eric/data/trainset/images/christchurch_49.tif
+filename /home/eric/data/trainset/labels/christchurch_49.tif
+filename /home/eric/data/trainset/images/svaneti_35.tif
+filename /home/eric/data/trainset/labels/svaneti_35.tif
+filename /home/eric/data/trainset/images/kujawsko-pomorskie_14.tif
+filename /home/eric/data/trainset/labels/kujawsko-pomorskie_14.tif
+filename /home/eric/data/trainset/images/santiago_59.tif
+filename /home/eric/data/trainset/labels/santiago_59.tif
+filename /home/eric/data/trainset/images/daressalaam_60.tif
+filename /home/eric/data/trainset/labels/daressalaam_60.tif
+filename /home/eric/data/trainset/images/muenster_53.tif
+filename /home/eric/data/trainset/labels/muenster_53.tif
+filename /home/eric/data/trainset/images/vienna_64.tif
+filename /home/eric/data/trainset/labels/vienna_64.tif
+filename /home/eric/data/trainset/images/rio_63.tif
+filename /home/eric/data/trainset/labels/rio_63.tif
+filename /home/eric/data/trainset/images/abancay_31.tif
+filename /home/eric/data/trainset/labels/abancay_31.tif
+filename /home/eric/data/trainset/images/tokyo_18.tif
+filename /home/eric/data/trainset/labels/tokyo_18.tif
+filename /home/eric/data/trainset/images/ulaanbaatar_24.tif
+filename /home/eric/data/trainset/labels/ulaanbaatar_24.tif
+filename /home/eric/data/trainset/images/kagera_20.tif
+filename /home/eric/data/trainset/labels/kagera_20.tif
+filename /home/eric/data/trainset/images/ulaanbaatar_42.tif
+filename /home/eric/data/trainset/labels/ulaanbaatar_42.tif
+filename /home/eric/data/trainset/images/bielefeld_51.tif
+filename /home/eric/data/trainset/labels/bielefeld_51.tif
+filename /home/eric/data/trainset/images/podlaskie_9.tif
+filename /home/eric/data/trainset/labels/podlaskie_9.tif
+filename /home/eric/data/trainset/images/lubuskie_15.tif
+filename /home/eric/data/trainset/labels/lubuskie_15.tif
+filename /home/eric/data/trainset/images/viru_10.tif
+filename /home/eric/data/trainset/labels/viru_10.tif
+filename /home/eric/data/trainset/images/podkarpackie_8.tif
+filename /home/eric/data/trainset/labels/podkarpackie_8.tif
+filename /home/eric/data/trainset/images/lodzkie_2.tif
+filename /home/eric/data/trainset/labels/lodzkie_2.tif
+filename /home/eric/data/trainset/images/al_qurnah_24.tif
+filename /home/eric/data/trainset/labels/al_qurnah_24.tif
+filename /home/eric/data/trainset/images/buenos_aires_67.tif
+filename /home/eric/data/trainset/labels/buenos_aires_67.tif
+filename /home/eric/data/trainset/images/ica_17.tif
+filename /home/eric/data/trainset/labels/ica_17.tif
+filename /home/eric/data/trainset/images/dowa_17.tif
+filename /home/eric/data/trainset/labels/dowa_17.tif
+filename /home/eric/data/trainset/images/accra_31.tif
+filename /home/eric/data/trainset/labels/accra_31.tif
+filename /home/eric/data/trainset/images/pomorskie_11.tif
+filename /home/eric/data/trainset/labels/pomorskie_11.tif
+filename /home/eric/data/trainset/images/ulaanbaatar_38.tif
+filename /home/eric/data/trainset/labels/ulaanbaatar_38.tif
+filename /home/eric/data/trainset/images/pisco_13.tif
+filename /home/eric/data/trainset/labels/pisco_13.tif
+filename /home/eric/data/trainset/images/baybay_37.tif
+filename /home/eric/data/trainset/labels/baybay_37.tif
+filename /home/eric/data/trainset/images/tonga_60.tif
+filename /home/eric/data/trainset/labels/tonga_60.tif
+filename /home/eric/data/trainset/images/wielkopolskie_15.tif
+filename /home/eric/data/trainset/labels/wielkopolskie_15.tif
+filename /home/eric/data/trainset/images/zachodniopomorskie_2.tif
+filename /home/eric/data/trainset/labels/zachodniopomorskie_2.tif
+filename /home/eric/data/trainset/images/dortmund_9.tif
+filename /home/eric/data/trainset/labels/dortmund_9.tif
+filename /home/eric/data/trainset/images/buenos_aires_31.tif
+filename /home/eric/data/trainset/labels/buenos_aires_31.tif
+filename /home/eric/data/trainset/images/san_tome_22.tif
+filename /home/eric/data/trainset/labels/san_tome_22.tif
+filename /home/eric/data/trainset/images/lubuskie_20.tif
+filename /home/eric/data/trainset/labels/lubuskie_20.tif
+filename /home/eric/data/trainset/images/viru_24.tif
+filename /home/eric/data/trainset/labels/viru_24.tif
+filename /home/eric/data/trainset/images/coxsbazar_63.tif
+filename /home/eric/data/trainset/labels/coxsbazar_63.tif
+filename /home/eric/data/trainset/images/ica_33.tif
+filename /home/eric/data/trainset/labels/ica_33.tif
+Filtering pairs:   0%|          | 0/33153 [00:00<?, ?it/s]Filtering pairs:   0%|          | 0/33153 [00:00<?, ?it/s]/home/eric/data/trainset/images/muenster_58.tif
+filename /home/eric/data/trainset/labels/muenster_58.tif
+filename /home/eric/data/trainset/images/muenster_9.tif
+filename /home/eric/data/trainset/labels/muenster_9.tif
+filename /home/eric/data/trainset/images/soriano_1.tif
+filename /home/eric/data/trainset/labels/soriano_1.tif
+filename /home/eric/data/trainset/images/christchurch_49.tif
+filename /home/eric/data/trainset/labels/christchurch_49.tif
+filename /home/eric/data/trainset/images/svaneti_35.tif
+filename /home/eric/data/trainset/labels/svaneti_35.tif
+filename /home/eric/data/trainset/images/kujawsko-pomorskie_14.tif
+filename /home/eric/data/trainset/labels/kujawsko-pomorskie_14.tif
+filename /home/eric/data/trainset/images/santiago_59.tif
+filename /home/eric/data/trainset/labels/santiago_59.tif
+filename /home/eric/data/trainset/images/daressalaam_60.tif
+filename /home/eric/data/trainset/labels/daressalaam_60.tif
+filename /home/eric/data/trainset/images/muenster_53.tif
+filename /home/eric/data/trainset/labels/muenster_53.tif
+filename /home/eric/data/trainset/images/vienna_64.tif
+filename /home/eric/data/trainset/labels/vienna_64.tif
+filename /home/eric/data/trainset/images/rio_63.tif
+filename /home/eric/data/trainset/labels/rio_63.tif
+filename /home/eric/data/trainset/images/abancay_31.tif
+filename /home/eric/data/trainset/labels/abancay_31.tif
+filename /home/eric/data/trainset/images/tokyo_18.tif
+filename /home/eric/data/trainset/labels/tokyo_18.tif
+filename /home/eric/data/trainset/images/ulaanbaatar_24.tif
+filename /home/eric/data/trainset/labels/ulaanbaatar_24.tif
+filename /home/eric/data/trainset/images/kagera_20.tif
+filename /home/eric/data/trainset/labels/kagera_20.tif
+filename /home/eric/data/trainset/images/ulaanbaatar_42.tif
+filename /home/eric/data/trainset/labels/ulaanbaatar_42.tif
+filename /home/eric/data/trainset/images/bielefeld_51.tif
+filename /home/eric/data/trainset/labels/bielefeld_51.tif
+filename /home/eric/data/trainset/images/podlaskie_9.tif
+filename /home/eric/data/trainset/labels/podlaskie_9.tif
+filename /home/eric/data/trainset/images/lubuskie_15.tif
+filename /home/eric/data/trainset/labels/lubuskie_15.tif
+filename /home/eric/data/trainset/images/viru_10.tif
+filename /home/eric/data/trainset/labels/viru_10.tif
+filename /home/eric/data/trainset/images/podkarpackie_8.tif
+filename /home/eric/data/trainset/labels/podkarpackie_8.tif
+filename /home/eric/data/trainset/images/lodzkie_2.tif
+filename /home/eric/data/trainset/labels/lodzkie_2.tif
+filename /home/eric/data/trainset/images/al_qurnah_24.tif
+filename /home/eric/data/trainset/labels/al_qurnah_24.tif
+filename /home/eric/data/trainset/images/buenos_aires_67.tif
+filename /home/eric/data/trainset/labels/buenos_aires_67.tif
+filename /home/eric/data/trainset/images/ica_17.tif
+filename /home/eric/data/trainset/labels/ica_17.tif
+filename /home/eric/data/trainset/images/dowa_17.tif
+filename /home/eric/data/trainset/labels/dowa_17.tif
+filename /home/eric/data/trainset/images/accra_31.tif
+filename /home/eric/data/trainset/labels/accra_31.tif
+filename /home/eric/data/trainset/images/pomorskie_11.tif
+filename /home/eric/data/trainset/labels/pomorskie_11.tif
+filename /home/eric/data/trainset/images/ulaanbaatar_38.tif
+filename /home/eric/data/trainset/labels/ulaanbaatar_38.tif
+filename /home/eric/data/trainset/images/pisco_13.tif
+filename /home/eric/data/trainset/labels/pisco_13.tif
+filename /home/eric/data/trainset/images/baybay_37.tif
+filename /home/eric/data/trainset/labels/baybay_37.tif
+filename /home/eric/data/trainset/images/tonga_60.tif
+filename /home/eric/data/trainset/labels/tonga_60.tif
+filename /home/eric/data/trainset/images/wielkopolskie_15.tif
+filename /home/eric/data/trainset/labels/wielkopolskie_15.tif
+filename /home/eric/data/trainset/images/zachodniopomorskie_2.tif
+filename /home/eric/data/trainset/labels/zachodniopomorskie_2.tif
+filename /home/eric/data/trainset/images/dortmund_9.tif
+filename /home/eric/data/trainset/labels/dortmund_9.tif
+filename /home/eric/data/trainset/images/buenos_aires_31.tif
+filename /home/eric/data/trainset/labels/buenos_aires_31.tif
+filename /home/eric/data/trainset/images/san_tome_22.tif
+filename /home/eric/data/trainset/labels/san_tome_22.tif
+filename /home/eric/data/trainset/images/lubuskie_20.tif
+filename /home/eric/data/trainset/labels/lubuskie_20.tif
+filename /home/eric/data/trainset/images/viru_24.tif
+filename /home/eric/data/trainset/labels/viru_24.tif
+filename /home/eric/data/trainset/images/coxsbazar_63.tif
+filename /home/eric/data/trainset/labels/coxsbazar_63.tif
+filename /home/eric/data/trainset/images/ica_33.tif
+filename /home/eric/data/trainset/labels/ica_33.tif
+Filtering pairs:   0%|          | 0/33153 [00:00<?, ?it/s]/home/eric/data/trainset/images/muenster_58.tif
+filename /home/eric/data/trainset/labels/muenster_58.tif
+filename /home/eric/data/trainset/images/muenster_9.tif
+filename /home/eric/data/trainset/labels/muenster_9.tif
+filename /home/eric/data/trainset/images/soriano_1.tif
+filename /home/eric/data/trainset/labels/soriano_1.tif
+filename /home/eric/data/trainset/images/christchurch_49.tif
+filename /home/eric/data/trainset/labels/christchurch_49.tif
+filename /home/eric/data/trainset/images/svaneti_35.tif
+filename /home/eric/data/trainset/labels/svaneti_35.tif
+filename /home/eric/data/trainset/images/kujawsko-pomorskie_14.tif
+filename /home/eric/data/trainset/labels/kujawsko-pomorskie_14.tif
+filename /home/eric/data/trainset/images/santiago_59.tif
+filename /home/eric/data/trainset/labels/santiago_59.tif
+filename /home/eric/data/trainset/images/daressalaam_60.tif
+filename /home/eric/data/trainset/labels/daressalaam_60.tif
+filename /home/eric/data/trainset/images/muenster_53.tif
+filename /home/eric/data/trainset/labels/muenster_53.tif
+filename /home/eric/data/trainset/images/vienna_64.tif
+filename /home/eric/data/trainset/labels/vienna_64.tif
+filename /home/eric/data/trainset/images/rio_63.tif
+filename /home/eric/data/trainset/labels/rio_63.tif
+filename /home/eric/data/trainset/images/abancay_31.tif
+filename /home/eric/data/trainset/labels/abancay_31.tif
+filename /home/eric/data/trainset/images/tokyo_18.tif
+filename /home/eric/data/trainset/labels/tokyo_18.tif
+filename /home/eric/data/trainset/images/ulaanbaatar_24.tif
+filename /home/eric/data/trainset/labels/ulaanbaatar_24.tif
+filename /home/eric/data/trainset/images/kagera_20.tif
+filename /home/eric/data/trainset/labels/kagera_20.tif
+filename /home/eric/data/trainset/images/ulaanbaatar_42.tif
+filename /home/eric/data/trainset/labels/ulaanbaatar_42.tif
+filename /home/eric/data/trainset/images/bielefeld_51.tif
+filename /home/eric/data/trainset/labels/bielefeld_51.tif
+filename /home/eric/data/trainset/images/podlaskie_9.tif
+filename /home/eric/data/trainset/labels/podlaskie_9.tif
+filename /home/eric/data/trainset/images/lubuskie_15.tif
+filename /home/eric/data/trainset/labels/lubuskie_15.tif
+filename /home/eric/data/trainset/images/viru_10.tif
+filename /home/eric/data/trainset/labels/viru_10.tif
+filename /home/eric/data/trainset/images/podkarpackie_8.tif
+filename /home/eric/data/trainset/labels/podkarpackie_8.tif
+filename /home/eric/data/trainset/images/lodzkie_2.tif
+filename /home/eric/data/trainset/labels/lodzkie_2.tif
+filename /home/eric/data/trainset/images/al_qurnah_24.tif
+filename /home/eric/data/trainset/labels/al_qurnah_24.tif
+filename /home/eric/data/trainset/images/buenos_aires_67.tif
+filename /home/eric/data/trainset/labels/buenos_aires_67.tif
+filename /home/eric/data/trainset/images/ica_17.tif
+filename /home/eric/data/trainset/labels/ica_17.tif
+filename /home/eric/data/trainset/images/dowa_17.tif
+filename /home/eric/data/trainset/labels/dowa_17.tif
+filename /home/eric/data/trainset/images/accra_31.tif
+filename /home/eric/data/trainset/labels/accra_31.tif
+filename /home/eric/data/trainset/images/pomorskie_11.tif
+filename /home/eric/data/trainset/labels/pomorskie_11.tif
+filename /home/eric/data/trainset/images/ulaanbaatar_38.tif
+filename /home/eric/data/trainset/labels/ulaanbaatar_38.tif
+filename /home/eric/data/trainset/images/pisco_13.tif
+filename /home/eric/data/trainset/labels/pisco_13.tif
+filename /home/eric/data/trainset/images/baybay_37.tif
+filename /home/eric/data/trainset/labels/baybay_37.tif
+filename /home/eric/data/trainset/images/tonga_60.tif
+filename /home/eric/data/trainset/labels/tonga_60.tif
+filename /home/eric/data/trainset/images/wielkopolskie_15.tif
+filename /home/eric/data/trainset/labels/wielkopolskie_15.tif
+filename /home/eric/data/trainset/images/zachodniopomorskie_2.tif
+filename /home/eric/data/trainset/labels/zachodniopomorskie_2.tif
+filename /home/eric/data/trainset/images/dortmund_9.tif
+filename /home/eric/data/trainset/labels/dortmund_9.tif
+filename /home/eric/data/trainset/images/buenos_aires_31.tif
+filename /home/eric/data/trainset/labels/buenos_aires_31.tif
+filename /home/eric/data/trainset/images/san_tome_22.tif
+filename /home/eric/data/trainset/labels/san_tome_22.tif
+filename /home/eric/data/trainset/images/lubuskie_20.tif
+filename /home/eric/data/trainset/labels/lubuskie_20.tif
+filename /home/eric/data/trainset/images/viru_24.tif
+filename /home/eric/data/trainset/labels/viru_24.tif
+filename /home/eric/data/trainset/images/coxsbazar_63.tif
+filename /home/eric/data/trainset/labels/coxsbazar_63.tif
+filename /home/eric/data/trainset/images/ica_33.tif
+filename /home/eric/data/trainset/labels/ica_33.tif
+Filtering pairs:   0%|          | 0/33153 [00:00<?, ?it/s]Filtering pairs: 100%|██████████| 33153/33153 [00:00<00:00, 1231545.13it/s]
+Filtering pairs: 100%|██████████| 33153/33153 [00:00<00:00, 1226083.08it/s]
+Filtering pairs: 100%|██████████| 33153/33153 [00:00<00:00, 1201598.29it/s]
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/kyoto_50.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/accra_29.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/rotterdam_22.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/ngaoundere_36.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/kyoto_50.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/svaneti_13.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/accra_29.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/rotterdam_21.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/rotterdam_22.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/lohur_7.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/ngaoundere_36.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/al_qurnah_62.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/svaneti_13.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/kyoto_18.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/rotterdam_21.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/kyoto_65.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/lohur_7.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/lohur_29.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/al_qurnah_62.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/bielefeld_69.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/kyoto_18.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/duesseldorf_58.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/kyoto_65.tif as it does not exist
+Filtering pairs: 100%|██████████| 33153/33153 [00:00<00:00, 1166049.71it/s]
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/kyoto_50.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/maputo_6.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/lohur_29.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/bielefeld_69.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/accra_29.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/santiago_62.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/duesseldorf_58.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/rotterdam_22.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/lubuskie_23.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/maputo_6.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/ngaoundere_36.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/rotterdam_10.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/santiago_62.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/svaneti_13.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/lubuskie_23.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/rio_7.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/rotterdam_21.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/rotterdam_10.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/muenster_60.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/lohur_7.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/rio_7.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/tokyo_63.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/al_qurnah_62.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/muenster_60.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/tonga_64.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/kyoto_18.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/tokyo_63.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/shanghai_65.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/kyoto_65.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/tonga_64.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/monrovia_29.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/lohur_29.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/shanghai_65.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/tonga_48.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/bielefeld_69.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/monrovia_29.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/slaskie_28.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/duesseldorf_58.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/tonga_48.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/dolnoslaskie_38.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/slaskie_28.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/maputo_6.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/shanghai_26.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/dolnoslaskie_38.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/santiago_62.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/lima_15.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/shanghai_26.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/lubuskie_23.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/lima_15.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/lohur_11.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/rotterdam_10.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/lohur_11.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/kyoto_68.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/rio_7.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/kyoto_68.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/muenster_60.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/tokyo_63.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/tonga_64.tif as it does not exist
+Caching images and labels: 0it [00:00, ?it/s]Caching images and labels: 0it [00:00, ?it/s]WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/shanghai_65.tif as it does not exist
+Caching images and labels: 0it [00:00, ?it/s]WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/monrovia_29.tif as it does not exist
+
+Caching images and labels: 0it [00:00, ?it/s]
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/tonga_48.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/slaskie_28.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/dolnoslaskie_38.tif as it does not exist
+Filtering pairs: 0it [00:00, ?it/s]WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/shanghai_26.tif as it does not exist
+Filtering pairs: 0it [00:00, ?it/s]Filtering pairs: 0it [00:00, ?it/s]
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/lima_15.tif as it does not exist
+Filtering pairs: 0it [00:00, ?it/s]
+INFO:__mp_main__:Instantiating model and trainer agent
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/lohur_11.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/kyoto_68.tif as it does not exist
+Caching images and labels: 0it [00:00, ?it/s]Caching images and labels: 0it [00:00, ?it/s]
+Filtering pairs: 0it [00:00, ?it/s]Filtering pairs: 0it [00:00, ?it/s]
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/kyoto_50.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/accra_29.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/rotterdam_22.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/ngaoundere_36.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/svaneti_13.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/rotterdam_21.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/lohur_7.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/al_qurnah_62.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/kyoto_18.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/kyoto_65.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/lohur_29.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/bielefeld_69.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/duesseldorf_58.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/maputo_6.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/santiago_62.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/lubuskie_23.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/rotterdam_10.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/rio_7.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/muenster_60.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/tokyo_63.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/tonga_64.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/shanghai_65.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/monrovia_29.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/tonga_48.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/slaskie_28.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/dolnoslaskie_38.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/shanghai_26.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/lima_15.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/lohur_11.tif as it does not exist
+WARNING:OEMDataset:Skipping label path /home/eric/data/valset/labels/kyoto_68.tif as it does not exist
+Caching images and labels: 0it [00:00, ?it/s]Caching images and labels: 0it [00:00, ?it/s]
+Filtering pairs: 0it [00:00, ?it/s]Filtering pairs: 0it [00:00, ?it/s]
+Traceback (most recent call last):
+  File "/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/OEM-Few-Shot-Learnable-Prompt/train.py", line 93, in <module>
+    mp.spawn(main, nprocs=world_size, args=(world_size, train_args))
+  File "/home/eric/anaconda3/envs/fewshotseg3/lib/python3.9/site-packages/torch/multiprocessing/spawn.py", line 246, in spawn
+    return start_processes(fn, args, nprocs, join, daemon, start_method="spawn")
+  File "/home/eric/anaconda3/envs/fewshotseg3/lib/python3.9/site-packages/torch/multiprocessing/spawn.py", line 202, in start_processes
+    while not context.join():
+  File "/home/eric/anaconda3/envs/fewshotseg3/lib/python3.9/site-packages/torch/multiprocessing/spawn.py", line 114, in join
+    ready = multiprocessing.connection.wait(
+  File "/home/eric/anaconda3/envs/fewshotseg3/lib/python3.9/multiprocessing/connection.py", line 936, in wait
+    ready = selector.select(timeout)
+  File "/home/eric/anaconda3/envs/fewshotseg3/lib/python3.9/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
