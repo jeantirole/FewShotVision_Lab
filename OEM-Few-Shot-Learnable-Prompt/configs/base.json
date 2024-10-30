@@ -6,7 +6,7 @@
     "warmup_steps": 500,
     "min_lr": 0.00000001,
     "batch_size": 2,
-    "epoch": 100,
+    "epoch": 1, 
     "log_dir": "logs",
     "train_dataset_dir": "/home/eric/data/trainset",
     "val_dataset_dir": "/home/eric/data/valset",

@@ -1,10 +1,10 @@
 DATA:
   data_name: OpenEarthMap few-shot challenge
-  data_root:  # Download the 'valset' or 'testset' and set your data_root to the folder appropriately.
+  data_root: /home/eric/data_original/testset/ # Download the 'valset' or 'testset' and set your data_root to the folder appropriately.
   images_dir: images/  
   labels_dir: labels/
-  data_list_path: # Set to `data/val.json` for 'valset' and to `data/test.json` for 'testset'
-  novel_classes:  # Novel class names are below. Uncomment or comment the appropiate one
+  data_list_path: /home/eric/data_original/test.json # Set to `data/val.json` for 'valset' and to `data/test.json` for 'testset'
+  novel_classes: #[8,9,10,11] # Novel class names are below. Uncomment or comment the appropiate one
     #********************************# 
     # Novel classes for the 'valset' #
     #********************************# 
@@ -15,10 +15,10 @@ DATA:
     #*********************************# 
     # Novel classes for the 'testset' #
     #*********************************#
-    # 8: 'vehicle & cargo-trailer'
-    # 9: 'parking space'  
-    # 10: 'sport field'
-    # 11: 'building type 2'    
+    8: 'vehicle & cargo-trailer'
+    9: 'parking space'  
+    10: 'sport field'
+    11: 'building type 2'    
   workers: 4
   image_size: 1024
   mean: [0.4449, 0.4570, 0.3919] 
@@ -28,7 +28,7 @@ DATA:
 MODEL:
   model_name: PSPNet
   encoder_name: efficientnet-b4
-  pretrained:  # Download the model and set the pretrained path to `model.best.pth` file.
+  pretrained: /home/eric/model_ckpts/model.best.pth # Download the model and set the pretrained path to `model.best.pth` file.
 
 EVALUATION:
   shot: 5   # Only 5-shot is allowed.

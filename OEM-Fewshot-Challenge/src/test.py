@@ -154,6 +154,7 @@ def validate(args: argparse.Namespace, val_loader: torch.utils.data.DataLoader, 
                 cv2.imwrite(os.path.join('results/preds', fname + '.png'), pred)
     
     if q_label is None:
+        print("#--- q_label is None")
         return
           
     base_count, novel_count, sum_base_IoU, sum_novel_IoU = 4 * [0]
