@@ -126,7 +126,7 @@ def inference_image_with_crop(model, device, img_path, img2_paths, tgt2_paths, o
             final_out_color[col * col_size:(col + 1) * col_size, row * row_size:(row + 1) * row_size] = output
             final_out_label[col * col_size:(col + 1) * col_size, row * row_size:(row + 1) * row_size] = label
             final_out_image[col * col_size:(col + 1) * col_size, row * row_size:(row + 1) * row_size] = input_image
-
+    
     concat = np.concatenate((final_out_image, final_out_color), axis=1)
     final_out_color = Image.fromarray((final_out_color).astype(np.uint8))
     concat = Image.fromarray((concat).astype(np.uint8))

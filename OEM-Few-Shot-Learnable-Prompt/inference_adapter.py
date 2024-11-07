@@ -29,7 +29,7 @@ def run_one_image(img, tgt, model, device, mask=None):
 
     tgt = torch.tensor(tgt)
     tgt = torch.einsum('nhwc->nchw', tgt)
-
+    
     if mask is None:
         bool_masked_pos = torch.zeros(model.seggpt.patch_embed.num_patches)
         bool_masked_pos[model.seggpt.patch_embed.num_patches//2:] = 1
@@ -93,7 +93,12 @@ def inference_image_with_crop(model, device, img_path, class_idx, outdir, split=
 
     final_out_image = np.clip(final_out_image * 0.6 + final_out_color * 0.4, 0, 255)
     concat = np.concatenate((final_out_image, final_out_color), axis=1)
-    final_out_label = final_out_label * class_idx
+    #--------------------------------
+    if type(class_idx) == int:
+        final_out_label = final_out_label * class_idx
+    elif type(class_idx) == str:
+        final_out_label = final_out_label
+    #--------------------------------
     final_out_color = Image.fromarray((final_out_color).astype(np.uint8))
     concat = Image.fromarray((concat).astype(np.uint8))
     final_out_label = Image.fromarray((final_out_label).astype(np.uint8))
@@ -163,7 +168,11 @@ def inference_stitch(model, device, img_path, class_idx, tgt_path, lbl_path, out
         mask = mask[0].numpy()
 
         final_out_color[i1:i2, j1:j2] = output * mask + final_out_color[i1:i2, j1:j2] * (1 - mask)
-        final_out_label[i1:i2, j1:j2] = label * mask[:, :, 0] * class_idx + final_out_label[i1:i2, j1:j2] * (1 - mask[:, :, 0])
+        
+        if type(class_idx) == int:
+            final_out_label[i1:i2, j1:j2] = label * mask[:, :, 0] * class_idx + final_out_label[i1:i2, j1:j2] * (1 - mask[:, :, 0])
+        elif type(class_idx) == str:
+            final_out_label[i1:i2, j1:j2] = label * mask[:, :, 0] + final_out_label[i1:i2, j1:j2] * (1 - mask[:, :, 0])
 
     
     filename = os.path.basename(img_path).replace('.tif', '.png')

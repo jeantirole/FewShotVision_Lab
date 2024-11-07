@@ -394,7 +394,7 @@ class SegGPT(nn.Module):
         y = self.patch_embed(tgts)
         batch_size, Hp, Wp, _ = x.size()
         seq_len = Hp * Wp
-
+        
         mask_token = self.mask_token.expand(batch_size, Hp, Wp, -1)
         # replace the masked visual tokens by mask_token
         w = bool_masked_pos.unsqueeze(-1).type_as(mask_token).reshape(-1, Hp, Wp, 1)

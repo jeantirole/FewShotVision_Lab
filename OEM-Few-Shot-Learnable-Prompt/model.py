@@ -54,3 +54,4 @@ if __name__ == '__main__':
 
     adapter = AdapterSegGPT(model)
     result = adapter(a.unsqueeze(0), b.unsqueeze(0), c.unsqueeze(0), d.unsqueeze(0), e.unsqueeze(0))
+    

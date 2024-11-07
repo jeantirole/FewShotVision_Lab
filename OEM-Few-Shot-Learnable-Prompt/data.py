@@ -780,8 +780,11 @@ if __name__ == '__main__':
     print(len(dataset))
     # for i in tqdm(range(len(dataset))):
     #     a = dataset[i]
-    # img, label = dataset[0]
-    # img, label, mask, valid, seg_type, ori_label, color_palette = dataset[0]
+    #img, label = dataset[0]
+    img, label, mask, valid, seg_type, ori_label, color_palette = dataset[0]
+    print("img.shape", img.shape)
+    print("label.shape", label.shape)
+    print("mask.shape", mask.shape)
     # for i in range(len(dataset))
     # img = img.cpu().numpy()
     # label = label.cpu().numpy()

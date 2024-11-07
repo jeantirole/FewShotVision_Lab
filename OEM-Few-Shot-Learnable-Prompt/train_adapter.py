@@ -72,7 +72,10 @@ def main(rank: int, world_size: int, train_args: Dict, port: int):
 
     seggpt_model = seggpt_vit_large_patch16_input896x448()
     initial_ckpt = T.load(train_args['model_path'], map_location='cpu')
-    seggpt_model.load_state_dict(initial_ckpt['model_state_dict'], strict=False)
+    # vanilla seggpt 
+    seggpt_model.load_state_dict(initial_ckpt, strict = False)
+    # if mim base trained seggpt :
+    # seggpt_model.load_state_dict(initial_ckpt['model_state_dict'], strict=False)
     model = AdapterSegGPT(seggpt_model)
     logger.info('Frozen model loaded')
 
