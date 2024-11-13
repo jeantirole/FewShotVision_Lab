@@ -215,7 +215,7 @@ class Classifier(object):
             features_s : shape [num_novel_classes, shot, c, h, w]
             features_q : shape [batch_size_val, 1, c, h, w]
             gt_s : shape [num_novel_classes, shot, h, w]
-            valid_pixels_q : shape [batch_size_val, 1, h, w]
+            wd : shape [batch_size_val, 1, h, w]
         """
         l1, l2, l3, l4 = self.weights
 

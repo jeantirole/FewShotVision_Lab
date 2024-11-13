@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+trex/__init__.py
+trex/model_wrapper.py
+trex/version.py
+trex/visualize.py
+trex.egg-info/PKG-INFO
+trex.egg-info/SOURCES.txt
+trex.egg-info/dependency_links.txt
+trex.egg-info/requires.txt
+trex.egg-info/top_level.txt
