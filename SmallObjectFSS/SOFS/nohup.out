@@ -1,0 +1,1218 @@
+#---- cfg.Train.enable  True
+[11/17 20:44:26][INFO] train.py:   47: CfgNode({'NUM_GPUS': 4, 'RNG_SEED': 54, 'DEVICE': 3, 'DIST_BACKEND': 'nccl', 'OUTPUT_DIR': '/disk3/eric/log_FsSS_IVI_VISION_V1_ND_SOFS_54', 'DATASET': CfgNode({'name': 'VISION_V1_ND', 'split': 0, 'image_size': 518, 'mask_size': 518, 'unified_mask_size': 4500, 'rotate_min': -10, 'rotate_max': 10, 'area_resize_ratio': 0.01, 'crop_size': 518, 'crop_ratio': [1.0, 1.0], 'test_sample_repeated_multiple': 1, 'few_shot_repeated_multiple': 1, 'shot': 1, 's_in_shot': 4, 'sub_datasets': ['original'], 'transform_length_width_ratio': True, 'vision_data_save': True, 'vision_data_save_path': '/disk3/eric/dataset/VISION_SOFS', 'vision_data_load': False, 'normal_sample_sampling_prob': 0.3, 'open_domain_test_object': ['severstal_steel'], 'open_domain_object_category_num': [1], 'open_domain_specific_defect_category': [0]}), 'TRAIN': CfgNode({'enable': True, 'save_model': False, 'method': 'SOFS', 'backbone': 'dinov2_vitb14', 'backbone_load_state_dict': True, 'backbone_checkpoint': '/disk3/eric/weight/dinov2_vitb14_pretrain.pth', 'dataset_path': '/disk3/eric/dataset/VISION_SOFS', 'load_checkpoint': False, 'load_model_path': './', 'SOFS': CfgNode({'prior_layer_pointer': [5, 6, 7, 8, 9, 10], 'target_semantic_temperature': 0.1, 'transformer_nums_heads': 4, 'transformer_num_stages': 2, 'reduce_dim': 256, 'transformer_embed_dim': 256, 'meta_cls': True, 'normal_sim_aug': True, 'conv_vit_down_sampling': True, 'vit_patch_size': 14, 'smooth_r': 1.0}), 'LOSS': CfgNode({'dice_weight': 1.0, 'ce_weight': 0.01})}), 'TRAIN_SETUPS': CfgNode({'batch_size': 4, 'num_workers': 4, 'learning_rate': 1e-05, 'epochs': 50, 'optimizer_momentum': 0.9, 'weight_decay': 0.01, 'poly_training': True, 'lr_multiple': 2.0, 'TEST_SETUPS': CfgNode({'test_state': True, 'epoch_test': 50, 'train_miou': 50, 'val_state': False})}), 'TEST': CfgNode({'enable': False, 'method': 'SOFS', 'dataset_path': '/disk3/eric/dataset/VISION_SOFS', 'load_checkpoint': False, 'load_model_path': './save_model', 'semantic_threshold': 0.6, 'VISUALIZE': CfgNode({'save_figure': False, 'sample_prob': 0.2})}), 'TEST_SETUPS': CfgNode({'batch_size': 1, 'ND_batch_size': 4}), 'NUM_SHARDS': 1, 'SHARD_ID': 0})
+[11/17 20:44:26][INFO] train.py:   50: start main training!
+[11/17 20:44:26][INFO] train.py:   53: load dataset!
+[11/17 20:44:26][INFO] vision_v1_fsss_ND.py:   92: current training class is ['Console', 'Casting', 'Groove', 'Capacitor', 'PCB_2', 'Screw', 'Cylinder', 'Electronics', 'Lens']
+[11/17 20:45:44][INFO] vision_v1_fsss_ND.py:   98: current test class is ['PCB_1', 'Hemisphere', 'Wood', 'Ring', 'Cable']
+/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+[11/17 20:46:03][INFO] train.py:   62: load complete!
+[11/17 20:46:03][INFO] train.py:   70: current dataset is VISION_V1_ND_original.
+[11/17 20:46:03][INFO] train.py:   71: the data in current dataset VISION_V1_ND_original are 1530.
+[11/17 20:46:03][INFO] train.py:  118: current dataset is VISION_V1_ND_original.
+[11/17 20:46:03][INFO] train.py:  119: the test data in current dataset VISION_V1_ND_original are 940.
+[11/17 20:46:03][INFO] train.py:  135: load model!
+/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+[11/17 20:46:03][INFO] vision_transformer.py:  122: using MLP layer as FFN
+cfg.TRAIN. #------------------------------------  LOSS:
+  ce_weight: 0.01
+  dice_weight: 1.0
+SOFS:
+  conv_vit_down_sampling: True
+  meta_cls: True
+  normal_sim_aug: True
+  prior_layer_pointer: [5, 6, 7, 8, 9, 10]
+  reduce_dim: 256
+  smooth_r: 1.0
+  target_semantic_temperature: 0.1
+  transformer_embed_dim: 256
+  transformer_num_stages: 2
+  transformer_nums_heads: 4
+  vit_patch_size: 14
+backbone: dinov2_vitb14
+backbone_checkpoint: /disk3/eric/weight/dinov2_vitb14_pretrain.pth
+backbone_load_state_dict: True
+dataset_path: /disk3/eric/dataset/VISION_SOFS
+enable: True
+load_checkpoint: False
+load_model_path: ./
+method: SOFS
+save_model: False
+[11/17 20:46:04][INFO] train.py:  147: load optimizer!
+cfg.TRAIN. #------------------------------------  LOSS:
+  ce_weight: 0.01
+  dice_weight: 1.0
+SOFS:
+  conv_vit_down_sampling: True
+  meta_cls: True
+  normal_sim_aug: True
+  prior_layer_pointer: [5, 6, 7, 8, 9, 10]
+  reduce_dim: 256
+  smooth_r: 1.0
+  target_semantic_temperature: 0.1
+  transformer_embed_dim: 256
+  transformer_num_stages: 2
+  transformer_nums_heads: 4
+  vit_patch_size: 14
+backbone: dinov2_vitb14
+backbone_checkpoint: /disk3/eric/weight/dinov2_vitb14_pretrain.pth
+backbone_load_state_dict: True
+dataset_path: /disk3/eric/dataset/VISION_SOFS
+enable: True
+load_checkpoint: False
+load_model_path: ./
+method: SOFS
+save_model: False
+cfg.TRAIN. #------------------------------------  LOSS:
+  ce_weight: 0.01
+  dice_weight: 1.0
+SOFS:
+  conv_vit_down_sampling: True
+  meta_cls: True
+  normal_sim_aug: True
+  prior_layer_pointer: [5, 6, 7, 8, 9, 10]
+  reduce_dim: 256
+  smooth_r: 1.0
+  target_semantic_temperature: 0.1
+  transformer_embed_dim: 256
+  transformer_num_stages: 2
+  transformer_nums_heads: 4
+  vit_patch_size: 14
+backbone: dinov2_vitb14
+backbone_checkpoint: /disk3/eric/weight/dinov2_vitb14_pretrain.pth
+backbone_load_state_dict: True
+dataset_path: /disk3/eric/dataset/VISION_SOFS
+enable: True
+load_checkpoint: False
+load_model_path: ./
+method: SOFS
+save_model: False
+[11/17 20:46:04][INFO] epoch_train_eval_ss.py:   46: backbone eval mode, model train
+cfg.TRAIN. #------------------------------------  LOSS:
+  ce_weight: 0.01
+  dice_weight: 1.0
+SOFS:
+  conv_vit_down_sampling: True
+  meta_cls: True
+  normal_sim_aug: True
+  prior_layer_pointer: [5, 6, 7, 8, 9, 10]
+  reduce_dim: 256
+  smooth_r: 1.0
+  target_semantic_temperature: 0.1
+  transformer_embed_dim: 256
+  transformer_num_stages: 2
+  transformer_nums_heads: 4
+  vit_patch_size: 14
+backbone: dinov2_vitb14
+backbone_checkpoint: /disk3/eric/weight/dinov2_vitb14_pretrain.pth
+backbone_load_state_dict: True
+dataset_path: /disk3/eric/dataset/VISION_SOFS
+enable: True
+load_checkpoint: False
+load_model_path: ./
+method: SOFS
+save_model: False
+/home/eric/anaconda3/envs/sofs1/lib/python3.10/site-packages/torch/autograd/graph.py:744: UserWarning: Grad strides do not match bucket view strides. This may indicate grad was not created according to the gradient layout contract, or that the param's strides changed since DDP was constructed.  This is not an error, but may impair performance.
+grad.sizes() = [256, 1024, 1, 1], strides() = [1024, 1, 1024, 1024]
+bucket_view.sizes() = [256, 1024, 1, 1], strides() = [1024, 1, 1, 1] (Triggered internally at ../torch/csrc/distributed/c10d/reducer.cpp:325.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+/home/eric/anaconda3/envs/sofs1/lib/python3.10/site-packages/torch/autograd/graph.py:744: UserWarning: Grad strides do not match bucket view strides. This may indicate grad was not created according to the gradient layout contract, or that the param's strides changed since DDP was constructed.  This is not an error, but may impair performance.
+grad.sizes() = [256, 1024, 1, 1], strides() = [1024, 1, 1024, 1024]
+bucket_view.sizes() = [256, 1024, 1, 1], strides() = [1024, 1, 1, 1] (Triggered internally at ../torch/csrc/distributed/c10d/reducer.cpp:325.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+/home/eric/anaconda3/envs/sofs1/lib/python3.10/site-packages/torch/autograd/graph.py:744: UserWarning: Grad strides do not match bucket view strides. This may indicate grad was not created according to the gradient layout contract, or that the param's strides changed since DDP was constructed.  This is not an error, but may impair performance.
+grad.sizes() = [256, 1024, 1, 1], strides() = [1024, 1, 1024, 1024]
+bucket_view.sizes() = [256, 1024, 1, 1], strides() = [1024, 1, 1, 1] (Triggered internally at ../torch/csrc/distributed/c10d/reducer.cpp:325.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+/home/eric/anaconda3/envs/sofs1/lib/python3.10/site-packages/torch/autograd/graph.py:744: UserWarning: Grad strides do not match bucket view strides. This may indicate grad was not created according to the gradient layout contract, or that the param's strides changed since DDP was constructed.  This is not an error, but may impair performance.
+grad.sizes() = [256, 1024, 1, 1], strides() = [1024, 1, 1024, 1024]
+bucket_view.sizes() = [256, 1024, 1, 1], strides() = [1024, 1, 1, 1] (Triggered internally at ../torch/csrc/distributed/c10d/reducer.cpp:325.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+[11/17 20:48:27][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [1/50]: data_time: 0.57, batch_time: 1.30 loss: 0.7274, main_loss: 0.7274, FB_IOU/mRecall 0.5858/0.7706.
+[11/17 20:48:27][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9658/0.9723.
+[11/17 20:48:27][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.2058/0.5689.
+[11/17 20:50:50][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [2/50]: data_time: 0.57, batch_time: 1.29 loss: 0.5116, main_loss: 0.5116, FB_IOU/mRecall 0.7502/0.8323.
+[11/17 20:50:50][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9920/0.9961.
+[11/17 20:50:50][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5084/0.6686.
+[11/17 20:53:13][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [3/50]: data_time: 0.57, batch_time: 1.30 loss: 0.4473, main_loss: 0.4473, FB_IOU/mRecall 0.7419/0.8539.
+[11/17 20:53:13][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9918/0.9950.
+[11/17 20:53:13][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.4920/0.7127.
+[11/17 20:55:36][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [4/50]: data_time: 0.57, batch_time: 1.29 loss: 0.4217, main_loss: 0.4217, FB_IOU/mRecall 0.7361/0.8172.
+[11/17 20:55:36][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9899/0.9952.
+[11/17 20:55:36][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.4823/0.6391.
+[11/17 20:57:59][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [5/50]: data_time: 0.57, batch_time: 1.29 loss: 0.3977, main_loss: 0.3977, FB_IOU/mRecall 0.7567/0.8523.
+[11/17 20:57:59][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9902/0.9946.
+[11/17 20:57:59][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5231/0.7100.
+[11/17 21:00:22][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [6/50]: data_time: 0.57, batch_time: 1.30 loss: 0.4019, main_loss: 0.4019, FB_IOU/mRecall 0.7603/0.8603.
+[11/17 21:00:22][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9916/0.9951.
+[11/17 21:00:22][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5290/0.7255.
+[11/17 21:02:45][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [7/50]: data_time: 0.57, batch_time: 1.29 loss: 0.3802, main_loss: 0.3802, FB_IOU/mRecall 0.7541/0.8609.
+[11/17 21:02:45][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9915/0.9949.
+[11/17 21:02:45][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5167/0.7269.
+[11/17 21:05:08][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [8/50]: data_time: 0.57, batch_time: 1.29 loss: 0.4046, main_loss: 0.4046, FB_IOU/mRecall 0.7848/0.8864.
+[11/17 21:05:08][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9919/0.9951.
+[11/17 21:05:08][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5777/0.7776.
+[11/17 21:07:31][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [9/50]: data_time: 0.57, batch_time: 1.29 loss: 0.3827, main_loss: 0.3827, FB_IOU/mRecall 0.7466/0.8385.
+[11/17 21:07:31][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9910/0.9952.
+[11/17 21:07:31][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5022/0.6817.
+[11/17 21:09:53][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [10/50]: data_time: 0.57, batch_time: 1.29 loss: 0.3603, main_loss: 0.3603, FB_IOU/mRecall 0.7787/0.8915.
+[11/17 21:09:53][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9909/0.9941.
+[11/17 21:09:53][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5665/0.7889.
+[11/17 21:12:16][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [11/50]: data_time: 0.57, batch_time: 1.29 loss: 0.3595, main_loss: 0.3595, FB_IOU/mRecall 0.7878/0.8935.
+[11/17 21:12:16][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9916/0.9946.
+[11/17 21:12:16][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5840/0.7923.
+[11/17 21:14:39][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [12/50]: data_time: 0.57, batch_time: 1.30 loss: 0.3598, main_loss: 0.3598, FB_IOU/mRecall 0.7628/0.8720.
+[11/17 21:14:39][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9905/0.9941.
+[11/17 21:14:39][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5352/0.7498.
+[11/17 21:17:02][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [13/50]: data_time: 0.56, batch_time: 1.29 loss: 0.3633, main_loss: 0.3633, FB_IOU/mRecall 0.7730/0.8787.
+[11/17 21:17:02][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9910/0.9945.
+[11/17 21:17:02][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5550/0.7629.
+[11/17 21:19:25][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [14/50]: data_time: 0.57, batch_time: 1.29 loss: 0.3538, main_loss: 0.3538, FB_IOU/mRecall 0.7720/0.8836.
+[11/17 21:19:25][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9910/0.9942.
+[11/17 21:19:25][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5531/0.7729.
+[11/17 21:21:47][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [15/50]: data_time: 0.57, batch_time: 1.29 loss: 0.3432, main_loss: 0.3432, FB_IOU/mRecall 0.7960/0.9046.
+[11/17 21:21:47][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9915/0.9944.
+[11/17 21:21:47][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.6004/0.8148.
+[11/17 21:24:10][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [16/50]: data_time: 0.57, batch_time: 1.29 loss: 0.3663, main_loss: 0.3663, FB_IOU/mRecall 0.7697/0.8783.
+[11/17 21:24:10][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9916/0.9947.
+[11/17 21:24:10][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5478/0.7618.
+[11/17 21:26:33][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [17/50]: data_time: 0.56, batch_time: 1.29 loss: 0.3525, main_loss: 0.3525, FB_IOU/mRecall 0.7819/0.9004.
+[11/17 21:26:33][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9913/0.9941.
+[11/17 21:26:33][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5724/0.8068.
+[11/17 21:28:55][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [18/50]: data_time: 0.57, batch_time: 1.29 loss: 0.3527, main_loss: 0.3527, FB_IOU/mRecall 0.7637/0.8669.
+[11/17 21:28:55][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9906/0.9944.
+[11/17 21:28:55][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5369/0.7393.
+[11/17 21:31:21][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [19/50]: data_time: 0.59, batch_time: 1.32 loss: 0.3194, main_loss: 0.3194, FB_IOU/mRecall 0.7700/0.8804.
+[11/17 21:31:21][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9918/0.9948.
+[11/17 21:31:21][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5482/0.7660.
+[11/17 21:33:49][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [20/50]: data_time: 0.62, batch_time: 1.35 loss: 0.3498, main_loss: 0.3498, FB_IOU/mRecall 0.7795/0.8884.
+[11/17 21:33:49][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9904/0.9939.
+[11/17 21:33:49][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5686/0.7830.
+[11/17 21:36:17][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [21/50]: data_time: 0.62, batch_time: 1.35 loss: 0.3382, main_loss: 0.3382, FB_IOU/mRecall 0.7559/0.8623.
+[11/17 21:36:17][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9917/0.9950.
+[11/17 21:36:17][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5200/0.7295.
+[11/17 21:38:45][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [22/50]: data_time: 0.62, batch_time: 1.35 loss: 0.3476, main_loss: 0.3476, FB_IOU/mRecall 0.7873/0.8812.
+[11/17 21:38:45][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9911/0.9948.
+[11/17 21:38:45][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5835/0.7675.
+[11/17 21:41:12][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [23/50]: data_time: 0.62, batch_time: 1.34 loss: 0.3271, main_loss: 0.3271, FB_IOU/mRecall 0.7990/0.9064.
+[11/17 21:41:12][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9907/0.9938.
+[11/17 21:41:12][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.6073/0.8189.
+[11/17 21:43:40][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [24/50]: data_time: 0.62, batch_time: 1.35 loss: 0.3302, main_loss: 0.3302, FB_IOU/mRecall 0.7931/0.9128.
+[11/17 21:43:40][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9913/0.9939.
+[11/17 21:43:40][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5950/0.8317.
+[11/17 21:46:09][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [25/50]: data_time: 0.62, batch_time: 1.35 loss: 0.3612, main_loss: 0.3612, FB_IOU/mRecall 0.7723/0.8795.
+[11/17 21:46:09][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9915/0.9948.
+[11/17 21:46:09][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5531/0.7643.
+[11/17 21:48:37][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [26/50]: data_time: 0.62, batch_time: 1.35 loss: 0.3254, main_loss: 0.3254, FB_IOU/mRecall 0.7833/0.8976.
+[11/17 21:48:37][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9920/0.9947.
+[11/17 21:48:37][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5747/0.8006.
+[11/17 21:51:05][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [27/50]: data_time: 0.62, batch_time: 1.35 loss: 0.3344, main_loss: 0.3344, FB_IOU/mRecall 0.7586/0.8686.
+[11/17 21:51:05][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9908/0.9943.
+[11/17 21:51:05][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5265/0.7428.
+[11/17 21:53:33][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [28/50]: data_time: 0.62, batch_time: 1.35 loss: 0.3087, main_loss: 0.3087, FB_IOU/mRecall 0.7809/0.8993.
+[11/17 21:53:33][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9915/0.9942.
+[11/17 21:53:33][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5702/0.8043.
+[11/17 21:56:00][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [29/50]: data_time: 0.62, batch_time: 1.34 loss: 0.3359, main_loss: 0.3359, FB_IOU/mRecall 0.7853/0.9018.
+[11/17 21:56:00][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9917/0.9944.
+[11/17 21:56:00][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5788/0.8092.
+[11/17 21:58:28][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [30/50]: data_time: 0.62, batch_time: 1.35 loss: 0.3266, main_loss: 0.3266, FB_IOU/mRecall 0.7854/0.8821.
+[11/17 21:58:28][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9908/0.9946.
+[11/17 21:58:28][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5800/0.7697.
+[11/17 22:00:56][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [31/50]: data_time: 0.62, batch_time: 1.35 loss: 0.3134, main_loss: 0.3134, FB_IOU/mRecall 0.8092/0.9147.
+[11/17 22:00:56][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9926/0.9950.
+[11/17 22:00:56][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.6259/0.8343.
+[11/17 22:03:24][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [32/50]: data_time: 0.62, batch_time: 1.35 loss: 0.3031, main_loss: 0.3031, FB_IOU/mRecall 0.7952/0.9192.
+[11/17 22:03:24][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9917/0.9940.
+[11/17 22:03:24][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5988/0.8445.
+[11/17 22:05:52][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [33/50]: data_time: 0.63, batch_time: 1.35 loss: 0.3269, main_loss: 0.3269, FB_IOU/mRecall 0.7715/0.8785.
+[11/17 22:05:52][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9906/0.9942.
+[11/17 22:05:52][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5523/0.7627.
+[11/17 22:08:21][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [34/50]: data_time: 0.62, batch_time: 1.35 loss: 0.3403, main_loss: 0.3403, FB_IOU/mRecall 0.7674/0.8544.
+[11/17 22:08:21][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9908/0.9952.
+[11/17 22:08:21][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5440/0.7136.
+[11/17 22:10:49][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [35/50]: data_time: 0.63, batch_time: 1.35 loss: 0.2997, main_loss: 0.2997, FB_IOU/mRecall 0.7762/0.8687.
+[11/17 22:10:49][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9909/0.9949.
+[11/17 22:10:49][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5614/0.7424.
+[11/17 22:13:17][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [36/50]: data_time: 0.62, batch_time: 1.35 loss: 0.2948, main_loss: 0.2948, FB_IOU/mRecall 0.7680/0.8882.
+[11/17 22:13:17][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9923/0.9948.
+[11/17 22:13:17][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5437/0.7816.
+[11/17 22:15:44][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [37/50]: data_time: 0.62, batch_time: 1.34 loss: 0.3120, main_loss: 0.3120, FB_IOU/mRecall 0.7646/0.8685.
+[11/17 22:15:44][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9907/0.9944.
+[11/17 22:15:44][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5385/0.7426.
+[11/17 22:18:12][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [38/50]: data_time: 0.62, batch_time: 1.35 loss: 0.3207, main_loss: 0.3207, FB_IOU/mRecall 0.7896/0.9103.
+[11/17 22:18:12][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9918/0.9942.
+[11/17 22:18:12][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5874/0.8264.
+[11/17 22:20:40][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [39/50]: data_time: 0.62, batch_time: 1.35 loss: 0.3140, main_loss: 0.3140, FB_IOU/mRecall 0.8317/0.9355.
+[11/17 22:20:40][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9930/0.9950.
+[11/17 22:20:40][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.6704/0.8759.
+[11/17 22:23:08][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [40/50]: data_time: 0.62, batch_time: 1.34 loss: 0.2956, main_loss: 0.2956, FB_IOU/mRecall 0.7930/0.9109.
+[11/17 22:23:08][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9914/0.9940.
+[11/17 22:23:08][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5946/0.8278.
+[11/17 22:25:36][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [41/50]: data_time: 0.62, batch_time: 1.34 loss: 0.2910, main_loss: 0.2910, FB_IOU/mRecall 0.7825/0.8761.
+[11/17 22:25:36][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9903/0.9945.
+[11/17 22:25:36][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5747/0.7577.
+[11/17 22:28:04][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [42/50]: data_time: 0.63, batch_time: 1.35 loss: 0.2979, main_loss: 0.2979, FB_IOU/mRecall 0.7858/0.9090.
+[11/17 22:28:04][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9929/0.9950.
+[11/17 22:28:04][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5786/0.8229.
+[11/17 22:30:32][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [43/50]: data_time: 0.62, batch_time: 1.35 loss: 0.3248, main_loss: 0.3248, FB_IOU/mRecall 0.7748/0.8841.
+[11/17 22:30:32][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9925/0.9952.
+[11/17 22:30:32][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5572/0.7729.
+[11/17 22:33:00][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [44/50]: data_time: 0.62, batch_time: 1.35 loss: 0.2942, main_loss: 0.2942, FB_IOU/mRecall 0.8011/0.9113.
+[11/17 22:33:00][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9920/0.9946.
+[11/17 22:33:00][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.6101/0.8281.
+[11/17 22:35:28][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [45/50]: data_time: 0.62, batch_time: 1.35 loss: 0.3041, main_loss: 0.3041, FB_IOU/mRecall 0.8014/0.8919.
+[11/17 22:35:28][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9919/0.9953.
+[11/17 22:35:28][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.6108/0.7886.
+[11/17 22:37:56][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [46/50]: data_time: 0.62, batch_time: 1.35 loss: 0.2922, main_loss: 0.2922, FB_IOU/mRecall 0.7915/0.9088.
+[11/17 22:37:56][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9929/0.9951.
+[11/17 22:37:56][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5901/0.8226.
+[11/17 22:40:24][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [47/50]: data_time: 0.62, batch_time: 1.35 loss: 0.2955, main_loss: 0.2955, FB_IOU/mRecall 0.7785/0.8872.
+[11/17 22:40:24][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9902/0.9938.
+[11/17 22:40:24][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5669/0.7806.
+[11/17 22:42:52][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [48/50]: data_time: 0.63, batch_time: 1.35 loss: 0.3161, main_loss: 0.3161, FB_IOU/mRecall 0.7906/0.8977.
+[11/17 22:42:52][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9924/0.9951.
+[11/17 22:42:52][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5888/0.8003.
+[11/17 22:45:20][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [49/50]: data_time: 0.63, batch_time: 1.35 loss: 0.2879, main_loss: 0.2879, FB_IOU/mRecall 0.7982/0.9124.
+[11/17 22:45:20][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9921/0.9946.
+[11/17 22:45:20][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.6044/0.8302.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [50/50]: data_time: 0.63, batch_time: 1.35 loss: 0.2992, main_loss: 0.2992, FB_IOU/mRecall 0.7831/0.8831.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9920/0.9952.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5741/0.7710.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  173: current epoch is 50
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  174: meanIoU---Val result: mIoU_final 0.4215.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  176: <<<<<<< Every Class Results <<<<<<<
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  178: Console_1 Foreground Result: iou_f 0.3468.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  179: Console_1 Background Result: iou_b 0.9739.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  178: Console_0 Foreground Result: iou_f 0.4844.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  179: Console_0 Background Result: iou_b 0.9905.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  178: Console_2 Foreground Result: iou_f 0.4044.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  179: Console_2 Background Result: iou_b 0.9774.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  178: Console_3 Foreground Result: iou_f 0.3945.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  179: Console_3 Background Result: iou_b 0.9915.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  178: Casting_1 Foreground Result: iou_f 0.4172.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  179: Casting_1 Background Result: iou_b 0.9928.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  178: Casting_0 Foreground Result: iou_f 0.2872.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  179: Casting_0 Background Result: iou_b 0.9978.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  178: Groove_1 Foreground Result: iou_f 0.1856.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  179: Groove_1 Background Result: iou_b 0.9944.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  178: Groove_0 Foreground Result: iou_f 0.1699.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  179: Groove_0 Background Result: iou_b 0.9974.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  178: Capacitor_0 Foreground Result: iou_f 0.3474.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  179: Capacitor_0 Background Result: iou_b 0.9981.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  178: PCB_2_0 Foreground Result: iou_f 0.5027.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  179: PCB_2_0 Background Result: iou_b 0.9947.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  178: PCB_2_5 Foreground Result: iou_f 0.3974.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  179: PCB_2_5 Background Result: iou_b 0.9978.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  178: PCB_2_3 Foreground Result: iou_f 0.4473.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  179: PCB_2_3 Background Result: iou_b 0.9951.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  178: PCB_2_2 Foreground Result: iou_f 0.7146.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  179: PCB_2_2 Background Result: iou_b 0.9957.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  178: PCB_2_1 Foreground Result: iou_f 0.5464.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  179: PCB_2_1 Background Result: iou_b 0.9951.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  178: PCB_2_6 Foreground Result: iou_f 0.4532.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  179: PCB_2_6 Background Result: iou_b 0.9986.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  178: PCB_2_4 Foreground Result: iou_f 0.2294.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  179: PCB_2_4 Background Result: iou_b 0.9977.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  178: Screw_0 Foreground Result: iou_f 0.5321.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  179: Screw_0 Background Result: iou_b 0.9936.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  178: Cylinder_0 Foreground Result: iou_f 0.5284.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  179: Cylinder_0 Background Result: iou_b 0.9963.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  178: Cylinder_2 Foreground Result: iou_f 0.5351.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  179: Cylinder_2 Background Result: iou_b 0.9973.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  178: Cylinder_3 Foreground Result: iou_f 0.3895.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  179: Cylinder_3 Background Result: iou_b 0.9928.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  178: Cylinder_1 Foreground Result: iou_f 0.8860.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  179: Cylinder_1 Background Result: iou_b 0.9808.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  178: Electronics_0 Foreground Result: iou_f 0.4363.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  179: Electronics_0 Background Result: iou_b 0.9694.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  178: Lens_0 Foreground Result: iou_f 0.2510.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  179: Lens_0 Background Result: iou_b 0.9969.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  178: Lens_3 Foreground Result: iou_f 0.3591.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  179: Lens_3 Background Result: iou_b 0.9981.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  178: Lens_4 Foreground Result: iou_f 0.3888.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  179: Lens_4 Background Result: iou_b 0.9903.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  178: Lens_1 Foreground Result: iou_f 0.3091.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  179: Lens_1 Background Result: iou_b 0.9798.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  178: Lens_2 Foreground Result: iou_f 0.4377.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  179: Lens_2 Background Result: iou_b 0.9943.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  181: Class_0 Result: FB_IOU 0.9922.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  181: Class_1 Result: FB_IOU 0.5980.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  183: FBIoU---Val result: FBIoU 0.7951.
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  184: <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[11/17 22:47:49][INFO] epoch_train_eval_ss.py:  397: Start validate!
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  630: total test samples are 940
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  646: current epoch is 50
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  647: meanIoU---Val result: mIoU_final 0.2190.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  649: <<<<<<< Every Class Results <<<<<<<
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  651: PCB_1_1 Foreground Result: iou_f 0.4539.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  652: PCB_1_1 Background Result: iou_b 0.9995.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  651: PCB_1_0 Foreground Result: iou_f 0.5015.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  652: PCB_1_0 Background Result: iou_b 0.9993.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  651: PCB_1_5 Foreground Result: iou_f 0.2327.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  652: PCB_1_5 Background Result: iou_b 0.9991.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  651: PCB_1_2 Foreground Result: iou_f 0.3226.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  652: PCB_1_2 Background Result: iou_b 0.9994.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  651: PCB_1_3 Foreground Result: iou_f 0.2959.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  652: PCB_1_3 Background Result: iou_b 0.9993.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  651: PCB_1_4 Foreground Result: iou_f 0.2493.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  652: PCB_1_4 Background Result: iou_b 0.9992.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  651: Hemisphere_1 Foreground Result: iou_f 0.0511.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  652: Hemisphere_1 Background Result: iou_b 0.9958.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  651: Hemisphere_3 Foreground Result: iou_f 0.1029.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  652: Hemisphere_3 Background Result: iou_b 0.9986.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  651: Hemisphere_0 Foreground Result: iou_f 0.3152.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  652: Hemisphere_0 Background Result: iou_b 0.9986.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  651: Hemisphere_2 Foreground Result: iou_f 0.1129.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  652: Hemisphere_2 Background Result: iou_b 0.9988.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  651: Wood_1 Foreground Result: iou_f 0.1938.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  652: Wood_1 Background Result: iou_b 0.9971.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  651: Wood_0 Foreground Result: iou_f 0.0883.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  652: Wood_0 Background Result: iou_b 0.9952.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  651: Ring_1 Foreground Result: iou_f 0.0669.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  652: Ring_1 Background Result: iou_b 0.9952.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  651: Ring_0 Foreground Result: iou_f 0.1166.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  652: Ring_0 Background Result: iou_b 0.9988.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  651: Ring_2 Foreground Result: iou_f 0.2778.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  652: Ring_2 Background Result: iou_b 0.9749.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  651: Cable_0 Foreground Result: iou_f 0.0675.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  652: Cable_0 Background Result: iou_b 0.9675.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  651: Cable_1 Foreground Result: iou_f 0.2741.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  652: Cable_1 Background Result: iou_b 0.9854.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  654: Class_0 Result: FB_IOU 0.9950.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  654: Class_1 Result: FB_IOU 0.1554.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  656: FBIoU---Val result: FBIoU 0.5752.
+[11/17 22:55:33][INFO] epoch_train_eval_ss.py:  657: <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[11/17 22:55:33][INFO] train.py:  298: Method training phase complete!
+#---- cfg.Train.enable  True
+[11/17 22:55:44][INFO] train.py:   47: CfgNode({'NUM_GPUS': 4, 'RNG_SEED': 54, 'DEVICE': 3, 'DIST_BACKEND': 'nccl', 'OUTPUT_DIR': '/disk3/eric/log_FsSS_IVI_VISION_V1_ND_SOFS_54', 'DATASET': CfgNode({'name': 'VISION_V1_ND', 'split': 1, 'image_size': 518, 'mask_size': 518, 'unified_mask_size': 4500, 'rotate_min': -10, 'rotate_max': 10, 'area_resize_ratio': 0.005, 'crop_size': 518, 'crop_ratio': [1.0, 1.0], 'test_sample_repeated_multiple': 1, 'few_shot_repeated_multiple': 1, 'shot': 1, 's_in_shot': 4, 'sub_datasets': ['original'], 'transform_length_width_ratio': True, 'vision_data_save': True, 'vision_data_save_path': '/disk3/eric/dataset/VISION_SOFS', 'vision_data_load': False, 'normal_sample_sampling_prob': 0.3, 'open_domain_test_object': ['severstal_steel'], 'open_domain_object_category_num': [1], 'open_domain_specific_defect_category': [0]}), 'TRAIN': CfgNode({'enable': True, 'save_model': False, 'method': 'SOFS', 'backbone': 'dinov2_vitb14', 'backbone_load_state_dict': True, 'backbone_checkpoint': '/disk3/eric/weight/dinov2_vitb14_pretrain.pth', 'dataset_path': '/disk3/eric/dataset/VISION_SOFS', 'load_checkpoint': False, 'load_model_path': './', 'SOFS': CfgNode({'prior_layer_pointer': [5, 6, 7, 8, 9, 10], 'target_semantic_temperature': 0.1, 'transformer_nums_heads': 4, 'transformer_num_stages': 2, 'reduce_dim': 256, 'transformer_embed_dim': 256, 'meta_cls': True, 'normal_sim_aug': True, 'conv_vit_down_sampling': True, 'vit_patch_size': 14, 'smooth_r': 1.0}), 'LOSS': CfgNode({'dice_weight': 1.0, 'ce_weight': 0.01})}), 'TRAIN_SETUPS': CfgNode({'batch_size': 4, 'num_workers': 4, 'learning_rate': 1e-05, 'epochs': 50, 'optimizer_momentum': 0.9, 'weight_decay': 0.01, 'poly_training': True, 'lr_multiple': 2.0, 'TEST_SETUPS': CfgNode({'test_state': True, 'epoch_test': 50, 'train_miou': 50, 'val_state': False})}), 'TEST': CfgNode({'enable': False, 'method': 'SOFS', 'dataset_path': '/disk3/eric/dataset/VISION_SOFS', 'load_checkpoint': False, 'load_model_path': './save_model', 'semantic_threshold': 0.6, 'VISUALIZE': CfgNode({'save_figure': False, 'sample_prob': 0.2})}), 'TEST_SETUPS': CfgNode({'batch_size': 1, 'ND_batch_size': 4}), 'NUM_SHARDS': 1, 'SHARD_ID': 0})
+[11/17 22:55:44][INFO] train.py:   50: start main training!
+[11/17 22:55:44][INFO] train.py:   53: load dataset!
+[11/17 22:55:44][INFO] vision_v1_fsss_ND.py:   92: current training class is ['PCB_1', 'Groove', 'Cable', 'Hemisphere', 'Screw', 'Cylinder', 'Wood', 'Ring', 'Lens']
+/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+[11/17 22:56:42][INFO] vision_v1_fsss_ND.py:   98: current test class is ['Casting', 'Capacitor', 'PCB_2', 'Electronics', 'Console']
+[11/17 22:57:16][INFO] train.py:   62: load complete!
+[11/17 22:57:16][INFO] train.py:   70: current dataset is VISION_V1_ND_original.
+[11/17 22:57:16][INFO] train.py:   71: the data in current dataset VISION_V1_ND_original are 1678.
+[11/17 22:57:16][INFO] train.py:  118: current dataset is VISION_V1_ND_original.
+[11/17 22:57:16][INFO] train.py:  119: the test data in current dataset VISION_V1_ND_original are 792.
+[11/17 22:57:16][INFO] train.py:  135: load model!
+/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+[11/17 22:57:16][INFO] vision_transformer.py:  122: using MLP layer as FFN
+cfg.TRAIN. #------------------------------------  LOSS:
+  ce_weight: 0.01
+  dice_weight: 1.0
+SOFS:
+  conv_vit_down_sampling: True
+  meta_cls: True
+  normal_sim_aug: True
+  prior_layer_pointer: [5, 6, 7, 8, 9, 10]
+  reduce_dim: 256
+  smooth_r: 1.0
+  target_semantic_temperature: 0.1
+  transformer_embed_dim: 256
+  transformer_num_stages: 2
+  transformer_nums_heads: 4
+  vit_patch_size: 14
+backbone: dinov2_vitb14
+backbone_checkpoint: /disk3/eric/weight/dinov2_vitb14_pretrain.pth
+backbone_load_state_dict: True
+dataset_path: /disk3/eric/dataset/VISION_SOFS
+enable: True
+load_checkpoint: False
+load_model_path: ./
+method: SOFS
+save_model: False
+[11/17 22:57:17][INFO] train.py:  147: load optimizer!
+cfg.TRAIN. #------------------------------------  LOSS:
+  ce_weight: 0.01
+  dice_weight: 1.0
+SOFS:
+  conv_vit_down_sampling: True
+  meta_cls: True
+  normal_sim_aug: True
+  prior_layer_pointer: [5, 6, 7, 8, 9, 10]
+  reduce_dim: 256
+  smooth_r: 1.0
+  target_semantic_temperature: 0.1
+  transformer_embed_dim: 256
+  transformer_num_stages: 2
+  transformer_nums_heads: 4
+  vit_patch_size: 14
+backbone: dinov2_vitb14
+backbone_checkpoint: /disk3/eric/weight/dinov2_vitb14_pretrain.pth
+backbone_load_state_dict: True
+dataset_path: /disk3/eric/dataset/VISION_SOFS
+enable: True
+load_checkpoint: False
+load_model_path: ./
+method: SOFS
+save_model: False
+cfg.TRAIN. #------------------------------------  LOSS:
+  ce_weight: 0.01
+  dice_weight: 1.0
+SOFS:
+  conv_vit_down_sampling: True
+  meta_cls: True
+  normal_sim_aug: True
+  prior_layer_pointer: [5, 6, 7, 8, 9, 10]
+  reduce_dim: 256
+  smooth_r: 1.0
+  target_semantic_temperature: 0.1
+  transformer_embed_dim: 256
+  transformer_num_stages: 2
+  transformer_nums_heads: 4
+  vit_patch_size: 14
+backbone: dinov2_vitb14
+backbone_checkpoint: /disk3/eric/weight/dinov2_vitb14_pretrain.pth
+backbone_load_state_dict: True
+dataset_path: /disk3/eric/dataset/VISION_SOFS
+enable: True
+load_checkpoint: False
+load_model_path: ./
+method: SOFS
+save_model: False
+[11/17 22:57:17][INFO] epoch_train_eval_ss.py:   46: backbone eval mode, model train
+cfg.TRAIN. #------------------------------------  LOSS:
+  ce_weight: 0.01
+  dice_weight: 1.0
+SOFS:
+  conv_vit_down_sampling: True
+  meta_cls: True
+  normal_sim_aug: True
+  prior_layer_pointer: [5, 6, 7, 8, 9, 10]
+  reduce_dim: 256
+  smooth_r: 1.0
+  target_semantic_temperature: 0.1
+  transformer_embed_dim: 256
+  transformer_num_stages: 2
+  transformer_nums_heads: 4
+  vit_patch_size: 14
+backbone: dinov2_vitb14
+backbone_checkpoint: /disk3/eric/weight/dinov2_vitb14_pretrain.pth
+backbone_load_state_dict: True
+dataset_path: /disk3/eric/dataset/VISION_SOFS
+enable: True
+load_checkpoint: False
+load_model_path: ./
+method: SOFS
+save_model: False
+/home/eric/anaconda3/envs/sofs1/lib/python3.10/site-packages/torch/autograd/graph.py:744: UserWarning: Grad strides do not match bucket view strides. This may indicate grad was not created according to the gradient layout contract, or that the param's strides changed since DDP was constructed.  This is not an error, but may impair performance.
+grad.sizes() = [256, 1024, 1, 1], strides() = [1024, 1, 1024, 1024]
+bucket_view.sizes() = [256, 1024, 1, 1], strides() = [1024, 1, 1, 1] (Triggered internally at ../torch/csrc/distributed/c10d/reducer.cpp:325.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+/home/eric/anaconda3/envs/sofs1/lib/python3.10/site-packages/torch/autograd/graph.py:744: UserWarning: Grad strides do not match bucket view strides. This may indicate grad was not created according to the gradient layout contract, or that the param's strides changed since DDP was constructed.  This is not an error, but may impair performance.
+grad.sizes() = [256, 1024, 1, 1], strides() = [1024, 1, 1024, 1024]
+bucket_view.sizes() = [256, 1024, 1, 1], strides() = [1024, 1, 1, 1] (Triggered internally at ../torch/csrc/distributed/c10d/reducer.cpp:325.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+/home/eric/anaconda3/envs/sofs1/lib/python3.10/site-packages/torch/autograd/graph.py:744: UserWarning: Grad strides do not match bucket view strides. This may indicate grad was not created according to the gradient layout contract, or that the param's strides changed since DDP was constructed.  This is not an error, but may impair performance.
+grad.sizes() = [256, 1024, 1, 1], strides() = [1024, 1, 1024, 1024]
+bucket_view.sizes() = [256, 1024, 1, 1], strides() = [1024, 1, 1, 1] (Triggered internally at ../torch/csrc/distributed/c10d/reducer.cpp:325.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+/home/eric/anaconda3/envs/sofs1/lib/python3.10/site-packages/torch/autograd/graph.py:744: UserWarning: Grad strides do not match bucket view strides. This may indicate grad was not created according to the gradient layout contract, or that the param's strides changed since DDP was constructed.  This is not an error, but may impair performance.
+grad.sizes() = [256, 1024, 1, 1], strides() = [1024, 1, 1024, 1024]
+bucket_view.sizes() = [256, 1024, 1, 1], strides() = [1024, 1, 1, 1] (Triggered internally at ../torch/csrc/distributed/c10d/reducer.cpp:325.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+[11/17 22:59:38][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [1/50]: data_time: 0.43, batch_time: 1.15 loss: 0.7913, main_loss: 0.7913, FB_IOU/mRecall 0.5598/0.7148.
+[11/17 22:59:38][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9732/0.9787.
+[11/17 22:59:38][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.1464/0.4509.
+[11/17 23:01:59][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [2/50]: data_time: 0.43, batch_time: 1.15 loss: 0.7828, main_loss: 0.7828, FB_IOU/mRecall 0.6702/0.7792.
+[11/17 23:01:59][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9888/0.9934.
+[11/17 23:01:59][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3515/0.5650.
+[11/17 23:04:21][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [3/50]: data_time: 0.43, batch_time: 1.15 loss: 0.5018, main_loss: 0.5018, FB_IOU/mRecall 0.7621/0.8703.
+[11/17 23:04:21][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9932/0.9959.
+[11/17 23:04:21][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5309/0.7448.
+[11/17 23:06:42][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [4/50]: data_time: 0.43, batch_time: 1.15 loss: 0.4470, main_loss: 0.4470, FB_IOU/mRecall 0.7737/0.8761.
+[11/17 23:06:42][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9936/0.9961.
+[11/17 23:06:42][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5539/0.7561.
+[11/17 23:09:03][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [5/50]: data_time: 0.43, batch_time: 1.15 loss: 0.4023, main_loss: 0.4023, FB_IOU/mRecall 0.7946/0.8864.
+[11/17 23:09:03][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9940/0.9965.
+[11/17 23:09:03][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5952/0.7763.
+[11/17 23:11:24][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [6/50]: data_time: 0.43, batch_time: 1.15 loss: 0.4094, main_loss: 0.4094, FB_IOU/mRecall 0.8014/0.9084.
+[11/17 23:11:24][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9937/0.9958.
+[11/17 23:11:24][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.6090/0.8209.
+[11/17 23:13:45][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [7/50]: data_time: 0.43, batch_time: 1.15 loss: 0.3861, main_loss: 0.3861, FB_IOU/mRecall 0.7968/0.9017.
+[11/17 23:13:45][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9933/0.9957.
+[11/17 23:13:45][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.6003/0.8078.
+[11/17 23:16:06][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [8/50]: data_time: 0.43, batch_time: 1.15 loss: 0.3981, main_loss: 0.3981, FB_IOU/mRecall 0.7835/0.8884.
+[11/17 23:16:06][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9933/0.9958.
+[11/17 23:16:06][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5737/0.7810.
+[11/17 23:18:27][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [9/50]: data_time: 0.43, batch_time: 1.15 loss: 0.3850, main_loss: 0.3850, FB_IOU/mRecall 0.7849/0.8893.
+[11/17 23:18:27][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9931/0.9957.
+[11/17 23:18:27][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5768/0.7830.
+[11/17 23:20:48][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [10/50]: data_time: 0.43, batch_time: 1.15 loss: 0.4082, main_loss: 0.4082, FB_IOU/mRecall 0.7747/0.8954.
+[11/17 23:20:48][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9941/0.9960.
+[11/17 23:20:48][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5552/0.7948.
+[11/17 23:23:09][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [11/50]: data_time: 0.43, batch_time: 1.15 loss: 0.3877, main_loss: 0.3877, FB_IOU/mRecall 0.7824/0.9047.
+[11/17 23:23:09][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9930/0.9952.
+[11/17 23:23:09][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5718/0.8143.
+[11/17 23:25:30][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [12/50]: data_time: 0.43, batch_time: 1.15 loss: 0.3680, main_loss: 0.3680, FB_IOU/mRecall 0.7893/0.8922.
+[11/17 23:25:30][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9937/0.9961.
+[11/17 23:25:30][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5849/0.7883.
+[11/17 23:27:52][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [13/50]: data_time: 0.43, batch_time: 1.15 loss: 0.3705, main_loss: 0.3705, FB_IOU/mRecall 0.8026/0.8999.
+[11/17 23:27:52][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9931/0.9957.
+[11/17 23:27:52][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.6122/0.8041.
+[11/17 23:30:13][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [14/50]: data_time: 0.43, batch_time: 1.15 loss: 0.3953, main_loss: 0.3953, FB_IOU/mRecall 0.7692/0.8858.
+[11/17 23:30:13][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9931/0.9955.
+[11/17 23:30:13][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5453/0.7760.
+[11/17 23:32:34][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [15/50]: data_time: 0.43, batch_time: 1.15 loss: 0.3629, main_loss: 0.3629, FB_IOU/mRecall 0.7949/0.9179.
+[11/17 23:32:34][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9942/0.9958.
+[11/17 23:32:34][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5956/0.8401.
+[11/17 23:34:55][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [16/50]: data_time: 0.43, batch_time: 1.15 loss: 0.3882, main_loss: 0.3882, FB_IOU/mRecall 0.7934/0.9102.
+[11/17 23:34:55][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9947/0.9963.
+[11/17 23:34:55][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5922/0.8241.
+[11/17 23:37:16][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [17/50]: data_time: 0.42, batch_time: 1.15 loss: 0.3578, main_loss: 0.3578, FB_IOU/mRecall 0.7750/0.8863.
+[11/17 23:37:16][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9928/0.9954.
+[11/17 23:37:16][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5571/0.7772.
+[11/17 23:39:37][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [18/50]: data_time: 0.43, batch_time: 1.15 loss: 0.3868, main_loss: 0.3868, FB_IOU/mRecall 0.7682/0.8829.
+[11/17 23:39:37][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9930/0.9955.
+[11/17 23:39:37][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5433/0.7704.
+[11/17 23:42:01][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [19/50]: data_time: 0.46, batch_time: 1.18 loss: 0.3737, main_loss: 0.3737, FB_IOU/mRecall 0.7767/0.9083.
+[11/17 23:42:01][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9934/0.9952.
+[11/17 23:42:01][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5599/0.8213.
+[11/17 23:44:26][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [20/50]: data_time: 0.47, batch_time: 1.19 loss: 0.3634, main_loss: 0.3634, FB_IOU/mRecall 0.7927/0.9189.
+[11/17 23:44:26][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9933/0.9951.
+[11/17 23:44:26][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5921/0.8428.
+[11/17 23:46:51][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [21/50]: data_time: 0.47, batch_time: 1.19 loss: 0.3898, main_loss: 0.3898, FB_IOU/mRecall 0.7500/0.8631.
+[11/17 23:46:51][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9941/0.9963.
+[11/17 23:46:51][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5060/0.7298.
+[11/17 23:49:17][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [22/50]: data_time: 0.47, batch_time: 1.20 loss: 0.3570, main_loss: 0.3570, FB_IOU/mRecall 0.7807/0.9064.
+[11/17 23:49:17][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9943/0.9959.
+[11/17 23:49:17][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5672/0.8168.
+[11/17 23:51:42][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [23/50]: data_time: 0.47, batch_time: 1.19 loss: 0.3298, main_loss: 0.3298, FB_IOU/mRecall 0.7894/0.9303.
+[11/17 23:51:42][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9935/0.9949.
+[11/17 23:51:42][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5852/0.8656.
+[11/17 23:54:07][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [24/50]: data_time: 0.47, batch_time: 1.19 loss: 0.3450, main_loss: 0.3450, FB_IOU/mRecall 0.7687/0.8995.
+[11/17 23:54:07][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9932/0.9952.
+[11/17 23:54:07][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5442/0.8039.
+[11/17 23:56:32][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [25/50]: data_time: 0.47, batch_time: 1.19 loss: 0.3652, main_loss: 0.3652, FB_IOU/mRecall 0.8053/0.9216.
+[11/17 23:56:32][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9937/0.9955.
+[11/17 23:56:32][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.6170/0.8477.
+[11/17 23:58:58][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [26/50]: data_time: 0.47, batch_time: 1.19 loss: 0.3473, main_loss: 0.3473, FB_IOU/mRecall 0.8073/0.9397.
+[11/17 23:58:58][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9935/0.9949.
+[11/17 23:58:58][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.6210/0.8845.
+[11/18 00:01:23][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [27/50]: data_time: 0.47, batch_time: 1.19 loss: 0.3650, main_loss: 0.3650, FB_IOU/mRecall 0.7814/0.9002.
+[11/18 00:01:23][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9931/0.9953.
+[11/18 00:01:23][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5698/0.8051.
+[11/18 00:03:48][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [28/50]: data_time: 0.47, batch_time: 1.19 loss: 0.3645, main_loss: 0.3645, FB_IOU/mRecall 0.7766/0.8958.
+[11/18 00:03:48][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9936/0.9957.
+[11/18 00:03:48][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5595/0.7959.
+[11/18 00:06:13][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [29/50]: data_time: 0.46, batch_time: 1.19 loss: 0.3683, main_loss: 0.3683, FB_IOU/mRecall 0.7952/0.9176.
+[11/18 00:06:13][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9940/0.9957.
+[11/18 00:06:13][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5965/0.8396.
+[11/18 00:08:38][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [30/50]: data_time: 0.47, batch_time: 1.19 loss: 0.3412, main_loss: 0.3412, FB_IOU/mRecall 0.7916/0.9297.
+[11/18 00:08:38][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9945/0.9957.
+[11/18 00:08:38][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5887/0.8636.
+[11/18 00:11:03][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [31/50]: data_time: 0.47, batch_time: 1.19 loss: 0.3507, main_loss: 0.3507, FB_IOU/mRecall 0.8048/0.9218.
+[11/18 00:11:03][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9944/0.9960.
+[11/18 00:11:03][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.6152/0.8476.
+[11/18 00:13:29][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [32/50]: data_time: 0.47, batch_time: 1.19 loss: 0.3542, main_loss: 0.3542, FB_IOU/mRecall 0.7635/0.9028.
+[11/18 00:13:29][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9933/0.9951.
+[11/18 00:13:29][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5338/0.8105.
+[11/18 00:15:54][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [33/50]: data_time: 0.46, batch_time: 1.19 loss: 0.3379, main_loss: 0.3379, FB_IOU/mRecall 0.7889/0.9056.
+[11/18 00:15:54][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9938/0.9958.
+[11/18 00:15:54][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5840/0.8154.
+[11/18 00:18:19][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [34/50]: data_time: 0.47, batch_time: 1.19 loss: 0.3267, main_loss: 0.3267, FB_IOU/mRecall 0.7811/0.9194.
+[11/18 00:18:19][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9938/0.9953.
+[11/18 00:18:19][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5684/0.8435.
+[11/18 00:20:44][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [35/50]: data_time: 0.47, batch_time: 1.19 loss: 0.3283, main_loss: 0.3283, FB_IOU/mRecall 0.7923/0.9172.
+[11/18 00:20:44][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9945/0.9960.
+[11/18 00:20:44][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5901/0.8384.
+[11/18 00:23:09][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [36/50]: data_time: 0.47, batch_time: 1.19 loss: 0.3637, main_loss: 0.3637, FB_IOU/mRecall 0.7983/0.9220.
+[11/18 00:23:09][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9943/0.9958.
+[11/18 00:23:09][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.6024/0.8482.
+[11/18 00:25:35][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [37/50]: data_time: 0.47, batch_time: 1.19 loss: 0.3339, main_loss: 0.3339, FB_IOU/mRecall 0.8060/0.9349.
+[11/18 00:25:35][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9943/0.9956.
+[11/18 00:25:35][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.6177/0.8741.
+[11/18 00:28:00][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [38/50]: data_time: 0.47, batch_time: 1.19 loss: 0.3651, main_loss: 0.3651, FB_IOU/mRecall 0.7633/0.8911.
+[11/18 00:28:00][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9928/0.9950.
+[11/18 00:28:00][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5337/0.7872.
+[11/18 00:30:26][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [39/50]: data_time: 0.47, batch_time: 1.19 loss: 0.3413, main_loss: 0.3413, FB_IOU/mRecall 0.7980/0.9082.
+[11/18 00:30:26][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9935/0.9956.
+[11/18 00:30:26][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.6024/0.8207.
+[11/18 00:32:51][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [40/50]: data_time: 0.47, batch_time: 1.19 loss: 0.3497, main_loss: 0.3497, FB_IOU/mRecall 0.8032/0.9228.
+[11/18 00:32:51][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9928/0.9948.
+[11/18 00:32:51][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.6135/0.8508.
+[11/18 00:35:16][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [41/50]: data_time: 0.47, batch_time: 1.19 loss: 0.3414, main_loss: 0.3414, FB_IOU/mRecall 0.7866/0.9250.
+[11/18 00:35:16][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9941/0.9955.
+[11/18 00:35:16][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5791/0.8545.
+[11/18 00:37:41][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [42/50]: data_time: 0.47, batch_time: 1.19 loss: 0.3516, main_loss: 0.3516, FB_IOU/mRecall 0.7657/0.8902.
+[11/18 00:37:41][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9934/0.9955.
+[11/18 00:37:41][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5380/0.7848.
+[11/18 00:40:07][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [43/50]: data_time: 0.47, batch_time: 1.19 loss: 0.3330, main_loss: 0.3330, FB_IOU/mRecall 0.7905/0.9237.
+[11/18 00:40:07][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9943/0.9957.
+[11/18 00:40:07][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5868/0.8518.
+[11/18 00:42:32][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [44/50]: data_time: 0.47, batch_time: 1.19 loss: 0.3414, main_loss: 0.3414, FB_IOU/mRecall 0.8002/0.9222.
+[11/18 00:42:32][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9942/0.9958.
+[11/18 00:42:32][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.6062/0.8486.
+[11/18 00:44:57][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [45/50]: data_time: 0.47, batch_time: 1.19 loss: 0.3115, main_loss: 0.3115, FB_IOU/mRecall 0.8075/0.9294.
+[11/18 00:44:57][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9939/0.9955.
+[11/18 00:44:57][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.6212/0.8633.
+[11/18 00:47:22][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [46/50]: data_time: 0.47, batch_time: 1.19 loss: 0.3297, main_loss: 0.3297, FB_IOU/mRecall 0.7891/0.9201.
+[11/18 00:47:22][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9940/0.9956.
+[11/18 00:47:22][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5842/0.8446.
+[11/18 00:49:47][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [47/50]: data_time: 0.47, batch_time: 1.19 loss: 0.3354, main_loss: 0.3354, FB_IOU/mRecall 0.7645/0.9073.
+[11/18 00:49:47][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9936/0.9952.
+[11/18 00:49:47][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5354/0.8194.
+[11/18 00:52:13][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [48/50]: data_time: 0.47, batch_time: 1.19 loss: 0.3449, main_loss: 0.3449, FB_IOU/mRecall 0.7968/0.9172.
+[11/18 00:52:13][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9940/0.9957.
+[11/18 00:52:13][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5996/0.8387.
+[11/18 00:54:38][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [49/50]: data_time: 0.47, batch_time: 1.19 loss: 0.3343, main_loss: 0.3343, FB_IOU/mRecall 0.7843/0.9118.
+[11/18 00:54:38][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9943/0.9959.
+[11/18 00:54:38][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.5743/0.8277.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [50/50]: data_time: 0.47, batch_time: 1.20 loss: 0.3064, main_loss: 0.3064, FB_IOU/mRecall 0.8123/0.9231.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9938/0.9956.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.6308/0.8506.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  173: current epoch is 50
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  174: meanIoU---Val result: mIoU_final 0.4037.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  176: <<<<<<< Every Class Results <<<<<<<
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  178: PCB_1_4 Foreground Result: iou_f 0.4977.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  179: PCB_1_4 Background Result: iou_b 0.9979.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  178: PCB_1_1 Foreground Result: iou_f 0.5213.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  179: PCB_1_1 Background Result: iou_b 0.9980.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  178: PCB_1_3 Foreground Result: iou_f 0.4745.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  179: PCB_1_3 Background Result: iou_b 0.9967.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  178: PCB_1_0 Foreground Result: iou_f 0.6551.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  179: PCB_1_0 Background Result: iou_b 0.9984.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  178: PCB_1_5 Foreground Result: iou_f 0.5253.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  179: PCB_1_5 Background Result: iou_b 0.9957.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  178: PCB_1_2 Foreground Result: iou_f 0.4250.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  179: PCB_1_2 Background Result: iou_b 0.9954.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  178: Groove_0 Foreground Result: iou_f 0.2256.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  179: Groove_0 Background Result: iou_b 0.9980.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  178: Groove_1 Foreground Result: iou_f 0.2562.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  179: Groove_1 Background Result: iou_b 0.9966.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  178: Cable_1 Foreground Result: iou_f 0.5340.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  179: Cable_1 Background Result: iou_b 0.9901.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  178: Cable_0 Foreground Result: iou_f 0.3474.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  179: Cable_0 Background Result: iou_b 0.9861.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  178: Hemisphere_3 Foreground Result: iou_f 0.2472.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  179: Hemisphere_3 Background Result: iou_b 0.9976.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  178: Hemisphere_0 Foreground Result: iou_f 0.4530.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  179: Hemisphere_0 Background Result: iou_b 0.9974.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  178: Hemisphere_1 Foreground Result: iou_f 0.1607.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  179: Hemisphere_1 Background Result: iou_b 0.9918.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  178: Hemisphere_2 Foreground Result: iou_f 0.2707.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  179: Hemisphere_2 Background Result: iou_b 0.9976.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  178: Screw_0 Foreground Result: iou_f 0.5291.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  179: Screw_0 Background Result: iou_b 0.9939.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  178: Cylinder_2 Foreground Result: iou_f 0.4780.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  179: Cylinder_2 Background Result: iou_b 0.9965.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  178: Cylinder_1 Foreground Result: iou_f 0.8781.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  179: Cylinder_1 Background Result: iou_b 0.9793.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  178: Cylinder_0 Foreground Result: iou_f 0.4748.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  179: Cylinder_0 Background Result: iou_b 0.9961.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  178: Cylinder_3 Foreground Result: iou_f 0.3600.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  179: Cylinder_3 Background Result: iou_b 0.9918.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  178: Wood_1 Foreground Result: iou_f 0.3642.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  179: Wood_1 Background Result: iou_b 0.9933.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  178: Wood_0 Foreground Result: iou_f 0.3617.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  179: Wood_0 Background Result: iou_b 0.9970.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  178: Ring_1 Foreground Result: iou_f 0.1667.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  179: Ring_1 Background Result: iou_b 0.9920.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  178: Ring_2 Foreground Result: iou_f 0.4162.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  179: Ring_2 Background Result: iou_b 0.9748.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  178: Ring_0 Foreground Result: iou_f 0.3460.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  179: Ring_0 Background Result: iou_b 0.9982.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  178: Lens_3 Foreground Result: iou_f 0.3026.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  179: Lens_3 Background Result: iou_b 0.9972.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  178: Lens_0 Foreground Result: iou_f 0.2630.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  179: Lens_0 Background Result: iou_b 0.9957.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  178: Lens_4 Foreground Result: iou_f 0.3962.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  179: Lens_4 Background Result: iou_b 0.9902.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  178: Lens_1 Foreground Result: iou_f 0.4792.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  179: Lens_1 Background Result: iou_b 0.9821.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  178: Lens_2 Foreground Result: iou_f 0.2988.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  179: Lens_2 Background Result: iou_b 0.9914.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  181: Class_0 Result: FB_IOU 0.9938.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  181: Class_1 Result: FB_IOU 0.5930.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  183: FBIoU---Val result: FBIoU 0.7934.
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  184: <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[11/18 00:57:04][INFO] epoch_train_eval_ss.py:  397: Start validate!
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  630: total test samples are 792
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  646: current epoch is 50
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  647: meanIoU---Val result: mIoU_final 0.2320.
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  649: <<<<<<< Every Class Results <<<<<<<
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  651: Casting_1 Foreground Result: iou_f 0.2632.
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  652: Casting_1 Background Result: iou_b 0.9991.
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  651: Casting_0 Foreground Result: iou_f 0.0604.
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  652: Casting_0 Background Result: iou_b 0.9995.
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  651: Capacitor_0 Foreground Result: iou_f 0.1707.
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  652: Capacitor_0 Background Result: iou_b 0.9970.
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  651: PCB_2_3 Foreground Result: iou_f 0.3554.
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  652: PCB_2_3 Background Result: iou_b 0.9973.
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  651: PCB_2_0 Foreground Result: iou_f 0.1191.
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  652: PCB_2_0 Background Result: iou_b 0.9976.
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  651: PCB_2_2 Foreground Result: iou_f 0.2441.
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  652: PCB_2_2 Background Result: iou_b 0.9979.
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  651: PCB_2_6 Foreground Result: iou_f 0.4893.
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  652: PCB_2_6 Background Result: iou_b 0.9995.
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  651: PCB_2_1 Foreground Result: iou_f 0.3263.
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  652: PCB_2_1 Background Result: iou_b 0.9990.
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  651: PCB_2_4 Foreground Result: iou_f 0.2016.
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  652: PCB_2_4 Background Result: iou_b 0.9991.
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  651: PCB_2_5 Foreground Result: iou_f 0.4394.
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  652: PCB_2_5 Background Result: iou_b 0.9992.
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  651: Electronics_0 Foreground Result: iou_f 0.2173.
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  652: Electronics_0 Background Result: iou_b 0.9706.
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  651: Console_2 Foreground Result: iou_f 0.2223.
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  652: Console_2 Background Result: iou_b 0.9814.
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  651: Console_3 Foreground Result: iou_f 0.0535.
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  652: Console_3 Background Result: iou_b 0.9983.
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  651: Console_1 Foreground Result: iou_f 0.1040.
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  652: Console_1 Background Result: iou_b 0.9869.
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  651: Console_0 Foreground Result: iou_f 0.2132.
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  652: Console_0 Background Result: iou_b 0.9993.
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  654: Class_0 Result: FB_IOU 0.9935.
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  654: Class_1 Result: FB_IOU 0.1914.
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  656: FBIoU---Val result: FBIoU 0.5925.
+[11/18 01:06:07][INFO] epoch_train_eval_ss.py:  657: <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[11/18 01:06:07][INFO] train.py:  298: Method training phase complete!
+#---- cfg.Train.enable  True
+[11/18 01:06:20][INFO] train.py:   47: CfgNode({'NUM_GPUS': 4, 'RNG_SEED': 54, 'DEVICE': 3, 'DIST_BACKEND': 'nccl', 'OUTPUT_DIR': '/disk3/eric/log_FsSS_IVI_VISION_V1_ND_SOFS_54', 'DATASET': CfgNode({'name': 'VISION_V1_ND', 'split': 2, 'image_size': 518, 'mask_size': 518, 'unified_mask_size': 4500, 'rotate_min': -10, 'rotate_max': 10, 'area_resize_ratio': 0.01, 'crop_size': 518, 'crop_ratio': [1.0, 1.0], 'test_sample_repeated_multiple': 1, 'few_shot_repeated_multiple': 1, 'shot': 1, 's_in_shot': 4, 'sub_datasets': ['original'], 'transform_length_width_ratio': True, 'vision_data_save': True, 'vision_data_save_path': '/disk3/eric/dataset/VISION_SOFS', 'vision_data_load': False, 'normal_sample_sampling_prob': 0.3, 'open_domain_test_object': ['severstal_steel'], 'open_domain_object_category_num': [1], 'open_domain_specific_defect_category': [0]}), 'TRAIN': CfgNode({'enable': True, 'save_model': False, 'method': 'SOFS', 'backbone': 'dinov2_vitb14', 'backbone_load_state_dict': True, 'backbone_checkpoint': '/disk3/eric/weight/dinov2_vitb14_pretrain.pth', 'dataset_path': '/disk3/eric/dataset/VISION_SOFS', 'load_checkpoint': False, 'load_model_path': './', 'SOFS': CfgNode({'prior_layer_pointer': [5, 6, 7, 8, 9, 10], 'target_semantic_temperature': 0.1, 'transformer_nums_heads': 4, 'transformer_num_stages': 2, 'reduce_dim': 256, 'transformer_embed_dim': 256, 'meta_cls': True, 'normal_sim_aug': True, 'conv_vit_down_sampling': True, 'vit_patch_size': 14, 'smooth_r': 100000.0}), 'LOSS': CfgNode({'dice_weight': 1.0, 'ce_weight': 0.01})}), 'TRAIN_SETUPS': CfgNode({'batch_size': 4, 'num_workers': 4, 'learning_rate': 1e-05, 'epochs': 50, 'optimizer_momentum': 0.9, 'weight_decay': 0.01, 'poly_training': True, 'lr_multiple': 2.0, 'TEST_SETUPS': CfgNode({'test_state': True, 'epoch_test': 50, 'train_miou': 50, 'val_state': False})}), 'TEST': CfgNode({'enable': False, 'method': 'SOFS', 'dataset_path': '/disk3/eric/dataset/VISION_SOFS', 'load_checkpoint': False, 'load_model_path': './save_model', 'semantic_threshold': 0.6, 'VISUALIZE': CfgNode({'save_figure': False, 'sample_prob': 0.2})}), 'TEST_SETUPS': CfgNode({'batch_size': 1, 'ND_batch_size': 4}), 'NUM_SHARDS': 1, 'SHARD_ID': 0})
+[11/18 01:06:20][INFO] train.py:   50: start main training!
+[11/18 01:06:20][INFO] train.py:   53: load dataset!
+[11/18 01:06:20][INFO] vision_v1_fsss_ND.py:   92: current training class is ['Console', 'PCB_1', 'Casting', 'Cable', 'Hemisphere', 'Capacitor', 'PCB_2', 'Wood', 'Electronics', 'Ring']
+/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+[11/18 01:07:13][INFO] vision_v1_fsss_ND.py:   98: current test class is ['Groove', 'Lens', 'Screw', 'Cylinder']
+[11/18 01:07:47][INFO] train.py:   62: load complete!
+[11/18 01:07:47][INFO] train.py:   70: current dataset is VISION_V1_ND_original.
+[11/18 01:07:47][INFO] train.py:   71: the data in current dataset VISION_V1_ND_original are 1732.
+[11/18 01:07:47][INFO] train.py:  118: current dataset is VISION_V1_ND_original.
+[11/18 01:07:47][INFO] train.py:  119: the test data in current dataset VISION_V1_ND_original are 738.
+[11/18 01:07:47][INFO] train.py:  135: load model!
+/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+[11/18 01:07:47][INFO] vision_transformer.py:  122: using MLP layer as FFN
+cfg.TRAIN. #------------------------------------  LOSS:
+  ce_weight: 0.01
+  dice_weight: 1.0
+SOFS:
+  conv_vit_down_sampling: True
+  meta_cls: True
+  normal_sim_aug: True
+  prior_layer_pointer: [5, 6, 7, 8, 9, 10]
+  reduce_dim: 256
+  smooth_r: 100000.0
+  target_semantic_temperature: 0.1
+  transformer_embed_dim: 256
+  transformer_num_stages: 2
+  transformer_nums_heads: 4
+  vit_patch_size: 14
+backbone: dinov2_vitb14
+backbone_checkpoint: /disk3/eric/weight/dinov2_vitb14_pretrain.pth
+backbone_load_state_dict: True
+dataset_path: /disk3/eric/dataset/VISION_SOFS
+enable: True
+load_checkpoint: False
+load_model_path: ./
+method: SOFS
+save_model: False
+[11/18 01:07:48][INFO] train.py:  147: load optimizer!
+[11/18 01:07:48][INFO] epoch_train_eval_ss.py:   46: backbone eval mode, model train
+cfg.TRAIN. #------------------------------------  LOSS:
+  ce_weight: 0.01
+  dice_weight: 1.0
+SOFS:
+  conv_vit_down_sampling: True
+  meta_cls: True
+  normal_sim_aug: True
+  prior_layer_pointer: [5, 6, 7, 8, 9, 10]
+  reduce_dim: 256
+  smooth_r: 100000.0
+  target_semantic_temperature: 0.1
+  transformer_embed_dim: 256
+  transformer_num_stages: 2
+  transformer_nums_heads: 4
+  vit_patch_size: 14
+backbone: dinov2_vitb14
+backbone_checkpoint: /disk3/eric/weight/dinov2_vitb14_pretrain.pth
+backbone_load_state_dict: True
+dataset_path: /disk3/eric/dataset/VISION_SOFS
+enable: True
+load_checkpoint: False
+load_model_path: ./
+method: SOFS
+save_model: False
+cfg.TRAIN. #------------------------------------  LOSS:
+  ce_weight: 0.01
+  dice_weight: 1.0
+SOFS:
+  conv_vit_down_sampling: True
+  meta_cls: True
+  normal_sim_aug: True
+  prior_layer_pointer: [5, 6, 7, 8, 9, 10]
+  reduce_dim: 256
+  smooth_r: 100000.0
+  target_semantic_temperature: 0.1
+  transformer_embed_dim: 256
+  transformer_num_stages: 2
+  transformer_nums_heads: 4
+  vit_patch_size: 14
+backbone: dinov2_vitb14
+backbone_checkpoint: /disk3/eric/weight/dinov2_vitb14_pretrain.pth
+backbone_load_state_dict: True
+dataset_path: /disk3/eric/dataset/VISION_SOFS
+enable: True
+load_checkpoint: False
+load_model_path: ./
+method: SOFS
+save_model: False
+cfg.TRAIN. #------------------------------------  LOSS:
+  ce_weight: 0.01
+  dice_weight: 1.0
+SOFS:
+  conv_vit_down_sampling: True
+  meta_cls: True
+  normal_sim_aug: True
+  prior_layer_pointer: [5, 6, 7, 8, 9, 10]
+  reduce_dim: 256
+  smooth_r: 100000.0
+  target_semantic_temperature: 0.1
+  transformer_embed_dim: 256
+  transformer_num_stages: 2
+  transformer_nums_heads: 4
+  vit_patch_size: 14
+backbone: dinov2_vitb14
+backbone_checkpoint: /disk3/eric/weight/dinov2_vitb14_pretrain.pth
+backbone_load_state_dict: True
+dataset_path: /disk3/eric/dataset/VISION_SOFS
+enable: True
+load_checkpoint: False
+load_model_path: ./
+method: SOFS
+save_model: False
+/home/eric/anaconda3/envs/sofs1/lib/python3.10/site-packages/torch/autograd/graph.py:744: UserWarning: Grad strides do not match bucket view strides. This may indicate grad was not created according to the gradient layout contract, or that the param's strides changed since DDP was constructed.  This is not an error, but may impair performance.
+grad.sizes() = [256, 1024, 1, 1], strides() = [1024, 1, 1024, 1024]
+bucket_view.sizes() = [256, 1024, 1, 1], strides() = [1024, 1, 1, 1] (Triggered internally at ../torch/csrc/distributed/c10d/reducer.cpp:325.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+/home/eric/anaconda3/envs/sofs1/lib/python3.10/site-packages/torch/autograd/graph.py:744: UserWarning: Grad strides do not match bucket view strides. This may indicate grad was not created according to the gradient layout contract, or that the param's strides changed since DDP was constructed.  This is not an error, but may impair performance.
+grad.sizes() = [256, 1024, 1, 1], strides() = [1024, 1, 1024, 1024]
+bucket_view.sizes() = [256, 1024, 1, 1], strides() = [1024, 1, 1, 1] (Triggered internally at ../torch/csrc/distributed/c10d/reducer.cpp:325.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+/home/eric/anaconda3/envs/sofs1/lib/python3.10/site-packages/torch/autograd/graph.py:744: UserWarning: Grad strides do not match bucket view strides. This may indicate grad was not created according to the gradient layout contract, or that the param's strides changed since DDP was constructed.  This is not an error, but may impair performance.
+grad.sizes() = [256, 1024, 1, 1], strides() = [1024, 1, 1024, 1024]
+bucket_view.sizes() = [256, 1024, 1, 1], strides() = [1024, 1, 1, 1] (Triggered internally at ../torch/csrc/distributed/c10d/reducer.cpp:325.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+/home/eric/anaconda3/envs/sofs1/lib/python3.10/site-packages/torch/autograd/graph.py:744: UserWarning: Grad strides do not match bucket view strides. This may indicate grad was not created according to the gradient layout contract, or that the param's strides changed since DDP was constructed.  This is not an error, but may impair performance.
+grad.sizes() = [256, 1024, 1, 1], strides() = [1024, 1, 1024, 1024]
+bucket_view.sizes() = [256, 1024, 1, 1], strides() = [1024, 1, 1, 1] (Triggered internally at ../torch/csrc/distributed/c10d/reducer.cpp:325.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+[11/18 01:10:17][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [1/50]: data_time: 0.46, batch_time: 1.19 loss: 0.7643, main_loss: 0.7643, FB_IOU/mRecall 0.5623/0.6968.
+[11/18 01:10:17][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9771/0.9827.
+[11/18 01:10:17][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.1475/0.4110.
+[11/18 01:12:46][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [2/50]: data_time: 0.47, batch_time: 1.19 loss: 0.5870, main_loss: 0.5870, FB_IOU/mRecall 0.6574/0.7790.
+[11/18 01:12:46][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9912/0.9944.
+[11/18 01:12:46][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3236/0.5635.
+[11/18 01:15:16][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [3/50]: data_time: 0.47, batch_time: 1.20 loss: 0.5683, main_loss: 0.5683, FB_IOU/mRecall 0.6650/0.7939.
+[11/18 01:15:16][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9904/0.9937.
+[11/18 01:15:16][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3396/0.5940.
+[11/18 01:17:44][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [4/50]: data_time: 0.47, batch_time: 1.19 loss: 0.5322, main_loss: 0.5322, FB_IOU/mRecall 0.6566/0.7646.
+[11/18 01:17:44][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9895/0.9938.
+[11/18 01:17:44][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3237/0.5354.
+[11/18 01:20:13][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [5/50]: data_time: 0.47, batch_time: 1.19 loss: 0.5473, main_loss: 0.5473, FB_IOU/mRecall 0.6625/0.7628.
+[11/18 01:20:13][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9904/0.9946.
+[11/18 01:20:13][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3347/0.5310.
+[11/18 01:22:42][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [6/50]: data_time: 0.47, batch_time: 1.19 loss: 0.5222, main_loss: 0.5222, FB_IOU/mRecall 0.6603/0.7597.
+[11/18 01:22:42][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9904/0.9946.
+[11/18 01:22:42][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3302/0.5247.
+[11/18 01:25:11][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [7/50]: data_time: 0.47, batch_time: 1.19 loss: 0.5097, main_loss: 0.5097, FB_IOU/mRecall 0.6658/0.7901.
+[11/18 01:25:11][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9914/0.9945.
+[11/18 01:25:11][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3402/0.5856.
+[11/18 01:27:40][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [8/50]: data_time: 0.47, batch_time: 1.20 loss: 0.4861, main_loss: 0.4861, FB_IOU/mRecall 0.6731/0.7852.
+[11/18 01:27:40][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9909/0.9946.
+[11/18 01:27:40][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3553/0.5757.
+[11/18 01:30:08][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [9/50]: data_time: 0.47, batch_time: 1.19 loss: 0.4934, main_loss: 0.4934, FB_IOU/mRecall 0.6762/0.7487.
+[11/18 01:30:08][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9916/0.9963.
+[11/18 01:30:08][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3608/0.5012.
+[11/18 01:32:38][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [10/50]: data_time: 0.47, batch_time: 1.20 loss: 0.4891, main_loss: 0.4891, FB_IOU/mRecall 0.6858/0.7858.
+[11/18 01:32:38][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9921/0.9956.
+[11/18 01:32:38][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3795/0.5759.
+[11/18 01:35:07][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [11/50]: data_time: 0.47, batch_time: 1.20 loss: 0.4779, main_loss: 0.4779, FB_IOU/mRecall 0.6744/0.7682.
+[11/18 01:35:07][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9917/0.9956.
+[11/18 01:35:07][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3572/0.5409.
+[11/18 01:37:36][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [12/50]: data_time: 0.47, batch_time: 1.20 loss: 0.4690, main_loss: 0.4690, FB_IOU/mRecall 0.6645/0.7759.
+[11/18 01:37:36][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9917/0.9951.
+[11/18 01:37:36][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3372/0.5567.
+[11/18 01:40:06][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [13/50]: data_time: 0.47, batch_time: 1.20 loss: 0.4455, main_loss: 0.4455, FB_IOU/mRecall 0.6717/0.7794.
+[11/18 01:40:06][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9912/0.9949.
+[11/18 01:40:06][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3523/0.5639.
+[11/18 01:42:35][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [14/50]: data_time: 0.47, batch_time: 1.20 loss: 0.4358, main_loss: 0.4358, FB_IOU/mRecall 0.6793/0.7857.
+[11/18 01:42:35][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9918/0.9953.
+[11/18 01:42:35][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3667/0.5761.
+[11/18 01:45:04][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [15/50]: data_time: 0.47, batch_time: 1.20 loss: 0.4393, main_loss: 0.4393, FB_IOU/mRecall 0.6842/0.7969.
+[11/18 01:45:04][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9905/0.9943.
+[11/18 01:45:04][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3779/0.5994.
+[11/18 01:47:34][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [16/50]: data_time: 0.47, batch_time: 1.20 loss: 0.4446, main_loss: 0.4446, FB_IOU/mRecall 0.6877/0.7818.
+[11/18 01:47:34][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9923/0.9959.
+[11/18 01:47:34][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3830/0.5676.
+[11/18 01:50:03][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [17/50]: data_time: 0.47, batch_time: 1.20 loss: 0.4395, main_loss: 0.4395, FB_IOU/mRecall 0.6606/0.7798.
+[11/18 01:50:03][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9906/0.9941.
+[11/18 01:50:03][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3307/0.5654.
+[11/18 01:52:32][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [18/50]: data_time: 0.47, batch_time: 1.19 loss: 0.4510, main_loss: 0.4510, FB_IOU/mRecall 0.6723/0.7892.
+[11/18 01:52:32][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9907/0.9943.
+[11/18 01:52:32][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3538/0.5841.
+[11/18 01:55:05][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [19/50]: data_time: 0.50, batch_time: 1.23 loss: 0.4216, main_loss: 0.4216, FB_IOU/mRecall 0.6719/0.8003.
+[11/18 01:55:05][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9901/0.9936.
+[11/18 01:55:05][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3537/0.6069.
+[11/18 01:57:38][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [20/50]: data_time: 0.51, batch_time: 1.24 loss: 0.4507, main_loss: 0.4507, FB_IOU/mRecall 0.6797/0.8153.
+[11/18 01:57:38][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9907/0.9938.
+[11/18 01:57:38][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3688/0.6368.
+[11/18 02:00:12][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [21/50]: data_time: 0.51, batch_time: 1.24 loss: 0.4207, main_loss: 0.4207, FB_IOU/mRecall 0.6844/0.7812.
+[11/18 02:00:12][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9916/0.9954.
+[11/18 02:00:12][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3772/0.5669.
+[11/18 02:02:46][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [22/50]: data_time: 0.52, batch_time: 1.24 loss: 0.4070, main_loss: 0.4070, FB_IOU/mRecall 0.6911/0.7943.
+[11/18 02:02:46][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9918/0.9954.
+[11/18 02:02:46][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3904/0.5932.
+[11/18 02:05:20][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [23/50]: data_time: 0.52, batch_time: 1.24 loss: 0.4302, main_loss: 0.4302, FB_IOU/mRecall 0.6708/0.7944.
+[11/18 02:05:20][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9909/0.9942.
+[11/18 02:05:20][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3507/0.5946.
+[11/18 02:07:54][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [24/50]: data_time: 0.51, batch_time: 1.24 loss: 0.4377, main_loss: 0.4377, FB_IOU/mRecall 0.6793/0.7823.
+[11/18 02:07:54][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9901/0.9944.
+[11/18 02:07:54][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3684/0.5703.
+[11/18 02:10:27][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [25/50]: data_time: 0.51, batch_time: 1.24 loss: 0.4043, main_loss: 0.4043, FB_IOU/mRecall 0.6973/0.8072.
+[11/18 02:10:27][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9920/0.9953.
+[11/18 02:10:27][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.4026/0.6191.
+[11/18 02:13:01][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [26/50]: data_time: 0.51, batch_time: 1.24 loss: 0.4545, main_loss: 0.4545, FB_IOU/mRecall 0.6827/0.8178.
+[11/18 02:13:01][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9919/0.9946.
+[11/18 02:13:01][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3736/0.6411.
+[11/18 02:15:35][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [27/50]: data_time: 0.51, batch_time: 1.24 loss: 0.4114, main_loss: 0.4114, FB_IOU/mRecall 0.6888/0.8109.
+[11/18 02:15:35][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9914/0.9946.
+[11/18 02:15:35][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3862/0.6273.
+[11/18 02:18:08][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [28/50]: data_time: 0.51, batch_time: 1.24 loss: 0.4143, main_loss: 0.4143, FB_IOU/mRecall 0.6852/0.8060.
+[11/18 02:18:08][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9921/0.9951.
+[11/18 02:18:08][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3784/0.6170.
+[11/18 02:20:42][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [29/50]: data_time: 0.51, batch_time: 1.24 loss: 0.4124, main_loss: 0.4124, FB_IOU/mRecall 0.6819/0.7955.
+[11/18 02:20:42][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9919/0.9951.
+[11/18 02:20:42][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3718/0.5959.
+[11/18 02:23:16][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [30/50]: data_time: 0.51, batch_time: 1.24 loss: 0.4132, main_loss: 0.4132, FB_IOU/mRecall 0.6978/0.8130.
+[11/18 02:23:16][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9920/0.9951.
+[11/18 02:23:16][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.4037/0.6309.
+[11/18 02:25:50][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [31/50]: data_time: 0.51, batch_time: 1.24 loss: 0.3969, main_loss: 0.3969, FB_IOU/mRecall 0.6899/0.8168.
+[11/18 02:25:50][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9906/0.9940.
+[11/18 02:25:50][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3892/0.6396.
+[11/18 02:28:23][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [32/50]: data_time: 0.51, batch_time: 1.23 loss: 0.4167, main_loss: 0.4167, FB_IOU/mRecall 0.6824/0.8092.
+[11/18 02:28:23][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9923/0.9950.
+[11/18 02:28:23][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3726/0.6233.
+[11/18 02:30:57][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [33/50]: data_time: 0.51, batch_time: 1.24 loss: 0.4017, main_loss: 0.4017, FB_IOU/mRecall 0.6986/0.8441.
+[11/18 02:30:57][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9915/0.9940.
+[11/18 02:30:57][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.4057/0.6942.
+[11/18 02:33:31][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [34/50]: data_time: 0.51, batch_time: 1.24 loss: 0.4022, main_loss: 0.4022, FB_IOU/mRecall 0.6806/0.8133.
+[11/18 02:33:31][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9914/0.9943.
+[11/18 02:33:31][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3698/0.6323.
+[11/18 02:36:05][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [35/50]: data_time: 0.51, batch_time: 1.24 loss: 0.3974, main_loss: 0.3974, FB_IOU/mRecall 0.6772/0.8006.
+[11/18 02:36:05][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9912/0.9944.
+[11/18 02:36:05][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3632/0.6068.
+[11/18 02:38:38][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [36/50]: data_time: 0.51, batch_time: 1.24 loss: 0.3830, main_loss: 0.3830, FB_IOU/mRecall 0.6974/0.8039.
+[11/18 02:38:38][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9920/0.9954.
+[11/18 02:38:38][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.4028/0.6123.
+[11/18 02:41:12][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [37/50]: data_time: 0.51, batch_time: 1.24 loss: 0.3945, main_loss: 0.3945, FB_IOU/mRecall 0.6815/0.7827.
+[11/18 02:41:12][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9914/0.9952.
+[11/18 02:41:12][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3716/0.5702.
+[11/18 02:43:46][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [38/50]: data_time: 0.51, batch_time: 1.24 loss: 0.4068, main_loss: 0.4068, FB_IOU/mRecall 0.6980/0.8240.
+[11/18 02:43:46][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9914/0.9945.
+[11/18 02:43:46][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.4047/0.6535.
+[11/18 02:46:19][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [39/50]: data_time: 0.51, batch_time: 1.24 loss: 0.3867, main_loss: 0.3867, FB_IOU/mRecall 0.6828/0.8097.
+[11/18 02:46:19][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9922/0.9950.
+[11/18 02:46:19][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3735/0.6245.
+[11/18 02:48:53][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [40/50]: data_time: 0.51, batch_time: 1.24 loss: 0.3884, main_loss: 0.3884, FB_IOU/mRecall 0.6815/0.7970.
+[11/18 02:48:53][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9908/0.9944.
+[11/18 02:48:53][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3721/0.5995.
+[11/18 02:51:27][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [41/50]: data_time: 0.51, batch_time: 1.24 loss: 0.3805, main_loss: 0.3805, FB_IOU/mRecall 0.6828/0.8046.
+[11/18 02:51:27][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9908/0.9943.
+[11/18 02:51:27][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3748/0.6149.
+[11/18 02:54:01][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [42/50]: data_time: 0.51, batch_time: 1.24 loss: 0.3905, main_loss: 0.3905, FB_IOU/mRecall 0.6895/0.8117.
+[11/18 02:54:01][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9904/0.9940.
+[11/18 02:54:01][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3887/0.6295.
+[11/18 02:56:34][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [43/50]: data_time: 0.51, batch_time: 1.24 loss: 0.3554, main_loss: 0.3554, FB_IOU/mRecall 0.7048/0.8364.
+[11/18 02:56:34][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9917/0.9945.
+[11/18 02:56:34][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.4179/0.6784.
+[11/18 02:59:08][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [44/50]: data_time: 0.51, batch_time: 1.24 loss: 0.4066, main_loss: 0.4066, FB_IOU/mRecall 0.6713/0.7637.
+[11/18 02:59:08][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9908/0.9952.
+[11/18 02:59:08][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3518/0.5322.
+[11/18 03:01:41][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [45/50]: data_time: 0.51, batch_time: 1.24 loss: 0.4106, main_loss: 0.4106, FB_IOU/mRecall 0.6818/0.7922.
+[11/18 03:01:41][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9907/0.9946.
+[11/18 03:01:41][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3728/0.5898.
+[11/18 03:04:15][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [46/50]: data_time: 0.52, batch_time: 1.24 loss: 0.3587, main_loss: 0.3587, FB_IOU/mRecall 0.6834/0.8137.
+[11/18 03:04:15][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9904/0.9937.
+[11/18 03:04:15][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3765/0.6338.
+[11/18 03:06:49][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [47/50]: data_time: 0.51, batch_time: 1.24 loss: 0.3953, main_loss: 0.3953, FB_IOU/mRecall 0.6914/0.7907.
+[11/18 03:06:49][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9913/0.9952.
+[11/18 03:06:49][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3916/0.5862.
+[11/18 03:09:23][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [48/50]: data_time: 0.51, batch_time: 1.24 loss: 0.3838, main_loss: 0.3838, FB_IOU/mRecall 0.6908/0.8204.
+[11/18 03:09:23][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9915/0.9945.
+[11/18 03:09:23][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.3901/0.6462.
+[11/18 03:11:56][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [49/50]: data_time: 0.51, batch_time: 1.24 loss: 0.4107, main_loss: 0.4107, FB_IOU/mRecall 0.6986/0.8236.
+[11/18 03:11:56][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9919/0.9948.
+[11/18 03:11:56][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.4053/0.6523.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [50/50]: data_time: 0.51, batch_time: 1.24 loss: 0.3937, main_loss: 0.3937, FB_IOU/mRecall 0.6970/0.8084.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  133: Class_0 Result: FB_IOU/Recall 0.9928/0.9957.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  133: Class_1 Result: FB_IOU/Recall 0.4011/0.6210.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  173: current epoch is 50
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  174: meanIoU---Val result: mIoU_final 0.3881.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  176: <<<<<<< Every Class Results <<<<<<<
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  178: Console_2 Foreground Result: iou_f 0.3259.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  179: Console_2 Background Result: iou_b 0.9750.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  178: Console_1 Foreground Result: iou_f 0.3442.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  179: Console_1 Background Result: iou_b 0.9715.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  178: Console_0 Foreground Result: iou_f 0.4854.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  179: Console_0 Background Result: iou_b 0.9915.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  178: Console_3 Foreground Result: iou_f 0.3912.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  179: Console_3 Background Result: iou_b 0.9913.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  178: PCB_1_2 Foreground Result: iou_f 0.4992.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  179: PCB_1_2 Background Result: iou_b 0.9979.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  178: PCB_1_3 Foreground Result: iou_f 0.4792.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  179: PCB_1_3 Background Result: iou_b 0.9969.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  178: PCB_1_0 Foreground Result: iou_f 0.6902.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  179: PCB_1_0 Background Result: iou_b 0.9989.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  178: PCB_1_4 Foreground Result: iou_f 0.3878.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  179: PCB_1_4 Background Result: iou_b 0.9979.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  178: PCB_1_1 Foreground Result: iou_f 0.5287.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  179: PCB_1_1 Background Result: iou_b 0.9972.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  178: PCB_1_5 Foreground Result: iou_f 0.4510.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  179: PCB_1_5 Background Result: iou_b 0.9967.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  178: Casting_1 Foreground Result: iou_f 0.4283.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  179: Casting_1 Background Result: iou_b 0.9934.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  178: Casting_0 Foreground Result: iou_f 0.2198.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  179: Casting_0 Background Result: iou_b 0.9967.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  178: Cable_0 Foreground Result: iou_f 0.3137.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  179: Cable_0 Background Result: iou_b 0.9826.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  178: Cable_1 Foreground Result: iou_f 0.6099.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  179: Cable_1 Background Result: iou_b 0.9880.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  178: Hemisphere_3 Foreground Result: iou_f 0.2194.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  179: Hemisphere_3 Background Result: iou_b 0.9974.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  178: Hemisphere_2 Foreground Result: iou_f 0.2043.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  179: Hemisphere_2 Background Result: iou_b 0.9975.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  178: Hemisphere_1 Foreground Result: iou_f 0.1414.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  179: Hemisphere_1 Background Result: iou_b 0.9893.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  178: Hemisphere_0 Foreground Result: iou_f 0.4474.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  179: Hemisphere_0 Background Result: iou_b 0.9969.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  178: Capacitor_0 Foreground Result: iou_f 0.3055.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  179: Capacitor_0 Background Result: iou_b 0.9978.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  178: PCB_2_1 Foreground Result: iou_f 0.5512.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  179: PCB_2_1 Background Result: iou_b 0.9953.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  178: PCB_2_6 Foreground Result: iou_f 0.4118.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  179: PCB_2_6 Background Result: iou_b 0.9981.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  178: PCB_2_0 Foreground Result: iou_f 0.5004.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  179: PCB_2_0 Background Result: iou_b 0.9945.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  178: PCB_2_2 Foreground Result: iou_f 0.7319.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  179: PCB_2_2 Background Result: iou_b 0.9970.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  178: PCB_2_5 Foreground Result: iou_f 0.4322.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  179: PCB_2_5 Background Result: iou_b 0.9975.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  178: PCB_2_4 Foreground Result: iou_f 0.2410.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  179: PCB_2_4 Background Result: iou_b 0.9975.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  178: PCB_2_3 Foreground Result: iou_f 0.4035.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  179: PCB_2_3 Background Result: iou_b 0.9941.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  178: Wood_1 Foreground Result: iou_f 0.3305.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  179: Wood_1 Background Result: iou_b 0.9915.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  178: Wood_0 Foreground Result: iou_f 0.3023.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  179: Wood_0 Background Result: iou_b 0.9959.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  178: Electronics_0 Foreground Result: iou_f 0.4138.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  179: Electronics_0 Background Result: iou_b 0.9687.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  178: Ring_1 Foreground Result: iou_f 0.1829.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  179: Ring_1 Background Result: iou_b 0.9894.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  178: Ring_0 Foreground Result: iou_f 0.1536.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  179: Ring_0 Background Result: iou_b 0.9968.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  178: Ring_2 Foreground Result: iou_f 0.2917.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  179: Ring_2 Background Result: iou_b 0.9671.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  181: Class_0 Result: FB_IOU 0.9917.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  181: Class_1 Result: FB_IOU 0.3938.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  183: FBIoU---Val result: FBIoU 0.6927.
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  184: <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[11/18 03:14:30][INFO] epoch_train_eval_ss.py:  397: Start validate!
+[11/18 03:23:25][INFO] epoch_train_eval_ss.py:  630: total test samples are 740
+[11/18 03:23:25][INFO] epoch_train_eval_ss.py:  646: current epoch is 50
+[11/18 03:23:25][INFO] epoch_train_eval_ss.py:  647: meanIoU---Val result: mIoU_final 0.2054.
+[11/18 03:23:25][INFO] epoch_train_eval_ss.py:  649: <<<<<<< Every Class Results <<<<<<<
+[11/18 03:23:25][INFO] epoch_train_eval_ss.py:  651: Groove_1 Foreground Result: iou_f 0.0854.
+[11/18 03:23:25][INFO] epoch_train_eval_ss.py:  652: Groove_1 Background Result: iou_b 0.9973.
+[11/18 03:23:25][INFO] epoch_train_eval_ss.py:  651: Groove_0 Foreground Result: iou_f 0.0433.
+[11/18 03:23:25][INFO] epoch_train_eval_ss.py:  652: Groove_0 Background Result: iou_b 0.9982.
+[11/18 03:23:25][INFO] epoch_train_eval_ss.py:  651: Lens_2 Foreground Result: iou_f 0.0988.
+[11/18 03:23:25][INFO] epoch_train_eval_ss.py:  652: Lens_2 Background Result: iou_b 0.9986.
+[11/18 03:23:25][INFO] epoch_train_eval_ss.py:  651: Lens_3 Foreground Result: iou_f 0.0348.
+[11/18 03:23:25][INFO] epoch_train_eval_ss.py:  652: Lens_3 Background Result: iou_b 0.9974.
+[11/18 03:23:25][INFO] epoch_train_eval_ss.py:  651: Lens_0 Foreground Result: iou_f 0.1150.
+[11/18 03:23:25][INFO] epoch_train_eval_ss.py:  652: Lens_0 Background Result: iou_b 0.9978.
+[11/18 03:23:25][INFO] epoch_train_eval_ss.py:  651: Lens_1 Foreground Result: iou_f 0.1907.
+[11/18 03:23:25][INFO] epoch_train_eval_ss.py:  652: Lens_1 Background Result: iou_b 0.9965.
+[11/18 03:23:25][INFO] epoch_train_eval_ss.py:  651: Lens_4 Foreground Result: iou_f 0.1484.
+[11/18 03:23:25][INFO] epoch_train_eval_ss.py:  652: Lens_4 Background Result: iou_b 0.9967.
+[11/18 03:23:25][INFO] epoch_train_eval_ss.py:  651: Screw_0 Foreground Result: iou_f 0.4543.
+[11/18 03:23:25][INFO] epoch_train_eval_ss.py:  652: Screw_0 Background Result: iou_b 0.9983.
+[11/18 03:23:25][INFO] epoch_train_eval_ss.py:  651: Cylinder_1 Foreground Result: iou_f 0.8361.
+[11/18 03:23:25][INFO] epoch_train_eval_ss.py:  652: Cylinder_1 Background Result: iou_b 0.9634.
+[11/18 03:23:25][INFO] epoch_train_eval_ss.py:  651: Cylinder_2 Foreground Result: iou_f 0.1622.
+[11/18 03:23:25][INFO] epoch_train_eval_ss.py:  652: Cylinder_2 Background Result: iou_b 0.9960.
+[11/18 03:23:25][INFO] epoch_train_eval_ss.py:  651: Cylinder_3 Foreground Result: iou_f 0.1215.
+[11/18 03:23:25][INFO] epoch_train_eval_ss.py:  652: Cylinder_3 Background Result: iou_b 0.9935.
+[11/18 03:23:25][INFO] epoch_train_eval_ss.py:  651: Cylinder_0 Foreground Result: iou_f 0.1741.
+[11/18 03:23:25][INFO] epoch_train_eval_ss.py:  652: Cylinder_0 Background Result: iou_b 0.9955.
+[11/18 03:23:25][INFO] epoch_train_eval_ss.py:  654: Class_0 Result: FB_IOU 0.9954.
+[11/18 03:23:25][INFO] epoch_train_eval_ss.py:  654: Class_1 Result: FB_IOU 0.6858.
+[11/18 03:23:25][INFO] epoch_train_eval_ss.py:  656: FBIoU---Val result: FBIoU 0.8406.
+[11/18 03:23:25][INFO] epoch_train_eval_ss.py:  657: <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[11/18 03:23:25][INFO] train.py:  298: Method training phase complete!

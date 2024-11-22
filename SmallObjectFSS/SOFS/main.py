@@ -20,7 +20,7 @@ def main():
 
         # Perform training and test in each category.
         if cfg.TRAIN.enable:
-            print("#---- cfg.Train.enable ", cfg.TEST.enable)
+            print("#---- cfg.Train.enable ", cfg.TRAIN.enable)
             """
             todo in the new version
             include:

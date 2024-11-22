@@ -5,11 +5,6 @@ VISION_V1_split_train_dict = {
                 'Ring'],
 }
 
-# VISION_V1_split_train_dict = {
-#     "split_0": ['Console', 'Casting', 'Groove', 'Capacitor', 'PCB_2', 'Screw', 'Cylinder', 'Electronics', 'Lens',
-#                 "PCB_1", "Hemisphere", "Wood", "Ring", "Cable"]
-# }
-
 VISION_V1_split_train_val_dict = {
     "split_0": ['Console', 'Casting', 'Groove', 'Capacitor', 'PCB_2', 'Screw', 'Cylinder', 'Electronics', 'Lens'],
     "split_1": ['PCB_1', 'Groove', 'Cable', 'Hemisphere', 'Screw', 'Cylinder', 'Wood', 'Ring', 'Lens'],
@@ -22,6 +17,22 @@ VISION_V1_split_test_dict = {
     "split_1": ["Casting", "Capacitor", "PCB_2", "Electronics", "Console"],
     "split_2": ["Groove", "Lens", "Screw", "Cylinder"],
 }
+
+
+# WEAPON_1 WEAPON_2 WEAPON_3 
+#----------------------------------------------------------
+VISION_V1_split_train_dict = {
+    "split_0": ['WEAPON_3']
+}
+
+VISION_V1_split_train_val_dict = {
+    "split_0": ['WEAPON_3']
+}
+
+VISION_V1_split_test_dict = {
+    "split_0": ['WEAPON_3']
+}
+#----------------------------------------------------------
 
 DS_Spectrum_DS_split_test_dict = {
     "split_0": [

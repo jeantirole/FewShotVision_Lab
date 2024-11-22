@@ -90,7 +90,7 @@ _C.TRAIN.LOSS.ce_weight = 0.01
 
 _C.TRAIN_SETUPS = CfgNode()
 _C.TRAIN_SETUPS.batch_size = 4
-_C.TRAIN_SETUPS.num_workers = 8
+_C.TRAIN_SETUPS.num_workers = 2
 _C.TRAIN_SETUPS.learning_rate = 1e-5
 _C.TRAIN_SETUPS.epochs = 50
 _C.TRAIN_SETUPS.optimizer_momentum = 0.9

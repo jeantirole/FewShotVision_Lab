@@ -77,6 +77,9 @@ def obtain_filename_segmentation_category_dict(path):
             attribute_dict[i["image_id"]] = []
 
         attribute_dict[i["image_id"]].append(i)
+        
+    #---- 
+    #print("attribute_dict@@", attribute_dict)
 
     # scan json convert to segmentation (polygon)
     filename_segmentation_category = {}
@@ -94,6 +97,9 @@ def obtain_filename_segmentation_category_dict(path):
         temp_cate = []
 
         count_mask = 0
+        
+        print("attribute_dict.keys",attribute_dict.keys())
+        print("id_key : #---------------------", id_key)
         for each_attribute in attribute_dict[id_key]:
             mask = each_attribute["segmentation"]
             category_id = each_attribute['category_id']
@@ -136,7 +142,8 @@ def get_index1(lst=None, item=''):
 
 def generate_category_filename(category_num, filename_segmentation_category):
     category_filename = {}
-
+    #print("#--- debug filename_segmentation_category : ", filename_segmentation_category)
+    
     for i in range(category_num):
         category_filename[i] = []
 

@@ -1,0 +1,25 @@
+[11/17 19:17:44][INFO] train.py:   47: CfgNode({'NUM_GPUS': 4, 'RNG_SEED': 54, 'DEVICE': 3, 'DIST_BACKEND': 'nccl', 'OUTPUT_DIR': './log_FsSS_IVI_VISION_V1_ND_SOFS_54', 'DATASET': CfgNode({'name': 'VISION_V1_ND', 'split': 0, 'image_size': 518, 'mask_size': 518, 'unified_mask_size': 4500, 'rotate_min': -10, 'rotate_max': 10, 'area_resize_ratio': 0.01, 'crop_size': 518, 'crop_ratio': [1.0, 1.0], 'test_sample_repeated_multiple': 1, 'few_shot_repeated_multiple': 1, 'shot': 1, 's_in_shot': 4, 'sub_datasets': ['original'], 'transform_length_width_ratio': True, 'vision_data_save': True, 'vision_data_save_path': '/home/eric/data/anomaly_detection_data/output', 'vision_data_load': False, 'normal_sample_sampling_prob': 0.3, 'open_domain_test_object': ['severstal_steel'], 'open_domain_object_category_num': [1], 'open_domain_specific_defect_category': [0]}), 'TRAIN': CfgNode({'enable': True, 'save_model': False, 'method': 'SOFS', 'backbone': 'dinov2_vitb14', 'backbone_load_state_dict': True, 'backbone_checkpoint': '/home/eric/data/weight/dinov2_vitb14_pretrain.pth', 'dataset_path': '/home/eric/data/anomaly_detection_data/PCB_1', 'load_checkpoint': False, 'load_model_path': './', 'SOFS': CfgNode({'prior_layer_pointer': [5, 6, 7, 8, 9, 10], 'target_semantic_temperature': 0.1, 'transformer_nums_heads': 4, 'transformer_num_stages': 2, 'reduce_dim': 256, 'transformer_embed_dim': 256, 'meta_cls': True, 'normal_sim_aug': True, 'conv_vit_down_sampling': True, 'vit_patch_size': 14, 'smooth_r': 1.0}), 'LOSS': CfgNode({'dice_weight': 1.0, 'ce_weight': 0.01})}), 'TRAIN_SETUPS': CfgNode({'batch_size': 4, 'num_workers': 4, 'learning_rate': 1e-05, 'epochs': 50, 'optimizer_momentum': 0.9, 'weight_decay': 0.01, 'poly_training': True, 'lr_multiple': 2.0, 'TEST_SETUPS': CfgNode({'test_state': True, 'epoch_test': 50, 'train_miou': 50, 'val_state': False})}), 'TEST': CfgNode({'enable': False, 'method': 'SOFS', 'dataset_path': '/home/eric/data/anomaly_detection_data/PCB_1', 'load_checkpoint': False, 'load_model_path': './save_model', 'semantic_threshold': 0.6, 'VISUALIZE': CfgNode({'save_figure': False, 'sample_prob': 0.2})}), 'TEST_SETUPS': CfgNode({'batch_size': 1, 'ND_batch_size': 4}), 'NUM_SHARDS': 1, 'SHARD_ID': 0})
+[11/17 19:17:44][INFO] train.py:   50: start main training!
+[11/17 19:17:44][INFO] train.py:   53: load dataset!
+[11/17 19:17:44][INFO] vision_v1_fsss_ND.py:   92: current training class is ['Console', 'Casting', 'Groove', 'Capacitor', 'PCB_2', 'Screw', 'Cylinder', 'Electronics', 'Lens']
+[11/17 19:17:44][INFO] vision_v1_fsss_ND.py:   98: current test class is ['PCB_1', 'Hemisphere', 'Wood', 'Ring', 'Cable']
+[11/17 19:17:44][INFO] train.py:   62: load complete!
+[11/17 19:17:44][INFO] train.py:   70: current dataset is VISION_V1_ND_original.
+[11/17 19:17:44][INFO] train.py:   71: the data in current dataset VISION_V1_ND_original are 0.
+[11/17 19:17:44][INFO] train.py:  118: current dataset is VISION_V1_ND_original.
+[11/17 19:17:44][INFO] train.py:  119: the test data in current dataset VISION_V1_ND_original are 0.
+[11/17 19:17:44][INFO] train.py:  135: load model!
+[11/17 19:17:44][INFO] vision_transformer.py:  122: using MLP layer as FFN
+[11/17 19:17:47][INFO] train.py:  147: load optimizer!
+[11/17 19:17:48][INFO] epoch_train_eval_ss.py:   46: backbone eval mode, model train
+[11/17 19:17:52][INFO] epoch_train_eval_ss.py:  125: Train result at epoch [1/50]: data_time: 0.00, batch_time: 0.00 loss: 0.0000, main_loss: 0.0000, FB_IOU/mRecall 0.0000/0.0000.
+[11/17 19:17:52][ERROR] train.py:  300: error：
+[11/17 19:17:52][ERROR] train.py:  301: 'float' object is not subscriptable
+[11/17 19:17:52][ERROR] train.py:  302: 
+Traceback (most recent call last):
+  File "/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/tools/train.py", line 199, in train
+    epoch_train_ss(
+  File "/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/SmallObjectFSS/SOFS/tools/epoch_train_eval_ss.py", line 133, in epoch_train_ss
+    LOGGER.info('Class_{} Result: FB_IOU/Recall {:.4f}/{:.4f}.'.format(i, iou_class[i], recall_class[i]))
+TypeError: 'float' object is not subscriptable
+

@@ -27,7 +27,7 @@ DATASET:
 
   normal_sample_sampling_prob: 0.3
 
-  open_domain_test_object: ["Your_Own_Data"] #severstal_steel
+  open_domain_test_object: ["PCB_test"] #severstal_steel #Your_Own_Data
   open_domain_object_category_num: [1]
   open_domain_specific_defect_category: [0]
 

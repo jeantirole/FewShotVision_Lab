@@ -144,8 +144,18 @@ class BASE_DATASET_FSSS_ND(BASE_DATASET_FSSS):
         original_img_shape = img.shape[:2]
 
         processed_mask = np.array((temp_mask / 255) > 0).astype(np.uint8)
+        
+        print("#--- path_now", path_now)
+        print("mask save")
+        from PIL import Image
+        image = Image.fromarray(processed_mask * 255).convert("L")
+        image.save(f"/home/eric/srcs/FewShotSeg_Lab/FewShotVision_Lab/tmp_/{file_name}")
+
+        
         # only for train
         defect_area_ratio = np.sum(processed_mask) / (temp_mask.shape[0] * temp_mask.shape[1])
+        
+
 
         if (defect_area_ratio > self.area_resize_ratio and self.mode == "train") or (support_defect_status_resize and self.mode != "train"):
             if self.mode == "train":

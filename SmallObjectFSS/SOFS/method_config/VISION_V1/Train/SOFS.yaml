@@ -1,5 +1,5 @@
 OUTPUT_DIR:
-  './log_FsSS_IVI'
+  '/disk3/eric/log_FsSS_IVI'
 
 DATASET:
   name: 'VISION_V1_ND'
@@ -21,20 +21,20 @@ DATASET:
   split: 0
 
   vision_data_save: True
-  vision_data_save_path: "/usr/sdc/zzl/vision_data_new"
+  vision_data_save_path: "/disk3/eric/dataset/VISION_SOFS"
   vision_data_load: False
 
   normal_sample_sampling_prob: 0.3
 
 TRAIN:
   enable: True
-  save_model: False
+  save_model: True
   method: 'SOFS'
-  dataset_path: '/usr/sdd/zzl_data/defect_detection/vision_dataset'
+  dataset_path: '/disk3/eric/dataset/VISION_SOFS'
 
   backbone: 'dinov2_vitb14'
   backbone_load_state_dict: True
-  backbone_checkpoint: '/home/zzl/desktop/2023/ss_as/dinov2_vitb14_pretrain.pth'
+  backbone_checkpoint: '/disk3/eric/weight/dinov2_vitb14_pretrain.pth'
 
   load_checkpoint: False
   load_model_path: "./"
@@ -61,8 +61,8 @@ TRAIN:
     ce_weight: 0.01
 
 TRAIN_SETUPS:
-  batch_size: 4
-  num_workers: 4
+  batch_size: 2
+  num_workers: 2
   learning_rate: 1e-5
   optimizer_momentum: 0.9
   epochs: 50
@@ -80,7 +80,7 @@ TRAIN_SETUPS:
 TEST:
   enable: False
   method: 'SOFS'
-  dataset_path: '/usr/sdd/zzl_data/defect_detection/vision_dataset'
+  dataset_path: '/disk3/eric/dataset/VISION_SOFS'
   load_checkpoint: False
   load_model_path: "./save_model"
 

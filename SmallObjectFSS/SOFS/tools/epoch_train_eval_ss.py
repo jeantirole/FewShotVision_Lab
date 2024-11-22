@@ -130,7 +130,11 @@ def epoch_train_ss(train_loader, model, optimizer, epoch, cfg, validate_each_cla
                     FB_IOU, mRecall))
 
         for i in range(2):
+            #LOGGER.info(f"iou_class : {iou_class}")
+            #LOGGER.info(f"recall_class : {recall_class}")
+            
             LOGGER.info('Class_{} Result: FB_IOU/Recall {:.4f}/{:.4f}.'.format(i, iou_class[i], recall_class[i]))
+            #LOGGER.info('Class_{} Result: FB_IOU/Recall {:.4f}/{:.4f}.'.format(i, iou_class, recall_class))
 
     if validate_each_class:
         if cfg.DATASET.name in ["VISION_V1", "VISION_V1_ND"]:
@@ -174,6 +178,7 @@ def epoch_train_ss(train_loader, model, optimizer, epoch, cfg, validate_each_cla
 
                 LOGGER.info('<<<<<<< Every Class Results <<<<<<<')
                 for i in class_iou_class.keys():
+                    LOGGER.info("#-------------------- class iou class :", class_iou_class)
                     LOGGER.info('{} Foreground Result: iou_f {:.4f}.'.format(i, class_iou_class[i]["foreground_iou"]))
                     LOGGER.info('{} Background Result: iou_b {:.4f}.'.format(i, class_iou_class[i]["background_iou"]))
                 for i in range(2):

@@ -29,17 +29,22 @@ def get_args():
 if __name__ == "__main__":
     args = get_args()
     trex2 = TRex2APIWrapper(args.token)
-    target_image = "/home/eric/data/military_data/target/tank_1.PNG"
+    
     prompts = [
         {
-            "prompt_image": "/home/eric/data/military_data/prompt_img/tank_2.PNG",
-            "rects": [[305, 460, 410, 505]],
+            "prompt_image": "/disk3/eric/dataset/VISION_SOFS/WEAPON_4/test_splits/north2_part_8.png",
+            "rects":    [[485, 220, 546, 265]]
         },
         # {
         #     "prompt_image": "assets/trex2_api_examples/generic_prompt2.jpg",
         #     "rects": [[561, 231, 634, 351]],
         # },
     ]
+    
+    #--
+    
+    target_image = "/disk3/eric/dataset/VISION_SOFS/WEAPON_4/test_splits/north2_part_9.png"
+    
     result = trex2.generic_inference(target_image, prompts)
     # filter out the boxes with low score
     scores = np.array(result["scores"])
@@ -52,7 +57,7 @@ if __name__ == "__main__":
         "boxes": boxes[filter_mask],
     }
     # save filter results       
-    np.savetxt("/home/eric/data/military_data/target_result/result.txt", boxes[filter_mask], delimiter=",")
+    np.savetxt("/disk3/eric/dataset/VISION_SOFS/WEAPON_4/trex_result/result.txt", boxes[filter_mask], delimiter=",")
 
     # visualize the results
     if not os.path.exists(args.vis_dir):
