@@ -1,0 +1,6 @@
+- create rotation dataset
+
+
+- 020.modeling_fewshotformer 
+: segformer 에다가 dinov2 heatmap 넣어서 성공. 
+
