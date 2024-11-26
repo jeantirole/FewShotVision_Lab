@@ -1,0 +1,13 @@
+2024-11-27 02:49:49 - FewShotSeg - INFO - Epoch: 0
+2024-11-27 02:49:50 - FewShotSeg - INFO - Epoch: 0, Iteration: 0Training Loss: 0.7330, Mean IoU: 0.1945, Mean Accuracy: 0.3890
+2024-11-27 02:49:53 - FewShotSeg - INFO - Epoch: 0, Iteration: 10Training Loss: 0.1727, Mean IoU: 1.0000, Mean Accuracy: 1.0000
+2024-11-27 02:49:55 - FewShotSeg - INFO - Epoch: 0, Iteration: 20Training Loss: 0.1379, Mean IoU: 0.4982, Mean Accuracy: 0.5000
+2024-11-27 02:49:58 - FewShotSeg - INFO - Epoch: 0, Iteration: 30Training Loss: 0.5354, Mean IoU: 0.4883, Mean Accuracy: 0.5000
+2024-11-27 02:50:00 - FewShotSeg - INFO - Epoch: 0, Iteration: 40Training Loss: 0.1000, Mean IoU: 0.5377, Mean Accuracy: 0.5407
+2024-11-27 02:50:03 - FewShotSeg - INFO - Epoch: 0, Iteration: 50Training Loss: 0.0493, Mean IoU: 0.8812, Mean Accuracy: 0.8841
+2024-11-27 02:50:05 - FewShotSeg - INFO - Epoch: 0, Iteration: 60Training Loss: 0.0147, Mean IoU: 1.0000, Mean Accuracy: 1.0000
+2024-11-27 02:50:08 - FewShotSeg - INFO - Epoch: 0, Iteration: 70Training Loss: 0.0063, Mean IoU: 1.0000, Mean Accuracy: 1.0000
+2024-11-27 02:50:10 - FewShotSeg - INFO - Epoch: 0, Iteration: 80Training Loss: 0.0234, Mean IoU: 0.9411, Mean Accuracy: 0.9438
+2024-11-27 02:50:13 - FewShotSeg - INFO - Epoch: 0, Iteration: 90Training Loss: 0.0133, Mean IoU: 0.9578, Mean Accuracy: 0.9778
+2024-11-27 02:50:16 - FewShotSeg - INFO - Epoch: 0, Iteration: 100Training Loss: 0.0054, Mean IoU: 0.9479, Mean Accuracy: 0.9795
+2024-11-27 02:50:18 - FewShotSeg - INFO - Epoch: 0, Iteration: 110Training Loss: 0.0100, Mean IoU: 0.9659, Mean Accuracy: 0.9818

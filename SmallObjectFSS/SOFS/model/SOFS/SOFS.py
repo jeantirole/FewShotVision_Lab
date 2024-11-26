@@ -273,7 +273,7 @@ class SOFS(nn.Module):
         patch_size = self.cfg.TRAIN.SOFS.vit_patch_size
         conv_vit_down_sampling = self.cfg.TRAIN.SOFS.conv_vit_down_sampling
         final_out, mask_weight, each_normal_similarity = self.generate_query_label(x, s_x, s_y)
-
+            
         if self.training:
             _h, _w = final_out.shape[-2:]
             if conv_vit_down_sampling:
