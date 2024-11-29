@@ -1,0 +1,10 @@
+2024-11-27 13:54:18 - FewShotSeg - INFO - Epoch: 0
+2024-11-27 13:54:18 - FewShotSeg - INFO - Epoch: 0, Iteration: 0, Training Loss: 0.5701, Mean IoU: 0.0392, Mean Accuracy: 0.0784
+2024-11-27 13:54:19 - FewShotSeg - INFO - Epoch: 0, Iteration: 1, Training Loss: 0.4628, Mean IoU: 0.0078, Mean Accuracy: 0.0157
+2024-11-27 13:54:19 - FewShotSeg - INFO - Epoch: 0, Iteration: 2, Training Loss: 0.3849, Mean IoU: 0.0000, Mean Accuracy: 0.0000
+2024-11-27 13:54:19 - FewShotSeg - INFO - Epoch: 0, Iteration: 3, Training Loss: 0.3610, Mean IoU: 0.0000, Mean Accuracy: 0.0000
+2024-11-27 13:54:19 - FewShotSeg - INFO - Epoch: 0, Iteration: 4, Training Loss: 0.2773, Mean IoU: 0.0000, Mean Accuracy: 0.0000
+2024-11-27 13:54:20 - FewShotSeg - INFO - Epoch: 0, Iteration: 5, Training Loss: 0.2355, Mean IoU: 0.0000, Mean Accuracy: 0.0000
+2024-11-27 13:54:20 - FewShotSeg - INFO - Epoch: 0, Iteration: 6, Training Loss: 0.2585, Mean IoU: 0.0000, Mean Accuracy: 0.0000
+2024-11-27 13:54:20 - FewShotSeg - INFO - Epoch: 0, Iteration: 7, Training Loss: 0.2177, Mean IoU: 0.0000, Mean Accuracy: 0.0000
+2024-11-27 13:54:21 - FewShotSeg - INFO - Epoch: 0, Iteration: 8, Training Loss: 0.1972, Mean IoU: 0.0000, Mean Accuracy: 0.0000

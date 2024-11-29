@@ -1,0 +1,347 @@
+2024-11-28 14:05:38 - FewShotSeg - INFO - Config Options:
+{
+    "_VERSION": "207",
+    "_EPOCHS": 50,
+    "_N_SHOTS": 2,
+    "_N_INSTANCE": 1,
+    "_MODEL_SAVE": true,
+    "_MODEL_VERSION": "nvidia/mit-b5",
+    "_MODEL_VERSION_SAVE": "mit-b5",
+    "_BATCH_SIZE": 2,
+    "_DEVICE": "cuda:1"
+}
+2024-11-28 14:05:45 - FewShotSeg - INFO - Epoch: 0
+2024-11-28 14:05:46 - FewShotSeg - INFO - Epoch: 0, Iteration: 0, Training Loss: 0.6173, Mean IoU: 0.4376, Mean Accuracy: 0.4392, per Category IOU: [0.87521425 0.        ]
+2024-11-28 14:05:46 - FewShotSeg - INFO - Epoch: 0, Iteration: 1, Training Loss: 0.4282, Mean IoU: 0.4985, Mean Accuracy: 0.5000, per Category IOU: [0.99697066 0.        ]
+2024-11-28 14:05:46 - FewShotSeg - INFO - Epoch: 0, Iteration: 2, Training Loss: 0.3369, Mean IoU: 0.4973, Mean Accuracy: 0.5000, per Category IOU: [0.9945168 0.       ]
+2024-11-28 14:05:46 - FewShotSeg - INFO - Epoch: 0, Iteration: 3, Training Loss: 0.2199, Mean IoU: 0.4984, Mean Accuracy: 0.5000, per Category IOU: [0.996876 0.      ]
+2024-11-28 14:06:12 - FewShotSeg - INFO - Epoch : 0, Validation Results - Loss: 0.2028, Mean IoU: 0.7154, Mean Accuracy: 0.7174, per Category IOU: [9.95959630e-01 4.34782609e-07]
+2024-11-28 14:06:12 - FewShotSeg - INFO - Model saved!
+2024-11-28 14:06:12 - FewShotSeg - INFO - Epoch: 1
+2024-11-28 14:06:12 - FewShotSeg - INFO - Epoch: 1, Iteration: 0, Training Loss: 0.2375, Mean IoU: 0.4980, Mean Accuracy: 0.5000, per Category IOU: [0.99592933 0.        ]
+2024-11-28 14:06:12 - FewShotSeg - INFO - Epoch: 1, Iteration: 1, Training Loss: 0.2199, Mean IoU: 0.4975, Mean Accuracy: 0.5000, per Category IOU: [0.99495028 0.        ]
+2024-11-28 14:06:12 - FewShotSeg - INFO - Epoch: 1, Iteration: 2, Training Loss: 0.1511, Mean IoU: 0.4983, Mean Accuracy: 0.5000, per Category IOU: [0.99667172 0.        ]
+2024-11-28 14:06:13 - FewShotSeg - INFO - Epoch: 1, Iteration: 3, Training Loss: 0.1535, Mean IoU: 0.4986, Mean Accuracy: 0.5000, per Category IOU: [0.99712761 0.        ]
+2024-11-28 14:06:38 - FewShotSeg - INFO - Epoch : 1, Validation Results - Loss: 0.1818, Mean IoU: 0.7154, Mean Accuracy: 0.7174, per Category IOU: [9.95959630e-01 4.34782609e-07]
+2024-11-28 14:06:38 - FewShotSeg - INFO - Epoch: 2
+2024-11-28 14:06:38 - FewShotSeg - INFO - Epoch: 2, Iteration: 0, Training Loss: 0.1440, Mean IoU: 0.4983, Mean Accuracy: 0.5000, per Category IOU: [0.99667172 0.        ]
+2024-11-28 14:06:38 - FewShotSeg - INFO - Epoch: 2, Iteration: 1, Training Loss: 0.1669, Mean IoU: 0.4982, Mean Accuracy: 0.5000, per Category IOU: [0.99636779 0.        ]
+2024-11-28 14:06:38 - FewShotSeg - INFO - Epoch: 2, Iteration: 2, Training Loss: 0.2295, Mean IoU: 0.4973, Mean Accuracy: 0.5000, per Category IOU: [0.99451182 0.        ]
+2024-11-28 14:06:39 - FewShotSeg - INFO - Epoch: 2, Iteration: 3, Training Loss: 0.1315, Mean IoU: 0.4986, Mean Accuracy: 0.5000, per Category IOU: [0.99712761 0.        ]
+2024-11-28 14:07:04 - FewShotSeg - INFO - Epoch : 2, Validation Results - Loss: 0.1725, Mean IoU: 0.7154, Mean Accuracy: 0.7174, per Category IOU: [9.95959630e-01 4.34782609e-07]
+2024-11-28 14:07:04 - FewShotSeg - INFO - Epoch: 3
+2024-11-28 14:07:04 - FewShotSeg - INFO - Epoch: 3, Iteration: 0, Training Loss: 0.1372, Mean IoU: 0.4981, Mean Accuracy: 0.5000, per Category IOU: [0.99629056 0.        ]
+2024-11-28 14:07:04 - FewShotSeg - INFO - Epoch: 3, Iteration: 1, Training Loss: 0.1504, Mean IoU: 0.4982, Mean Accuracy: 0.5000, per Category IOU: [0.99631547 0.        ]
+2024-11-28 14:07:04 - FewShotSeg - INFO - Epoch: 3, Iteration: 2, Training Loss: 0.1824, Mean IoU: 0.4976, Mean Accuracy: 0.5000, per Category IOU: [0.99510224 0.        ]
+2024-11-28 14:07:04 - FewShotSeg - INFO - Epoch: 3, Iteration: 3, Training Loss: 0.0935, Mean IoU: 0.4985, Mean Accuracy: 0.5000, per Category IOU: [0.99697066 0.        ]
+2024-11-28 14:07:29 - FewShotSeg - INFO - Epoch : 3, Validation Results - Loss: 0.1423, Mean IoU: 0.7154, Mean Accuracy: 0.7174, per Category IOU: [9.95959630e-01 4.34782609e-07]
+2024-11-28 14:07:29 - FewShotSeg - INFO - Epoch: 4
+2024-11-28 14:07:30 - FewShotSeg - INFO - Epoch: 4, Iteration: 0, Training Loss: 0.0848, Mean IoU: 0.4985, Mean Accuracy: 0.5000, per Category IOU: [0.99697066 0.        ]
+2024-11-28 14:07:30 - FewShotSeg - INFO - Epoch: 4, Iteration: 1, Training Loss: 0.0886, Mean IoU: 0.4984, Mean Accuracy: 0.5000, per Category IOU: [0.996876 0.      ]
+2024-11-28 14:07:30 - FewShotSeg - INFO - Epoch: 4, Iteration: 2, Training Loss: 0.0949, Mean IoU: 0.4980, Mean Accuracy: 0.5000, per Category IOU: [0.99593431 0.        ]
+2024-11-28 14:07:30 - FewShotSeg - INFO - Epoch: 4, Iteration: 3, Training Loss: 0.1016, Mean IoU: 0.4974, Mean Accuracy: 0.5000, per Category IOU: [0.99489796 0.        ]
+2024-11-28 14:07:55 - FewShotSeg - INFO - Epoch : 4, Validation Results - Loss: 0.1079, Mean IoU: 0.7252, Mean Accuracy: 0.7271, per Category IOU: [0.99612051 0.01942254]
+2024-11-28 14:07:56 - FewShotSeg - INFO - Model saved!
+2024-11-28 14:07:56 - FewShotSeg - INFO - Epoch: 5
+2024-11-28 14:07:56 - FewShotSeg - INFO - Epoch: 5, Iteration: 0, Training Loss: 0.0740, Mean IoU: 0.5012, Mean Accuracy: 0.5030, per Category IOU: [0.99630791 0.00603622]
+2024-11-28 14:07:56 - FewShotSeg - INFO - Epoch: 5, Iteration: 1, Training Loss: 0.0626, Mean IoU: 0.7217, Mean Accuracy: 0.7226, per Category IOU: [0.9980663 0.4452398]
+2024-11-28 14:07:56 - FewShotSeg - INFO - Epoch: 5, Iteration: 2, Training Loss: 0.0777, Mean IoU: 0.6620, Mean Accuracy: 0.6645, per Category IOU: [0.99658133 0.32744232]
+2024-11-28 14:07:56 - FewShotSeg - INFO - Epoch: 5, Iteration: 3, Training Loss: 0.0431, Mean IoU: 0.9266, Mean Accuracy: 0.9537, per Category IOU: [0.99952034 0.85376999]
+2024-11-28 14:08:21 - FewShotSeg - INFO - Epoch : 5, Validation Results - Loss: 0.0840, Mean IoU: 0.7847, Mean Accuracy: 0.7863, per Category IOU: [0.99705889 0.13754976]
+2024-11-28 14:08:22 - FewShotSeg - INFO - Model saved!
+2024-11-28 14:08:22 - FewShotSeg - INFO - Epoch: 6
+2024-11-28 14:08:22 - FewShotSeg - INFO - Epoch: 6, Iteration: 0, Training Loss: 0.0718, Mean IoU: 0.7540, Mean Accuracy: 0.7562, per Category IOU: [0.99729689 0.51062867]
+2024-11-28 14:08:22 - FewShotSeg - INFO - Epoch: 6, Iteration: 1, Training Loss: 0.0456, Mean IoU: 0.9366, Mean Accuracy: 0.9964, per Category IOU: [0.99941469 0.87385445]
+2024-11-28 14:08:22 - FewShotSeg - INFO - Epoch: 6, Iteration: 2, Training Loss: 0.0359, Mean IoU: 0.9425, Mean Accuracy: 0.9797, per Category IOU: [0.99958513 0.88535912]
+2024-11-28 14:08:23 - FewShotSeg - INFO - Epoch: 6, Iteration: 3, Training Loss: 0.0431, Mean IoU: 0.9050, Mean Accuracy: 0.9366, per Category IOU: [0.99950069 0.81042654]
+2024-11-28 14:08:48 - FewShotSeg - INFO - Epoch : 6, Validation Results - Loss: 0.0676, Mean IoU: 0.8304, Mean Accuracy: 0.8322, per Category IOU: [0.99775749 0.22818104]
+2024-11-28 14:08:49 - FewShotSeg - INFO - Model saved!
+2024-11-28 14:08:49 - FewShotSeg - INFO - Epoch: 7
+2024-11-28 14:08:49 - FewShotSeg - INFO - Epoch: 7, Iteration: 0, Training Loss: 0.0430, Mean IoU: 0.9238, Mean Accuracy: 0.9593, per Category IOU: [0.99938756 0.84829721]
+2024-11-28 14:08:49 - FewShotSeg - INFO - Epoch: 7, Iteration: 1, Training Loss: 0.0285, Mean IoU: 0.7994, Mean Accuracy: 0.9837, per Category IOU: [0.99762235 0.60125786]
+2024-11-28 14:08:49 - FewShotSeg - INFO - Epoch: 7, Iteration: 2, Training Loss: 0.0366, Mean IoU: 0.8935, Mean Accuracy: 0.9951, per Category IOU: [0.99919041 0.78781925]
+2024-11-28 14:08:49 - FewShotSeg - INFO - Epoch: 7, Iteration: 3, Training Loss: 0.0402, Mean IoU: 0.9413, Mean Accuracy: 0.9612, per Category IOU: [0.99939939 0.88315482]
+2024-11-28 14:09:16 - FewShotSeg - INFO - Epoch : 7, Validation Results - Loss: 0.0551, Mean IoU: 0.8361, Mean Accuracy: 0.8379, per Category IOU: [0.99783973 0.23966071]
+2024-11-28 14:09:16 - FewShotSeg - INFO - Model saved!
+2024-11-28 14:09:16 - FewShotSeg - INFO - Epoch: 8
+2024-11-28 14:09:16 - FewShotSeg - INFO - Epoch: 8, Iteration: 0, Training Loss: 0.0284, Mean IoU: 0.9331, Mean Accuracy: 0.9623, per Category IOU: [0.99947004 0.86675047]
+2024-11-28 14:09:16 - FewShotSeg - INFO - Epoch: 8, Iteration: 1, Training Loss: 0.0177, Mean IoU: 0.9132, Mean Accuracy: 0.9725, per Category IOU: [0.99947553 0.82687552]
+2024-11-28 14:09:16 - FewShotSeg - INFO - Epoch: 8, Iteration: 2, Training Loss: 0.0209, Mean IoU: 0.9031, Mean Accuracy: 0.9504, per Category IOU: [0.99924778 0.80705128]
+2024-11-28 14:09:17 - FewShotSeg - INFO - Epoch: 8, Iteration: 3, Training Loss: 0.0298, Mean IoU: 0.9608, Mean Accuracy: 0.9752, per Category IOU: [0.99955674 0.92199207]
+2024-11-28 14:09:43 - FewShotSeg - INFO - Epoch : 8, Validation Results - Loss: 0.0514, Mean IoU: 0.8308, Mean Accuracy: 0.8323, per Category IOU: [0.99776892 0.22911202]
+2024-11-28 14:09:43 - FewShotSeg - INFO - Epoch: 9
+2024-11-28 14:09:43 - FewShotSeg - INFO - Epoch: 9, Iteration: 0, Training Loss: 0.0149, Mean IoU: 0.9229, Mean Accuracy: 0.9899, per Category IOU: [0.99946029 0.84637269]
+2024-11-28 14:09:43 - FewShotSeg - INFO - Epoch: 9, Iteration: 1, Training Loss: 0.0268, Mean IoU: 0.9455, Mean Accuracy: 0.9539, per Category IOU: [0.99945699 0.89160839]
+2024-11-28 14:09:43 - FewShotSeg - INFO - Epoch: 9, Iteration: 2, Training Loss: 0.0161, Mean IoU: 0.9262, Mean Accuracy: 0.9668, per Category IOU: [0.99934231 0.8529905 ]
+2024-11-28 14:09:43 - FewShotSeg - INFO - Epoch: 9, Iteration: 3, Training Loss: 0.0102, Mean IoU: 0.9465, Mean Accuracy: 0.9670, per Category IOU: [0.99962765 0.89334288]
+2024-11-28 14:10:09 - FewShotSeg - INFO - Epoch : 9, Validation Results - Loss: 0.0514, Mean IoU: 0.8291, Mean Accuracy: 0.8305, per Category IOU: [0.99774823 0.225649  ]
+2024-11-28 14:10:09 - FewShotSeg - INFO - Epoch: 10
+2024-11-28 14:10:09 - FewShotSeg - INFO - Epoch: 10, Iteration: 0, Training Loss: 0.0096, Mean IoU: 0.9481, Mean Accuracy: 0.9666, per Category IOU: [0.99964014 0.89647735]
+2024-11-28 14:10:09 - FewShotSeg - INFO - Epoch: 10, Iteration: 1, Training Loss: 0.0107, Mean IoU: 0.9463, Mean Accuracy: 0.9797, per Category IOU: [0.99965021 0.89288447]
+2024-11-28 14:10:09 - FewShotSeg - INFO - Epoch: 10, Iteration: 2, Training Loss: 0.0076, Mean IoU: 0.9544, Mean Accuracy: 0.9910, per Category IOU: [0.9995998 0.9092456]
+2024-11-28 14:10:10 - FewShotSeg - INFO - Epoch: 10, Iteration: 3, Training Loss: 0.0209, Mean IoU: 0.9471, Mean Accuracy: 0.9542, per Category IOU: [0.9994745  0.89478958]
+2024-11-28 14:10:35 - FewShotSeg - INFO - Epoch : 10, Validation Results - Loss: 0.0501, Mean IoU: 0.8340, Mean Accuracy: 0.8354, per Category IOU: [0.99782204 0.23539315]
+2024-11-28 14:10:35 - FewShotSeg - INFO - Epoch: 11
+2024-11-28 14:10:35 - FewShotSeg - INFO - Epoch: 11, Iteration: 0, Training Loss: 0.0080, Mean IoU: 0.9515, Mean Accuracy: 0.9685, per Category IOU: [0.99966513 0.9033189 ]
+2024-11-28 14:10:35 - FewShotSeg - INFO - Epoch: 11, Iteration: 1, Training Loss: 0.0098, Mean IoU: 0.9156, Mean Accuracy: 0.9386, per Category IOU: [0.9995656  0.83155857]
+2024-11-28 14:10:35 - FewShotSeg - INFO - Epoch: 11, Iteration: 2, Training Loss: 0.0151, Mean IoU: 0.9728, Mean Accuracy: 0.9877, per Category IOU: [0.99969193 0.94586268]
+2024-11-28 14:10:36 - FewShotSeg - INFO - Epoch: 11, Iteration: 3, Training Loss: 0.0059, Mean IoU: 0.9536, Mean Accuracy: 0.9900, per Category IOU: [0.9995923  0.90754396]
+2024-11-28 14:11:01 - FewShotSeg - INFO - Epoch : 11, Validation Results - Loss: 0.0454, Mean IoU: 0.8475, Mean Accuracy: 0.8489, per Category IOU: [0.99801006 0.26221123]
+2024-11-28 14:11:02 - FewShotSeg - INFO - Model saved!
+2024-11-28 14:11:02 - FewShotSeg - INFO - Epoch: 12
+2024-11-28 14:11:02 - FewShotSeg - INFO - Epoch: 12, Iteration: 0, Training Loss: 0.0067, Mean IoU: 0.9468, Mean Accuracy: 0.9766, per Category IOU: [0.9995825  0.89410273]
+2024-11-28 14:11:02 - FewShotSeg - INFO - Epoch: 12, Iteration: 1, Training Loss: 0.0168, Mean IoU: 0.9589, Mean Accuracy: 0.9708, per Category IOU: [0.99951658 0.91825498]
+2024-11-28 14:11:02 - FewShotSeg - INFO - Epoch: 12, Iteration: 2, Training Loss: 0.0092, Mean IoU: 0.9416, Mean Accuracy: 0.9627, per Category IOU: [0.9996478  0.88347107]
+2024-11-28 14:11:02 - FewShotSeg - INFO - Epoch: 12, Iteration: 3, Training Loss: 0.0053, Mean IoU: 0.9372, Mean Accuracy: 0.9891, per Category IOU: [0.99957523 0.87481591]
+2024-11-28 14:11:28 - FewShotSeg - INFO - Epoch : 12, Validation Results - Loss: 0.0393, Mean IoU: 0.8647, Mean Accuracy: 0.8664, per Category IOU: [0.99823493 0.29633936]
+2024-11-28 14:11:28 - FewShotSeg - INFO - Model saved!
+2024-11-28 14:11:28 - FewShotSeg - INFO - Epoch: 13
+2024-11-28 14:11:28 - FewShotSeg - INFO - Epoch: 13, Iteration: 0, Training Loss: 0.0067, Mean IoU: 0.9501, Mean Accuracy: 0.9837, per Category IOU: [0.99953719 0.90064447]
+2024-11-28 14:11:28 - FewShotSeg - INFO - Epoch: 13, Iteration: 1, Training Loss: 0.0080, Mean IoU: 0.9445, Mean Accuracy: 0.9735, per Category IOU: [0.99966027 0.88943089]
+2024-11-28 14:11:29 - FewShotSeg - INFO - Epoch: 13, Iteration: 2, Training Loss: 0.0111, Mean IoU: 0.9687, Mean Accuracy: 0.9814, per Category IOU: [0.99967204 0.93770804]
+2024-11-28 14:11:29 - FewShotSeg - INFO - Epoch: 13, Iteration: 3, Training Loss: 0.0049, Mean IoU: 0.9219, Mean Accuracy: 0.9911, per Category IOU: [0.9994503 0.8443029]
+2024-11-28 14:11:54 - FewShotSeg - INFO - Epoch : 13, Validation Results - Loss: 0.0339, Mean IoU: 0.8821, Mean Accuracy: 0.8842, per Category IOU: [0.99846076 0.33100582]
+2024-11-28 14:11:54 - FewShotSeg - INFO - Model saved!
+2024-11-28 14:11:54 - FewShotSeg - INFO - Epoch: 14
+2024-11-28 14:11:54 - FewShotSeg - INFO - Epoch: 14, Iteration: 0, Training Loss: 0.0059, Mean IoU: 0.9484, Mean Accuracy: 0.9660, per Category IOU: [0.99973282 0.89701636]
+2024-11-28 14:11:55 - FewShotSeg - INFO - Epoch: 14, Iteration: 1, Training Loss: 0.0056, Mean IoU: 0.9435, Mean Accuracy: 0.9891, per Category IOU: [0.99946211 0.88749346]
+2024-11-28 14:11:55 - FewShotSeg - INFO - Epoch: 14, Iteration: 2, Training Loss: 0.0056, Mean IoU: 0.9282, Mean Accuracy: 0.9895, per Category IOU: [0.99950277 0.85683453]
+2024-11-28 14:11:55 - FewShotSeg - INFO - Epoch: 14, Iteration: 3, Training Loss: 0.0085, Mean IoU: 0.9656, Mean Accuracy: 0.9944, per Category IOU: [0.99959923 0.93153616]
+2024-11-28 14:12:20 - FewShotSeg - INFO - Epoch : 14, Validation Results - Loss: 0.0297, Mean IoU: 0.8972, Mean Accuracy: 0.8996, per Category IOU: [0.99865273 0.36087465]
+2024-11-28 14:12:20 - FewShotSeg - INFO - Model saved!
+2024-11-28 14:12:20 - FewShotSeg - INFO - Epoch: 15
+2024-11-28 14:12:21 - FewShotSeg - INFO - Epoch: 15, Iteration: 0, Training Loss: 0.0039, Mean IoU: 0.9417, Mean Accuracy: 0.9871, per Category IOU: [0.99957261 0.88391039]
+2024-11-28 14:12:21 - FewShotSeg - INFO - Epoch: 15, Iteration: 1, Training Loss: 0.0046, Mean IoU: 0.9339, Mean Accuracy: 0.9908, per Category IOU: [0.99945747 0.86840509]
+2024-11-28 14:12:21 - FewShotSeg - INFO - Epoch: 15, Iteration: 2, Training Loss: 0.0052, Mean IoU: 0.9378, Mean Accuracy: 0.9929, per Category IOU: [0.99951504 0.87603834]
+2024-11-28 14:12:21 - FewShotSeg - INFO - Epoch: 15, Iteration: 3, Training Loss: 0.0085, Mean IoU: 0.9486, Mean Accuracy: 0.9891, per Category IOU: [0.99945179 0.89780681]
+2024-11-28 14:12:46 - FewShotSeg - INFO - Epoch : 15, Validation Results - Loss: 0.0271, Mean IoU: 0.9063, Mean Accuracy: 0.9091, per Category IOU: [0.99877059 0.37905909]
+2024-11-28 14:12:46 - FewShotSeg - INFO - Model saved!
+2024-11-28 14:12:46 - FewShotSeg - INFO - Epoch: 16
+2024-11-28 14:12:47 - FewShotSeg - INFO - Epoch: 16, Iteration: 0, Training Loss: 0.0059, Mean IoU: 0.9358, Mean Accuracy: 0.9906, per Category IOU: [0.99941221 0.87221316]
+2024-11-28 14:12:47 - FewShotSeg - INFO - Epoch: 16, Iteration: 1, Training Loss: 0.0071, Mean IoU: 0.9611, Mean Accuracy: 0.9889, per Category IOU: [0.99957937 0.92261631]
+2024-11-28 14:12:47 - FewShotSeg - INFO - Epoch: 16, Iteration: 2, Training Loss: 0.0047, Mean IoU: 0.9200, Mean Accuracy: 0.9863, per Category IOU: [0.99946788 0.84044944]
+2024-11-28 14:12:47 - FewShotSeg - INFO - Epoch: 16, Iteration: 3, Training Loss: 0.0044, Mean IoU: 0.9115, Mean Accuracy: 0.9917, per Category IOU: [0.9993077  0.82367919]
+2024-11-28 14:13:12 - FewShotSeg - INFO - Epoch : 16, Validation Results - Loss: 0.0255, Mean IoU: 0.9119, Mean Accuracy: 0.9149, per Category IOU: [0.99884337 0.3901522 ]
+2024-11-28 14:13:13 - FewShotSeg - INFO - Model saved!
+2024-11-28 14:13:13 - FewShotSeg - INFO - Epoch: 17
+2024-11-28 14:13:13 - FewShotSeg - INFO - Epoch: 17, Iteration: 0, Training Loss: 0.0047, Mean IoU: 0.9218, Mean Accuracy: 0.9919, per Category IOU: [0.99944779 0.84414669]
+2024-11-28 14:13:13 - FewShotSeg - INFO - Epoch: 17, Iteration: 1, Training Loss: 0.0044, Mean IoU: 0.9333, Mean Accuracy: 0.9919, per Category IOU: [0.99934701 0.86731063]
+2024-11-28 14:13:13 - FewShotSeg - INFO - Epoch: 17, Iteration: 2, Training Loss: 0.0063, Mean IoU: 0.9610, Mean Accuracy: 0.9898, per Category IOU: [0.99957687 0.92233456]
+2024-11-28 14:13:13 - FewShotSeg - INFO - Epoch: 17, Iteration: 3, Training Loss: 0.0043, Mean IoU: 0.9198, Mean Accuracy: 0.9876, per Category IOU: [0.99946538 0.84017924]
+2024-11-28 14:13:38 - FewShotSeg - INFO - Epoch : 17, Validation Results - Loss: 0.0247, Mean IoU: 0.9145, Mean Accuracy: 0.9177, per Category IOU: [0.99887738 0.3954018 ]
+2024-11-28 14:13:39 - FewShotSeg - INFO - Model saved!
+2024-11-28 14:13:39 - FewShotSeg - INFO - Epoch: 18
+2024-11-28 14:13:39 - FewShotSeg - INFO - Epoch: 18, Iteration: 0, Training Loss: 0.0043, Mean IoU: 0.9221, Mean Accuracy: 0.9919, per Category IOU: [0.99945029 0.84474241]
+2024-11-28 14:13:39 - FewShotSeg - INFO - Epoch: 18, Iteration: 1, Training Loss: 0.0059, Mean IoU: 0.9607, Mean Accuracy: 0.9896, per Category IOU: [0.99957436 0.921875  ]
+2024-11-28 14:13:39 - FewShotSeg - INFO - Epoch: 18, Iteration: 2, Training Loss: 0.0035, Mean IoU: 0.9321, Mean Accuracy: 0.9972, per Category IOU: [0.99936466 0.86474973]
+2024-11-28 14:13:39 - FewShotSeg - INFO - Epoch: 18, Iteration: 3, Training Loss: 0.0041, Mean IoU: 0.9278, Mean Accuracy: 0.9862, per Category IOU: [0.99948774 0.85614035]
+2024-11-28 14:14:04 - FewShotSeg - INFO - Epoch : 18, Validation Results - Loss: 0.0244, Mean IoU: 0.9158, Mean Accuracy: 0.9190, per Category IOU: [0.99889482 0.39786141]
+2024-11-28 14:14:05 - FewShotSeg - INFO - Model saved!
+2024-11-28 14:14:05 - FewShotSeg - INFO - Epoch: 19
+2024-11-28 14:14:05 - FewShotSeg - INFO - Epoch: 19, Iteration: 0, Training Loss: 0.0030, Mean IoU: 0.9266, Mean Accuracy: 0.9933, per Category IOU: [0.99947775 0.85364146]
+2024-11-28 14:14:05 - FewShotSeg - INFO - Epoch: 19, Iteration: 1, Training Loss: 0.0040, Mean IoU: 0.9281, Mean Accuracy: 0.9858, per Category IOU: [0.99949024 0.8566409 ]
+2024-11-28 14:14:05 - FewShotSeg - INFO - Epoch: 19, Iteration: 2, Training Loss: 0.0057, Mean IoU: 0.9509, Mean Accuracy: 0.9993, per Category IOU: [0.99940382 0.90241902]
+2024-11-28 14:14:05 - FewShotSeg - INFO - Epoch: 19, Iteration: 3, Training Loss: 0.0037, Mean IoU: 0.9320, Mean Accuracy: 0.9905, per Category IOU: [0.99943997 0.86465257]
+2024-11-28 14:14:31 - FewShotSeg - INFO - Epoch : 19, Validation Results - Loss: 0.0245, Mean IoU: 0.9160, Mean Accuracy: 0.9192, per Category IOU: [0.99889943 0.39831369]
+2024-11-28 14:14:31 - FewShotSeg - INFO - Model saved!
+2024-11-28 14:14:31 - FewShotSeg - INFO - Epoch: 20
+2024-11-28 14:14:31 - FewShotSeg - INFO - Epoch: 20, Iteration: 0, Training Loss: 0.0038, Mean IoU: 0.9373, Mean Accuracy: 0.9914, per Category IOU: [0.99939205 0.8751926 ]
+2024-11-28 14:14:31 - FewShotSeg - INFO - Epoch: 20, Iteration: 1, Training Loss: 0.0028, Mean IoU: 0.9275, Mean Accuracy: 0.9933, per Category IOU: [0.99948524 0.8554386 ]
+2024-11-28 14:14:32 - FewShotSeg - INFO - Epoch: 20, Iteration: 2, Training Loss: 0.0052, Mean IoU: 0.9535, Mean Accuracy: 0.9993, per Category IOU: [0.99943889 0.90762887]
+2024-11-28 14:14:32 - FewShotSeg - INFO - Epoch: 20, Iteration: 3, Training Loss: 0.0037, Mean IoU: 0.9238, Mean Accuracy: 0.9784, per Category IOU: [0.99958049 0.8479638 ]
+2024-11-28 14:14:57 - FewShotSeg - INFO - Epoch : 20, Validation Results - Loss: 0.0247, Mean IoU: 0.9157, Mean Accuracy: 0.9189, per Category IOU: [0.99889755 0.39779237]
+2024-11-28 14:14:57 - FewShotSeg - INFO - Epoch: 21
+2024-11-28 14:14:57 - FewShotSeg - INFO - Epoch: 21, Iteration: 0, Training Loss: 0.0035, Mean IoU: 0.9432, Mean Accuracy: 0.9769, per Category IOU: [0.99969535 0.8866171 ]
+2024-11-28 14:14:57 - FewShotSeg - INFO - Epoch: 21, Iteration: 1, Training Loss: 0.0057, Mean IoU: 0.9617, Mean Accuracy: 0.9896, per Category IOU: [0.99953401 0.92380172]
+2024-11-28 14:14:57 - FewShotSeg - INFO - Epoch: 21, Iteration: 2, Training Loss: 0.0035, Mean IoU: 0.9290, Mean Accuracy: 0.9911, per Category IOU: [0.99950776 0.85847701]
+2024-11-28 14:14:57 - FewShotSeg - INFO - Epoch: 21, Iteration: 3, Training Loss: 0.0030, Mean IoU: 0.9440, Mean Accuracy: 0.9955, per Category IOU: [0.99949223 0.88852279]
+2024-11-28 14:15:23 - FewShotSeg - INFO - Epoch : 21, Validation Results - Loss: 0.0244, Mean IoU: 0.9170, Mean Accuracy: 0.9202, per Category IOU: [0.99891493 0.40033211]
+2024-11-28 14:15:23 - FewShotSeg - INFO - Model saved!
+2024-11-28 14:15:23 - FewShotSeg - INFO - Epoch: 22
+2024-11-28 14:15:23 - FewShotSeg - INFO - Epoch: 22, Iteration: 0, Training Loss: 0.0041, Mean IoU: 0.9446, Mean Accuracy: 0.9845, per Category IOU: [0.99958006 0.88961892]
+2024-11-28 14:15:23 - FewShotSeg - INFO - Epoch: 22, Iteration: 1, Training Loss: 0.0026, Mean IoU: 0.9290, Mean Accuracy: 0.9933, per Category IOU: [0.99949774 0.8584507 ]
+2024-11-28 14:15:23 - FewShotSeg - INFO - Epoch: 22, Iteration: 2, Training Loss: 0.0034, Mean IoU: 0.9166, Mean Accuracy: 0.9902, per Category IOU: [0.99935769 0.83387201]
+2024-11-28 14:15:24 - FewShotSeg - INFO - Epoch: 22, Iteration: 3, Training Loss: 0.0044, Mean IoU: 0.9566, Mean Accuracy: 0.9977, per Category IOU: [0.99948148 0.91378592]
+2024-11-28 14:15:49 - FewShotSeg - INFO - Epoch : 22, Validation Results - Loss: 0.0240, Mean IoU: 0.9184, Mean Accuracy: 0.9217, per Category IOU: [0.99893368 0.40310082]
+2024-11-28 14:15:49 - FewShotSeg - INFO - Model saved!
+2024-11-28 14:15:49 - FewShotSeg - INFO - Epoch: 23
+2024-11-28 14:15:49 - FewShotSeg - INFO - Epoch: 23, Iteration: 0, Training Loss: 0.0053, Mean IoU: 0.9615, Mean Accuracy: 0.9896, per Category IOU: [0.99953151 0.92342342]
+2024-11-28 14:15:49 - FewShotSeg - INFO - Epoch: 23, Iteration: 1, Training Loss: 0.0030, Mean IoU: 0.9141, Mean Accuracy: 0.9899, per Category IOU: [0.99946299 0.82868526]
+2024-11-28 14:15:50 - FewShotSeg - INFO - Epoch: 23, Iteration: 2, Training Loss: 0.0033, Mean IoU: 0.9215, Mean Accuracy: 0.9881, per Category IOU: [0.99947787 0.84344569]
+2024-11-28 14:15:50 - FewShotSeg - INFO - Epoch: 23, Iteration: 3, Training Loss: 0.0038, Mean IoU: 0.9474, Mean Accuracy: 0.9891, per Category IOU: [0.99953228 0.89529675]
+2024-11-28 14:16:15 - FewShotSeg - INFO - Epoch : 23, Validation Results - Loss: 0.0234, Mean IoU: 0.9201, Mean Accuracy: 0.9235, per Category IOU: [0.99895621 0.4064517 ]
+2024-11-28 14:16:15 - FewShotSeg - INFO - Model saved!
+2024-11-28 14:16:15 - FewShotSeg - INFO - Epoch: 24
+2024-11-28 14:16:15 - FewShotSeg - INFO - Epoch: 24, Iteration: 0, Training Loss: 0.0046, Mean IoU: 0.9500, Mean Accuracy: 0.9933, per Category IOU: [0.99944668 0.90054005]
+2024-11-28 14:16:16 - FewShotSeg - INFO - Epoch: 24, Iteration: 1, Training Loss: 0.0025, Mean IoU: 0.9279, Mean Accuracy: 0.9941, per Category IOU: [0.99948774 0.85624123]
+2024-11-28 14:16:16 - FewShotSeg - INFO - Epoch: 24, Iteration: 2, Training Loss: 0.0038, Mean IoU: 0.9435, Mean Accuracy: 0.9855, per Category IOU: [0.99957005 0.88750818]
+2024-11-28 14:16:16 - FewShotSeg - INFO - Epoch: 24, Iteration: 3, Training Loss: 0.0038, Mean IoU: 0.9495, Mean Accuracy: 0.9828, per Category IOU: [0.99959747 0.89943785]
+2024-11-28 14:16:41 - FewShotSeg - INFO - Epoch : 24, Validation Results - Loss: 0.0226, Mean IoU: 0.9223, Mean Accuracy: 0.9258, per Category IOU: [0.99898688 0.41091278]
+2024-11-28 14:16:41 - FewShotSeg - INFO - Model saved!
+2024-11-28 14:16:41 - FewShotSeg - INFO - Epoch: 25
+2024-11-28 14:16:42 - FewShotSeg - INFO - Epoch: 25, Iteration: 0, Training Loss: 0.0034, Mean IoU: 0.9407, Mean Accuracy: 0.9911, per Category IOU: [0.99942958 0.88192646]
+2024-11-28 14:16:42 - FewShotSeg - INFO - Epoch: 25, Iteration: 1, Training Loss: 0.0031, Mean IoU: 0.9086, Mean Accuracy: 0.9935, per Category IOU: [0.99933285 0.81787176]
+2024-11-28 14:16:42 - FewShotSeg - INFO - Epoch: 25, Iteration: 2, Training Loss: 0.0039, Mean IoU: 0.9567, Mean Accuracy: 0.9991, per Category IOU: [0.99948147 0.91400083]
+2024-11-28 14:16:42 - FewShotSeg - INFO - Epoch: 25, Iteration: 3, Training Loss: 0.0030, Mean IoU: 0.9412, Mean Accuracy: 0.9814, per Category IOU: [0.99968036 0.88267644]
+2024-11-28 14:17:07 - FewShotSeg - INFO - Epoch : 25, Validation Results - Loss: 0.0217, Mean IoU: 0.9247, Mean Accuracy: 0.9284, per Category IOU: [0.9990188  0.41555597]
+2024-11-28 14:17:07 - FewShotSeg - INFO - Model saved!
+2024-11-28 14:17:07 - FewShotSeg - INFO - Epoch: 26
+2024-11-28 14:17:08 - FewShotSeg - INFO - Epoch: 26, Iteration: 0, Training Loss: 0.0029, Mean IoU: 0.9107, Mean Accuracy: 0.9917, per Category IOU: [0.99943551 0.82204724]
+2024-11-28 14:17:08 - FewShotSeg - INFO - Epoch: 26, Iteration: 1, Training Loss: 0.0027, Mean IoU: 0.9439, Mean Accuracy: 0.9934, per Category IOU: [0.99953743 0.88821752]
+2024-11-28 14:17:08 - FewShotSeg - INFO - Epoch: 26, Iteration: 2, Training Loss: 0.0038, Mean IoU: 0.9556, Mean Accuracy: 0.9991, per Category IOU: [0.99946644 0.91172814]
+2024-11-28 14:17:08 - FewShotSeg - INFO - Epoch: 26, Iteration: 3, Training Loss: 0.0035, Mean IoU: 0.9407, Mean Accuracy: 0.9862, per Category IOU: [0.99954506 0.88189487]
+2024-11-28 14:17:33 - FewShotSeg - INFO - Epoch : 26, Validation Results - Loss: 0.0211, Mean IoU: 0.9264, Mean Accuracy: 0.9302, per Category IOU: [0.99904286 0.41891986]
+2024-11-28 14:17:33 - FewShotSeg - INFO - Model saved!
+2024-11-28 14:17:33 - FewShotSeg - INFO - Epoch: 27
+2024-11-28 14:17:34 - FewShotSeg - INFO - Epoch: 27, Iteration: 0, Training Loss: 0.0034, Mean IoU: 0.9469, Mean Accuracy: 0.9915, per Category IOU: [0.99952476 0.89426822]
+2024-11-28 14:17:34 - FewShotSeg - INFO - Epoch: 27, Iteration: 1, Training Loss: 0.0039, Mean IoU: 0.9603, Mean Accuracy: 0.9901, per Category IOU: [0.99956935 0.92110092]
+2024-11-28 14:17:34 - FewShotSeg - INFO - Epoch: 27, Iteration: 2, Training Loss: 0.0031, Mean IoU: 0.9219, Mean Accuracy: 0.9845, per Category IOU: [0.999563   0.84430605]
+2024-11-28 14:17:34 - FewShotSeg - INFO - Epoch: 27, Iteration: 3, Training Loss: 0.0026, Mean IoU: 0.9439, Mean Accuracy: 0.9941, per Category IOU: [0.99953743 0.88835244]
+2024-11-28 14:17:59 - FewShotSeg - INFO - Epoch : 27, Validation Results - Loss: 0.0203, Mean IoU: 0.9287, Mean Accuracy: 0.9327, per Category IOU: [0.99907466 0.42348104]
+2024-11-28 14:17:59 - FewShotSeg - INFO - Model saved!
+2024-11-28 14:17:59 - FewShotSeg - INFO - Epoch: 28
+2024-11-28 14:18:00 - FewShotSeg - INFO - Epoch: 28, Iteration: 0, Training Loss: 0.0033, Mean IoU: 0.9526, Mean Accuracy: 0.9885, per Category IOU: [0.99961995 0.90553139]
+2024-11-28 14:18:00 - FewShotSeg - INFO - Epoch: 28, Iteration: 1, Training Loss: 0.0028, Mean IoU: 0.9373, Mean Accuracy: 0.9829, per Category IOU: [0.99965538 0.875     ]
+2024-11-28 14:18:00 - FewShotSeg - INFO - Epoch: 28, Iteration: 2, Training Loss: 0.0036, Mean IoU: 0.9627, Mean Accuracy: 0.9957, per Category IOU: [0.99956165 0.92578456]
+2024-11-28 14:18:00 - FewShotSeg - INFO - Epoch: 28, Iteration: 3, Training Loss: 0.0033, Mean IoU: 0.9222, Mean Accuracy: 0.9915, per Category IOU: [0.99934246 0.84502062]
+2024-11-28 14:18:25 - FewShotSeg - INFO - Epoch : 28, Validation Results - Loss: 0.0193, Mean IoU: 0.9316, Mean Accuracy: 0.9358, per Category IOU: [0.99911211 0.42928474]
+2024-11-28 14:18:25 - FewShotSeg - INFO - Model saved!
+2024-11-28 14:18:25 - FewShotSeg - INFO - Epoch: 29
+2024-11-28 14:18:26 - FewShotSeg - INFO - Epoch: 29, Iteration: 0, Training Loss: 0.0025, Mean IoU: 0.9332, Mean Accuracy: 0.9945, per Category IOU: [0.99949261 0.86688525]
+2024-11-28 14:18:26 - FewShotSeg - INFO - Epoch: 29, Iteration: 1, Training Loss: 0.0028, Mean IoU: 0.9329, Mean Accuracy: 0.9963, per Category IOU: [0.99937467 0.86638161]
+2024-11-28 14:18:26 - FewShotSeg - INFO - Epoch: 29, Iteration: 2, Training Loss: 0.0030, Mean IoU: 0.9161, Mean Accuracy: 0.9880, per Category IOU: [0.99952054 0.83275261]
+2024-11-28 14:18:26 - FewShotSeg - INFO - Epoch: 29, Iteration: 3, Training Loss: 0.0035, Mean IoU: 0.9518, Mean Accuracy: 0.9993, per Category IOU: [0.99941634 0.9042728 ]
+2024-11-28 14:18:51 - FewShotSeg - INFO - Epoch : 29, Validation Results - Loss: 0.0189, Mean IoU: 0.9333, Mean Accuracy: 0.9376, per Category IOU: [0.99913392 0.43269169]
+2024-11-28 14:18:51 - FewShotSeg - INFO - Model saved!
+2024-11-28 14:18:51 - FewShotSeg - INFO - Epoch: 30
+2024-11-28 14:18:52 - FewShotSeg - INFO - Epoch: 30, Iteration: 0, Training Loss: 0.0024, Mean IoU: 0.9238, Mean Accuracy: 0.9953, per Category IOU: [0.99945275 0.84823285]
+2024-11-28 14:18:52 - FewShotSeg - INFO - Epoch: 30, Iteration: 1, Training Loss: 0.0030, Mean IoU: 0.9154, Mean Accuracy: 0.9880, per Category IOU: [0.99951555 0.83130435]
+2024-11-28 14:18:52 - FewShotSeg - INFO - Epoch: 30, Iteration: 2, Training Loss: 0.0034, Mean IoU: 0.9524, Mean Accuracy: 0.9993, per Category IOU: [0.99942386 0.90538873]
+2024-11-28 14:18:52 - FewShotSeg - INFO - Epoch: 30, Iteration: 3, Training Loss: 0.0031, Mean IoU: 0.9343, Mean Accuracy: 0.9925, per Category IOU: [0.99935702 0.8692112 ]
+2024-11-28 14:19:17 - FewShotSeg - INFO - Epoch : 30, Validation Results - Loss: 0.0189, Mean IoU: 0.9334, Mean Accuracy: 0.9377, per Category IOU: [0.99913561 0.43292491]
+2024-11-28 14:19:17 - FewShotSeg - INFO - Model saved!
+2024-11-28 14:19:17 - FewShotSeg - INFO - Epoch: 31
+2024-11-28 14:19:18 - FewShotSeg - INFO - Epoch: 31, Iteration: 0, Training Loss: 0.0030, Mean IoU: 0.9031, Mean Accuracy: 0.9935, per Category IOU: [0.99928287 0.80686406]
+2024-11-28 14:19:18 - FewShotSeg - INFO - Epoch: 31, Iteration: 1, Training Loss: 0.0030, Mean IoU: 0.9347, Mean Accuracy: 0.9919, per Category IOU: [0.99936202 0.8699643 ]
+2024-11-28 14:19:18 - FewShotSeg - INFO - Epoch: 31, Iteration: 2, Training Loss: 0.0033, Mean IoU: 0.9547, Mean Accuracy: 0.9993, per Category IOU: [0.99945392 0.90988012]
+2024-11-28 14:19:18 - FewShotSeg - INFO - Epoch: 31, Iteration: 3, Training Loss: 0.0027, Mean IoU: 0.9364, Mean Accuracy: 0.9849, per Category IOU: [0.99964789 0.87308731]
+2024-11-28 14:19:44 - FewShotSeg - INFO - Epoch : 31, Validation Results - Loss: 0.0193, Mean IoU: 0.9327, Mean Accuracy: 0.9369, per Category IOU: [0.99912728 0.43152001]
+2024-11-28 14:19:44 - FewShotSeg - INFO - Epoch: 32
+2024-11-28 14:19:44 - FewShotSeg - INFO - Epoch: 32, Iteration: 0, Training Loss: 0.0027, Mean IoU: 0.9364, Mean Accuracy: 0.9849, per Category IOU: [0.99964789 0.87308731]
+2024-11-28 14:19:44 - FewShotSeg - INFO - Epoch: 32, Iteration: 1, Training Loss: 0.0028, Mean IoU: 0.9207, Mean Accuracy: 0.9948, per Category IOU: [0.99943529 0.84195804]
+2024-11-28 14:19:44 - FewShotSeg - INFO - Epoch: 32, Iteration: 2, Training Loss: 0.0032, Mean IoU: 0.9636, Mean Accuracy: 0.9948, per Category IOU: [0.99957418 0.92762878]
+2024-11-28 14:19:44 - FewShotSeg - INFO - Epoch: 32, Iteration: 3, Training Loss: 0.0030, Mean IoU: 0.9387, Mean Accuracy: 0.9914, per Category IOU: [0.99940706 0.87789799]
+2024-11-28 14:20:09 - FewShotSeg - INFO - Epoch : 32, Validation Results - Loss: 0.0194, Mean IoU: 0.9327, Mean Accuracy: 0.9369, per Category IOU: [0.9991276  0.43157044]
+2024-11-28 14:20:09 - FewShotSeg - INFO - Epoch: 33
+2024-11-28 14:20:10 - FewShotSeg - INFO - Epoch: 33, Iteration: 0, Training Loss: 0.0031, Mean IoU: 0.9569, Mean Accuracy: 0.9988, per Category IOU: [0.99948398 0.91434511]
+2024-11-28 14:20:10 - FewShotSeg - INFO - Epoch: 33, Iteration: 1, Training Loss: 0.0031, Mean IoU: 0.9103, Mean Accuracy: 0.9943, per Category IOU: [0.99929269 0.82133838]
+2024-11-28 14:20:10 - FewShotSeg - INFO - Epoch: 33, Iteration: 2, Training Loss: 0.0032, Mean IoU: 0.9414, Mean Accuracy: 0.9873, per Category IOU: [0.99955005 0.88326848]
+2024-11-28 14:20:10 - FewShotSeg - INFO - Epoch: 33, Iteration: 3, Training Loss: 0.0023, Mean IoU: 0.9283, Mean Accuracy: 0.9953, per Category IOU: [0.99949023 0.85714286]
+2024-11-28 14:20:36 - FewShotSeg - INFO - Epoch : 33, Validation Results - Loss: 0.0195, Mean IoU: 0.9328, Mean Accuracy: 0.9369, per Category IOU: [0.99912851 0.4316455 ]
+2024-11-28 14:20:36 - FewShotSeg - INFO - Epoch: 34
+2024-11-28 14:20:36 - FewShotSeg - INFO - Epoch: 34, Iteration: 0, Training Loss: 0.0024, Mean IoU: 0.9369, Mean Accuracy: 0.9942, per Category IOU: [0.9995251  0.87425546]
+2024-11-28 14:20:36 - FewShotSeg - INFO - Epoch: 34, Iteration: 1, Training Loss: 0.0044, Mean IoU: 0.9625, Mean Accuracy: 0.9876, per Category IOU: [0.99951882 0.92549476]
+2024-11-28 14:20:36 - FewShotSeg - INFO - Epoch: 34, Iteration: 2, Training Loss: 0.0027, Mean IoU: 0.9190, Mean Accuracy: 0.9911, per Category IOU: [0.99945537 0.83863805]
+2024-11-28 14:20:36 - FewShotSeg - INFO - Epoch: 34, Iteration: 3, Training Loss: 0.0027, Mean IoU: 0.9230, Mean Accuracy: 0.9940, per Category IOU: [0.99945528 0.84647887]
+2024-11-28 14:21:01 - FewShotSeg - INFO - Epoch : 34, Validation Results - Loss: 0.0191, Mean IoU: 0.9341, Mean Accuracy: 0.9383, per Category IOU: [0.99914441 0.43428394]
+2024-11-28 14:21:02 - FewShotSeg - INFO - Model saved!
+2024-11-28 14:21:02 - FewShotSeg - INFO - Epoch: 35
+2024-11-28 14:21:02 - FewShotSeg - INFO - Epoch: 35, Iteration: 0, Training Loss: 0.0030, Mean IoU: 0.9103, Mean Accuracy: 0.9943, per Category IOU: [0.99929269 0.82133838]
+2024-11-28 14:21:02 - FewShotSeg - INFO - Epoch: 35, Iteration: 1, Training Loss: 0.0025, Mean IoU: 0.9425, Mean Accuracy: 0.9944, per Category IOU: [0.99955504 0.88538313]
+2024-11-28 14:21:02 - FewShotSeg - INFO - Epoch: 35, Iteration: 2, Training Loss: 0.0026, Mean IoU: 0.9340, Mean Accuracy: 0.9933, per Category IOU: [0.99944743 0.86853064]
+2024-11-28 14:21:02 - FewShotSeg - INFO - Epoch: 35, Iteration: 3, Training Loss: 0.0035, Mean IoU: 0.9551, Mean Accuracy: 0.9919, per Category IOU: [0.99952437 0.91058824]
+2024-11-28 14:21:27 - FewShotSeg - INFO - Epoch : 35, Validation Results - Loss: 0.0189, Mean IoU: 0.9351, Mean Accuracy: 0.9393, per Category IOU: [0.99915686 0.43633116]
+2024-11-28 14:21:28 - FewShotSeg - INFO - Model saved!
+2024-11-28 14:21:28 - FewShotSeg - INFO - Epoch: 36
+2024-11-28 14:21:28 - FewShotSeg - INFO - Epoch: 36, Iteration: 0, Training Loss: 0.0029, Mean IoU: 0.9577, Mean Accuracy: 0.9988, per Category IOU: [0.999494   0.91586839]
+2024-11-28 14:21:28 - FewShotSeg - INFO - Epoch: 36, Iteration: 1, Training Loss: 0.0028, Mean IoU: 0.9084, Mean Accuracy: 0.9931, per Category IOU: [0.99941553 0.81733021]
+2024-11-28 14:21:28 - FewShotSeg - INFO - Epoch: 36, Iteration: 2, Training Loss: 0.0026, Mean IoU: 0.9210, Mean Accuracy: 0.9937, per Category IOU: [0.99946786 0.84245562]
+2024-11-28 14:21:28 - FewShotSeg - INFO - Epoch: 36, Iteration: 3, Training Loss: 0.0029, Mean IoU: 0.9396, Mean Accuracy: 0.9917, per Category IOU: [0.99941707 0.87977296]
+2024-11-28 14:21:54 - FewShotSeg - INFO - Epoch : 36, Validation Results - Loss: 0.0186, Mean IoU: 0.9361, Mean Accuracy: 0.9403, per Category IOU: [0.9991685  0.43824252]
+2024-11-28 14:21:54 - FewShotSeg - INFO - Model saved!
+2024-11-28 14:21:54 - FewShotSeg - INFO - Epoch: 37
+2024-11-28 14:21:54 - FewShotSeg - INFO - Epoch: 37, Iteration: 0, Training Loss: 0.0027, Mean IoU: 0.9229, Mean Accuracy: 0.9932, per Category IOU: [0.99945528 0.84626234]
+2024-11-28 14:21:55 - FewShotSeg - INFO - Epoch: 37, Iteration: 1, Training Loss: 0.0030, Mean IoU: 0.9418, Mean Accuracy: 0.9884, per Category IOU: [0.99955255 0.88406736]
+2024-11-28 14:21:55 - FewShotSeg - INFO - Epoch: 37, Iteration: 2, Training Loss: 0.0032, Mean IoU: 0.9598, Mean Accuracy: 0.9910, per Category IOU: [0.99956184 0.91998171]
+2024-11-28 14:21:55 - FewShotSeg - INFO - Epoch: 37, Iteration: 3, Training Loss: 0.0023, Mean IoU: 0.9446, Mean Accuracy: 0.9948, per Category IOU: [0.99954242 0.88955944]
+2024-11-28 14:22:20 - FewShotSeg - INFO - Epoch : 37, Validation Results - Loss: 0.0183, Mean IoU: 0.9375, Mean Accuracy: 0.9418, per Category IOU: [0.99918528 0.44104186]
+2024-11-28 14:22:21 - FewShotSeg - INFO - Model saved!
+2024-11-28 14:22:21 - FewShotSeg - INFO - Epoch: 38
+2024-11-28 14:22:21 - FewShotSeg - INFO - Epoch: 38, Iteration: 0, Training Loss: 0.0030, Mean IoU: 0.9404, Mean Accuracy: 0.9884, per Category IOU: [0.99954005 0.88121369]
+2024-11-28 14:22:21 - FewShotSeg - INFO - Epoch: 38, Iteration: 1, Training Loss: 0.0029, Mean IoU: 0.9644, Mean Accuracy: 0.9955, per Category IOU: [0.9995842  0.92930153]
+2024-11-28 14:22:21 - FewShotSeg - INFO - Epoch: 38, Iteration: 2, Training Loss: 0.0026, Mean IoU: 0.9224, Mean Accuracy: 0.9940, per Category IOU: [0.99945028 0.84528833]
+2024-11-28 14:22:22 - FewShotSeg - INFO - Epoch: 38, Iteration: 3, Training Loss: 0.0024, Mean IoU: 0.9329, Mean Accuracy: 0.9945, per Category IOU: [0.99949011 0.86631717]
+2024-11-28 14:22:46 - FewShotSeg - INFO - Epoch : 38, Validation Results - Loss: 0.0178, Mean IoU: 0.9394, Mean Accuracy: 0.9439, per Category IOU: [0.9992077  0.44486262]
+2024-11-28 14:22:47 - FewShotSeg - INFO - Model saved!
+2024-11-28 14:22:47 - FewShotSeg - INFO - Epoch: 39
+2024-11-28 14:22:47 - FewShotSeg - INFO - Epoch: 39, Iteration: 0, Training Loss: 0.0039, Mean IoU: 0.9626, Mean Accuracy: 0.9894, per Category IOU: [0.99951881 0.92575406]
+2024-11-28 14:22:47 - FewShotSeg - INFO - Epoch: 39, Iteration: 1, Training Loss: 0.0029, Mean IoU: 0.9138, Mean Accuracy: 0.9891, per Category IOU: [0.99950306 0.82800346]
+2024-11-28 14:22:47 - FewShotSeg - INFO - Epoch: 39, Iteration: 2, Training Loss: 0.0023, Mean IoU: 0.9516, Mean Accuracy: 0.9918, per Category IOU: [0.99967516 0.90348924]
+2024-11-28 14:22:47 - FewShotSeg - INFO - Epoch: 39, Iteration: 3, Training Loss: 0.0023, Mean IoU: 0.9452, Mean Accuracy: 0.9954, per Category IOU: [0.99954742 0.89076645]
+2024-11-28 14:23:12 - FewShotSeg - INFO - Epoch : 39, Validation Results - Loss: 0.0170, Mean IoU: 0.9422, Mean Accuracy: 0.9469, per Category IOU: [0.99924135 0.45040529]
+2024-11-28 14:23:13 - FewShotSeg - INFO - Model saved!
+2024-11-28 14:23:13 - FewShotSeg - INFO - Epoch: 40
+2024-11-28 14:23:13 - FewShotSeg - INFO - Epoch: 40, Iteration: 0, Training Loss: 0.0032, Mean IoU: 0.9531, Mean Accuracy: 0.9937, per Category IOU: [0.99949933 0.90662932]
+2024-11-28 14:23:13 - FewShotSeg - INFO - Epoch: 40, Iteration: 1, Training Loss: 0.0023, Mean IoU: 0.9452, Mean Accuracy: 0.9958, per Category IOU: [0.99954742 0.89083233]
+2024-11-28 14:23:13 - FewShotSeg - INFO - Epoch: 40, Iteration: 2, Training Loss: 0.0022, Mean IoU: 0.9506, Mean Accuracy: 0.9918, per Category IOU: [0.99966766 0.90148148]
+2024-11-28 14:23:13 - FewShotSeg - INFO - Epoch: 40, Iteration: 3, Training Loss: 0.0031, Mean IoU: 0.9203, Mean Accuracy: 0.9921, per Category IOU: [0.99932245 0.84124194]
+2024-11-28 14:23:38 - FewShotSeg - INFO - Epoch : 40, Validation Results - Loss: 0.0164, Mean IoU: 0.9443, Mean Accuracy: 0.9492, per Category IOU: [0.99926614 0.45457091]
+2024-11-28 14:23:39 - FewShotSeg - INFO - Model saved!
+2024-11-28 14:23:39 - FewShotSeg - INFO - Epoch: 41
+2024-11-28 14:23:39 - FewShotSeg - INFO - Epoch: 41, Iteration: 0, Training Loss: 0.0022, Mean IoU: 0.9499, Mean Accuracy: 0.9918, per Category IOU: [0.99966266 0.90014793]
+2024-11-28 14:23:39 - FewShotSeg - INFO - Epoch: 41, Iteration: 1, Training Loss: 0.0028, Mean IoU: 0.9312, Mean Accuracy: 0.9929, per Category IOU: [0.99945254 0.86286788]
+2024-11-28 14:23:39 - FewShotSeg - INFO - Epoch: 41, Iteration: 2, Training Loss: 0.0030, Mean IoU: 0.9087, Mean Accuracy: 0.9955, per Category IOU: [0.99927519 0.81806775]
+2024-11-28 14:23:39 - FewShotSeg - INFO - Epoch: 41, Iteration: 3, Training Loss: 0.0028, Mean IoU: 0.9628, Mean Accuracy: 0.9975, per Category IOU: [0.99956164 0.9260355 ]
+2024-11-28 14:24:05 - FewShotSeg - INFO - Epoch : 41, Validation Results - Loss: 0.0159, Mean IoU: 0.9459, Mean Accuracy: 0.9510, per Category IOU: [0.99928551 0.45774849]
+2024-11-28 14:24:06 - FewShotSeg - INFO - Model saved!
+2024-11-28 14:24:06 - FewShotSeg - INFO - Epoch: 42
+2024-11-28 14:24:06 - FewShotSeg - INFO - Epoch: 42, Iteration: 0, Training Loss: 0.0023, Mean IoU: 0.9440, Mean Accuracy: 0.9971, per Category IOU: [0.99953492 0.88842232]
+2024-11-28 14:24:06 - FewShotSeg - INFO - Epoch: 42, Iteration: 1, Training Loss: 0.0027, Mean IoU: 0.9502, Mean Accuracy: 0.9992, per Category IOU: [0.9993938  0.90094147]
+2024-11-28 14:24:06 - FewShotSeg - INFO - Epoch: 42, Iteration: 2, Training Loss: 0.0026, Mean IoU: 0.9311, Mean Accuracy: 0.9947, per Category IOU: [0.99941742 0.86269888]
+2024-11-28 14:24:06 - FewShotSeg - INFO - Epoch: 42, Iteration: 3, Training Loss: 0.0029, Mean IoU: 0.9098, Mean Accuracy: 0.9890, per Category IOU: [0.99947559 0.82020548]
+2024-11-28 14:24:33 - FewShotSeg - INFO - Epoch : 42, Validation Results - Loss: 0.0160, Mean IoU: 0.9460, Mean Accuracy: 0.9510, per Category IOU: [0.99928674 0.45795499]
+2024-11-28 14:24:33 - FewShotSeg - INFO - Model saved!
+2024-11-28 14:24:33 - FewShotSeg - INFO - Epoch: 43
+2024-11-28 14:24:33 - FewShotSeg - INFO - Epoch: 43, Iteration: 0, Training Loss: 0.0029, Mean IoU: 0.9594, Mean Accuracy: 0.9939, per Category IOU: [0.99955431 0.9191644 ]
+2024-11-28 14:24:34 - FewShotSeg - INFO - Epoch: 43, Iteration: 1, Training Loss: 0.0023, Mean IoU: 0.9336, Mean Accuracy: 0.9968, per Category IOU: [0.99956278 0.86772487]
+2024-11-28 14:24:34 - FewShotSeg - INFO - Epoch: 43, Iteration: 2, Training Loss: 0.0028, Mean IoU: 0.9329, Mean Accuracy: 0.9939, per Category IOU: [0.9993395  0.86646434]
+2024-11-28 14:24:34 - FewShotSeg - INFO - Epoch: 43, Iteration: 3, Training Loss: 0.0028, Mean IoU: 0.9058, Mean Accuracy: 0.9935, per Category IOU: [0.99930786 0.81233062]
+2024-11-28 14:25:00 - FewShotSeg - INFO - Epoch : 43, Validation Results - Loss: 0.0161, Mean IoU: 0.9459, Mean Accuracy: 0.9509, per Category IOU: [0.99928561 0.45779145]
+2024-11-28 14:25:00 - FewShotSeg - INFO - Epoch: 44
+2024-11-28 14:25:00 - FewShotSeg - INFO - Epoch: 44, Iteration: 0, Training Loss: 0.0026, Mean IoU: 0.9432, Mean Accuracy: 0.9943, per Category IOU: [0.99948473 0.88693743]
+2024-11-28 14:25:00 - FewShotSeg - INFO - Epoch: 44, Iteration: 1, Training Loss: 0.0027, Mean IoU: 0.9208, Mean Accuracy: 0.9957, per Category IOU: [0.99941774 0.8422478 ]
+2024-11-28 14:25:00 - FewShotSeg - INFO - Epoch: 44, Iteration: 2, Training Loss: 0.0026, Mean IoU: 0.9635, Mean Accuracy: 0.9968, per Category IOU: [0.99957166 0.92751166]
+2024-11-28 14:25:00 - FewShotSeg - INFO - Epoch: 44, Iteration: 3, Training Loss: 0.0027, Mean IoU: 0.9074, Mean Accuracy: 0.9931, per Category IOU: [0.99940803 0.81542056]
+2024-11-28 14:25:26 - FewShotSeg - INFO - Epoch : 44, Validation Results - Loss: 0.0164, Mean IoU: 0.9455, Mean Accuracy: 0.9503, per Category IOU: [0.99927985 0.45684127]
+2024-11-28 14:25:26 - FewShotSeg - INFO - Epoch: 45
+2024-11-28 14:25:26 - FewShotSeg - INFO - Epoch: 45, Iteration: 0, Training Loss: 0.0030, Mean IoU: 0.9239, Mean Accuracy: 0.9908, per Category IOU: [0.99935996 0.84834123]
+2024-11-28 14:25:26 - FewShotSeg - INFO - Epoch: 45, Iteration: 1, Training Loss: 0.0021, Mean IoU: 0.9506, Mean Accuracy: 0.9918, per Category IOU: [0.99966766 0.90148148]
+2024-11-28 14:25:27 - FewShotSeg - INFO - Epoch: 45, Iteration: 2, Training Loss: 0.0031, Mean IoU: 0.9561, Mean Accuracy: 0.9909, per Category IOU: [0.99945885 0.91279774]
+2024-11-28 14:25:27 - FewShotSeg - INFO - Epoch: 45, Iteration: 3, Training Loss: 0.0025, Mean IoU: 0.9163, Mean Accuracy: 0.9958, per Category IOU: [0.99942788 0.83321194]
+2024-11-28 14:25:52 - FewShotSeg - INFO - Epoch : 45, Validation Results - Loss: 0.0165, Mean IoU: 0.9455, Mean Accuracy: 0.9502, per Category IOU: [0.99927995 0.45686339]
+2024-11-28 14:25:52 - FewShotSeg - INFO - Epoch: 46
+2024-11-28 14:25:52 - FewShotSeg - INFO - Epoch: 46, Iteration: 0, Training Loss: 0.0024, Mean IoU: 0.9293, Mean Accuracy: 0.9903, per Category IOU: [0.99959793 0.85901926]
+2024-11-28 14:25:52 - FewShotSeg - INFO - Epoch: 46, Iteration: 1, Training Loss: 0.0029, Mean IoU: 0.9109, Mean Accuracy: 0.9951, per Category IOU: [0.99929768 0.82260101]
+2024-11-28 14:25:52 - FewShotSeg - INFO - Epoch: 46, Iteration: 2, Training Loss: 0.0025, Mean IoU: 0.9537, Mean Accuracy: 0.9990, per Category IOU: [0.99944139 0.90796533]
+2024-11-28 14:25:53 - FewShotSeg - INFO - Epoch: 46, Iteration: 3, Training Loss: 0.0024, Mean IoU: 0.9428, Mean Accuracy: 0.9955, per Category IOU: [0.99947973 0.88608981]
+2024-11-28 14:26:19 - FewShotSeg - INFO - Epoch : 46, Validation Results - Loss: 0.0166, Mean IoU: 0.9454, Mean Accuracy: 0.9501, per Category IOU: [0.99927901 0.45668026]
+2024-11-28 14:26:19 - FewShotSeg - INFO - Epoch: 47
+2024-11-28 14:26:19 - FewShotSeg - INFO - Epoch: 47, Iteration: 0, Training Loss: 0.0022, Mean IoU: 0.9414, Mean Accuracy: 0.9951, per Category IOU: [0.99954504 0.8832585 ]
+2024-11-28 14:26:19 - FewShotSeg - INFO - Epoch: 47, Iteration: 1, Training Loss: 0.0030, Mean IoU: 0.9284, Mean Accuracy: 0.9908, per Category IOU: [0.99940496 0.85748503]
+2024-11-28 14:26:19 - FewShotSeg - INFO - Epoch: 47, Iteration: 2, Training Loss: 0.0030, Mean IoU: 0.9539, Mean Accuracy: 0.9937, per Category IOU: [0.99950934 0.90832554]
+2024-11-28 14:26:19 - FewShotSeg - INFO - Epoch: 47, Iteration: 3, Training Loss: 0.0023, Mean IoU: 0.9335, Mean Accuracy: 0.9945, per Category IOU: [0.99949511 0.86745407]
+2024-11-28 14:26:45 - FewShotSeg - INFO - Epoch : 47, Validation Results - Loss: 0.0166, Mean IoU: 0.9455, Mean Accuracy: 0.9501, per Category IOU: [0.99928014 0.45685671]
+2024-11-28 14:26:45 - FewShotSeg - INFO - Epoch: 48
+2024-11-28 14:26:45 - FewShotSeg - INFO - Epoch: 48, Iteration: 0, Training Loss: 0.0027, Mean IoU: 0.9383, Mean Accuracy: 0.9922, per Category IOU: [0.99940205 0.87718397]
+2024-11-28 14:26:46 - FewShotSeg - INFO - Epoch: 48, Iteration: 1, Training Loss: 0.0028, Mean IoU: 0.9603, Mean Accuracy: 0.9930, per Category IOU: [0.99956684 0.92111263]
+2024-11-28 14:26:46 - FewShotSeg - INFO - Epoch: 48, Iteration: 2, Training Loss: 0.0024, Mean IoU: 0.9182, Mean Accuracy: 0.9958, per Category IOU: [0.99944287 0.83686906]
+2024-11-28 14:26:46 - FewShotSeg - INFO - Epoch: 48, Iteration: 3, Training Loss: 0.0025, Mean IoU: 0.9249, Mean Accuracy: 0.9924, per Category IOU: [0.99947278 0.8502484 ]
+2024-11-28 14:27:11 - FewShotSeg - INFO - Epoch : 48, Validation Results - Loss: 0.0165, Mean IoU: 0.9461, Mean Accuracy: 0.9507, per Category IOU: [0.99928745 0.45808215]
+2024-11-28 14:27:12 - FewShotSeg - INFO - Model saved!
+2024-11-28 14:27:12 - FewShotSeg - INFO - Epoch: 49
+2024-11-28 14:27:12 - FewShotSeg - INFO - Epoch: 49, Iteration: 0, Training Loss: 0.0025, Mean IoU: 0.9463, Mean Accuracy: 0.9934, per Category IOU: [0.99951725 0.893134  ]
+2024-11-28 14:27:12 - FewShotSeg - INFO - Epoch: 49, Iteration: 1, Training Loss: 0.0029, Mean IoU: 0.9120, Mean Accuracy: 0.9932, per Category IOU: [0.99931019 0.82465057]
+2024-11-28 14:27:12 - FewShotSeg - INFO - Epoch: 49, Iteration: 2, Training Loss: 0.0021, Mean IoU: 0.9298, Mean Accuracy: 0.9949, per Category IOU: [0.99950273 0.86005626]
+2024-11-28 14:27:12 - FewShotSeg - INFO - Epoch: 49, Iteration: 3, Training Loss: 0.0029, Mean IoU: 0.9535, Mean Accuracy: 0.9937, per Category IOU: [0.99950434 0.90747664]
+2024-11-28 14:27:38 - FewShotSeg - INFO - Epoch : 49, Validation Results - Loss: 0.0164, Mean IoU: 0.9465, Mean Accuracy: 0.9512, per Category IOU: [0.99929245 0.45893403]
+2024-11-28 14:27:38 - FewShotSeg - INFO - Model saved!

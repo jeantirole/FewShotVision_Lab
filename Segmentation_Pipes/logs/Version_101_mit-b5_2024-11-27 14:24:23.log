@@ -1,0 +1,181 @@
+2024-11-27 14:24:29 - FewShotSeg - INFO - Epoch: 0
+2024-11-27 14:24:30 - FewShotSeg - INFO - Epoch: 0, Iteration: 0, Training Loss: 0.6809, Mean IoU: 0.2852, Mean Accuracy: 0.4730
+2024-11-27 14:24:30 - FewShotSeg - INFO - Epoch: 0, Iteration: 1, Training Loss: 0.6110, Mean IoU: 0.4466, Mean Accuracy: 0.4492
+2024-11-27 14:24:31 - FewShotSeg - INFO - Epoch: 0, Iteration: 2, Training Loss: 0.4713, Mean IoU: 0.4964, Mean Accuracy: 0.4979
+2024-11-27 14:24:31 - FewShotSeg - INFO - Epoch: 0, Iteration: 3, Training Loss: 0.4613, Mean IoU: 0.4957, Mean Accuracy: 0.4982
+2024-11-27 14:24:31 - FewShotSeg - INFO - Epoch: 0, Iteration: 4, Training Loss: 0.3990, Mean IoU: 0.4964, Mean Accuracy: 0.4991
+2024-11-27 14:24:31 - FewShotSeg - INFO - Epoch: 0, Iteration: 5, Training Loss: 0.3157, Mean IoU: 0.4981, Mean Accuracy: 0.4999
+2024-11-27 14:24:32 - FewShotSeg - INFO - Epoch: 0, Iteration: 6, Training Loss: 0.2705, Mean IoU: 0.4985, Mean Accuracy: 0.4999
+2024-11-27 14:24:32 - FewShotSeg - INFO - Epoch: 0, Iteration: 7, Training Loss: 0.2269, Mean IoU: 0.4982, Mean Accuracy: 0.5000
+2024-11-27 14:24:32 - FewShotSeg - INFO - Epoch: 0, Iteration: 8, Training Loss: 0.2644, Mean IoU: 0.4981, Mean Accuracy: 0.5000
+2024-11-27 14:24:32 - FewShotSeg - INFO - Epoch: 0, Iteration: 9, Training Loss: 0.1684, Mean IoU: 0.4984, Mean Accuracy: 0.5000
+2024-11-27 14:24:33 - FewShotSeg - INFO - Epoch: 0, Iteration: 10, Training Loss: 0.1744, Mean IoU: 0.4984, Mean Accuracy: 0.5000
+2024-11-27 14:24:33 - FewShotSeg - INFO - Epoch: 0, Iteration: 11, Training Loss: 0.2182, Mean IoU: 0.4977, Mean Accuracy: 0.5000
+2024-11-27 14:24:33 - FewShotSeg - INFO - Epoch: 0, Iteration: 12, Training Loss: 0.1864, Mean IoU: 0.4979, Mean Accuracy: 0.5000
+2024-11-27 14:24:34 - FewShotSeg - INFO - Epoch: 0, Iteration: 13, Training Loss: 0.1469, Mean IoU: 0.4985, Mean Accuracy: 0.5000
+2024-11-27 14:24:34 - FewShotSeg - INFO - Epoch: 0, Iteration: 14, Training Loss: 0.1587, Mean IoU: 0.4980, Mean Accuracy: 0.5000
+2024-11-27 14:24:34 - FewShotSeg - INFO - Epoch: 0, Iteration: 15, Training Loss: 0.1772, Mean IoU: 0.4981, Mean Accuracy: 0.5000
+2024-11-27 14:24:34 - FewShotSeg - INFO - Epoch: 0, Iteration: 16, Training Loss: 0.1299, Mean IoU: 0.4984, Mean Accuracy: 0.5000
+2024-11-27 14:24:35 - FewShotSeg - INFO - Epoch: 0, Iteration: 17, Training Loss: 0.1712, Mean IoU: 0.4970, Mean Accuracy: 0.5000
+2024-11-27 14:24:35 - FewShotSeg - INFO - Epoch: 0, Iteration: 18, Training Loss: 0.1064, Mean IoU: 0.4986, Mean Accuracy: 0.5000
+2024-11-27 14:24:35 - FewShotSeg - INFO - Epoch: 0, Iteration: 19, Training Loss: 0.1270, Mean IoU: 0.4980, Mean Accuracy: 0.5000
+2024-11-27 14:24:36 - FewShotSeg - INFO - Epoch: 0, Iteration: 20, Training Loss: 0.1002, Mean IoU: 0.4983, Mean Accuracy: 0.5000
+2024-11-27 14:24:36 - FewShotSeg - INFO - Epoch: 0, Iteration: 21, Training Loss: 0.1184, Mean IoU: 0.4985, Mean Accuracy: 0.5000
+2024-11-27 14:24:36 - FewShotSeg - INFO - Epoch: 0, Iteration: 22, Training Loss: 0.0719, Mean IoU: 0.4985, Mean Accuracy: 0.5000
+2024-11-27 14:24:36 - FewShotSeg - INFO - Epoch: 0, Iteration: 23, Training Loss: 0.1035, Mean IoU: 0.4986, Mean Accuracy: 0.5000
+2024-11-27 14:24:37 - FewShotSeg - INFO - Epoch: 0, Iteration: 24, Training Loss: 0.1107, Mean IoU: 0.4979, Mean Accuracy: 0.5000
+2024-11-27 14:24:37 - FewShotSeg - INFO - Epoch: 0, Iteration: 25, Training Loss: 0.1010, Mean IoU: 0.4978, Mean Accuracy: 0.5000
+2024-11-27 14:24:37 - FewShotSeg - INFO - Epoch: 0, Iteration: 26, Training Loss: 0.0641, Mean IoU: 0.4986, Mean Accuracy: 0.5000
+2024-11-27 14:24:37 - FewShotSeg - INFO - Epoch: 0, Iteration: 27, Training Loss: 0.0925, Mean IoU: 0.4980, Mean Accuracy: 0.5000
+2024-11-27 14:24:38 - FewShotSeg - INFO - Epoch: 0, Iteration: 28, Training Loss: 0.0882, Mean IoU: 0.5019, Mean Accuracy: 0.5038
+2024-11-27 14:24:38 - FewShotSeg - INFO - Epoch: 0, Iteration: 29, Training Loss: 0.0745, Mean IoU: 0.6356, Mean Accuracy: 0.6370
+2024-11-27 14:24:38 - FewShotSeg - INFO - Epoch: 0, Iteration: 30, Training Loss: 0.1045, Mean IoU: 0.5545, Mean Accuracy: 0.5567
+2024-11-27 14:24:39 - FewShotSeg - INFO - Epoch: 0, Iteration: 31, Training Loss: 0.0640, Mean IoU: 0.6238, Mean Accuracy: 0.6252
+2024-11-27 14:24:39 - FewShotSeg - INFO - Epoch: 0, Iteration: 32, Training Loss: 0.0516, Mean IoU: 0.7695, Mean Accuracy: 0.7704
+2024-11-27 14:24:39 - FewShotSeg - INFO - Epoch: 0, Iteration: 33, Training Loss: 0.0643, Mean IoU: 0.6480, Mean Accuracy: 0.6492
+2024-11-27 14:24:39 - FewShotSeg - INFO - Epoch: 0, Iteration: 34, Training Loss: 0.0465, Mean IoU: 0.8115, Mean Accuracy: 0.8122
+2024-11-27 14:24:40 - FewShotSeg - INFO - Epoch: 0, Iteration: 35, Training Loss: 0.0669, Mean IoU: 0.7419, Mean Accuracy: 0.7427
+2024-11-27 14:24:40 - FewShotSeg - INFO - Epoch: 0, Iteration: 36, Training Loss: 0.0378, Mean IoU: 0.8991, Mean Accuracy: 0.8995
+2024-11-27 14:24:40 - FewShotSeg - INFO - Epoch: 0, Iteration: 37, Training Loss: 0.0600, Mean IoU: 0.8061, Mean Accuracy: 0.8080
+2024-11-27 14:24:41 - FewShotSeg - INFO - Epoch: 0, Iteration: 38, Training Loss: 0.0358, Mean IoU: 0.8112, Mean Accuracy: 0.8156
+2024-11-27 14:24:41 - FewShotSeg - INFO - Epoch: 0, Iteration: 39, Training Loss: 0.0321, Mean IoU: 0.8939, Mean Accuracy: 0.8980
+2024-11-27 14:24:41 - FewShotSeg - INFO - Validation mean IOU for Batch : 1.0
+2024-11-27 14:24:41 - FewShotSeg - INFO - Validation mean ACC for Batch : 1.0
+2024-11-27 14:24:41 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.9450919019820577
+2024-11-27 14:24:41 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.9497790901025912
+2024-11-27 14:24:42 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.9103104372140571
+2024-11-27 14:24:42 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.915810505910103
+2024-11-27 14:24:42 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.7823251717052064
+2024-11-27 14:24:42 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.7845371338104768
+2024-11-27 14:24:42 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.9324551446126293
+2024-11-27 14:24:42 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.9417662739663892
+2024-11-27 14:24:42 - FewShotSeg - INFO - Validation mean IOU for Batch : 1.0
+2024-11-27 14:24:42 - FewShotSeg - INFO - Validation mean ACC for Batch : 1.0
+2024-11-27 14:24:43 - FewShotSeg - INFO - Validation mean IOU for Batch : 1.0
+2024-11-27 14:24:43 - FewShotSeg - INFO - Validation mean ACC for Batch : 1.0
+2024-11-27 14:24:43 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.9330492756622387
+2024-11-27 14:24:43 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.937714918363842
+2024-11-27 14:24:43 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.9579772070178709
+2024-11-27 14:24:43 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.9648678341835166
+2024-11-27 14:24:44 - FewShotSeg - INFO - Validation mean IOU for Batch : 1.0
+2024-11-27 14:24:44 - FewShotSeg - INFO - Validation mean ACC for Batch : 1.0
+2024-11-27 14:24:44 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.9429719758443054
+2024-11-27 14:24:44 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.9445705146888134
+2024-11-27 14:24:44 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.9045269089896708
+2024-11-27 14:24:44 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.9117887073108915
+2024-11-27 14:24:44 - FewShotSeg - INFO - Validation mean IOU for Batch : 1.0
+2024-11-27 14:24:44 - FewShotSeg - INFO - Validation mean ACC for Batch : 1.0
+2024-11-27 14:24:45 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.8943184433482576
+2024-11-27 14:24:45 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.8973209311447305
+2024-11-27 14:24:45 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.9396082988180476
+2024-11-27 14:24:45 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.9485725032760937
+2024-11-27 14:24:45 - FewShotSeg - INFO - Validation mean IOU for Batch : 1.0
+2024-11-27 14:24:45 - FewShotSeg - INFO - Validation mean ACC for Batch : 1.0
+2024-11-27 14:24:45 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.9022768380716408
+2024-11-27 14:24:45 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.9060870262045405
+2024-11-27 14:24:46 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.9578593908507531
+2024-11-27 14:24:46 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.9606611405590956
+2024-11-27 14:24:46 - FewShotSeg - INFO - Validation mean IOU for Batch : 1.0
+2024-11-27 14:24:46 - FewShotSeg - INFO - Validation mean ACC for Batch : 1.0
+2024-11-27 14:24:46 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.8099353634944315
+2024-11-27 14:24:46 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.8141313339409707
+2024-11-27 14:24:46 - FewShotSeg - INFO - Validation mean IOU for Batch : 1.0
+2024-11-27 14:24:46 - FewShotSeg - INFO - Validation mean ACC for Batch : 1.0
+2024-11-27 14:24:47 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.7868673193041942
+2024-11-27 14:24:47 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.7888414212007941
+2024-11-27 14:24:47 - FewShotSeg - INFO - Validation mean IOU for Batch : 1.0
+2024-11-27 14:24:47 - FewShotSeg - INFO - Validation mean ACC for Batch : 1.0
+2024-11-27 14:24:47 - FewShotSeg - INFO - Validation mean IOU for Batch : 1.0
+2024-11-27 14:24:47 - FewShotSeg - INFO - Validation mean ACC for Batch : 1.0
+2024-11-27 14:24:47 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.9502792002067705
+2024-11-27 14:24:47 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.9565113833892591
+2024-11-27 14:24:48 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.8460170312041217
+2024-11-27 14:24:48 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.851836049542338
+2024-11-27 14:24:48 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.7273628002788937
+2024-11-27 14:24:48 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.7294509362588847
+2024-11-27 14:24:48 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.9318252228319368
+2024-11-27 14:24:48 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.94224356147605
+2024-11-27 14:24:49 - FewShotSeg - INFO - Validation mean IOU for Batch : 1.0
+2024-11-27 14:24:49 - FewShotSeg - INFO - Validation mean ACC for Batch : 1.0
+2024-11-27 14:24:49 - FewShotSeg - INFO - Validation mean IOU for Batch : 1.0
+2024-11-27 14:24:49 - FewShotSeg - INFO - Validation mean ACC for Batch : 1.0
+2024-11-27 14:24:49 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.8683809450192692
+2024-11-27 14:24:49 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.8709463444237853
+2024-11-27 14:24:49 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.9636955892902419
+2024-11-27 14:24:49 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.9737257653310659
+2024-11-27 14:24:50 - FewShotSeg - INFO - Validation mean IOU for Batch : 1.0
+2024-11-27 14:24:50 - FewShotSeg - INFO - Validation mean ACC for Batch : 1.0
+2024-11-27 14:24:50 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.9494254919315457
+2024-11-27 14:24:50 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.9524488375324317
+2024-11-27 14:24:50 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.920742079984858
+2024-11-27 14:24:50 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.9309774904759611
+2024-11-27 14:24:50 - FewShotSeg - INFO - Validation mean IOU for Batch : 1.0
+2024-11-27 14:24:50 - FewShotSeg - INFO - Validation mean ACC for Batch : 1.0
+2024-11-27 14:24:51 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.9133630624902811
+2024-11-27 14:24:51 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.9160182249019829
+2024-11-27 14:24:51 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.8722274380953742
+2024-11-27 14:24:51 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.8739222770800861
+2024-11-27 14:24:51 - FewShotSeg - INFO - Validation mean IOU for Batch : 1.0
+2024-11-27 14:24:51 - FewShotSeg - INFO - Validation mean ACC for Batch : 1.0
+2024-11-27 14:24:51 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.9281762887301839
+2024-11-27 14:24:51 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.9330085460136346
+2024-11-27 14:24:52 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.9573693840388575
+2024-11-27 14:24:52 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.9601694984745331
+2024-11-27 14:24:52 - FewShotSeg - INFO - Validation mean IOU for Batch : 1.0
+2024-11-27 14:24:52 - FewShotSeg - INFO - Validation mean ACC for Batch : 1.0
+2024-11-27 14:24:52 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.8120743411531413
+2024-11-27 14:24:52 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.8162851800948168
+2024-11-27 14:24:52 - FewShotSeg - INFO - Validation mean IOU for Batch : 1.0
+2024-11-27 14:24:52 - FewShotSeg - INFO - Validation mean ACC for Batch : 1.0
+2024-11-27 14:24:53 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.7404920816321388
+2024-11-27 14:24:53 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.7420813311602417
+2024-11-27 14:24:53 - FewShotSeg - INFO - Validation mean IOU for Batch : 1.0
+2024-11-27 14:24:53 - FewShotSeg - INFO - Validation mean ACC for Batch : 1.0
+2024-11-27 14:24:53 - FewShotSeg - INFO - Validation mean IOU for Batch : 1.0
+2024-11-27 14:24:53 - FewShotSeg - INFO - Validation mean ACC for Batch : 1.0
+2024-11-27 14:24:54 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.8515406963261702
+2024-11-27 14:24:54 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.852088948787062
+2024-11-27 14:24:54 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.9277860669645411
+2024-11-27 14:24:54 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.932785935763085
+2024-11-27 14:24:54 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.815024161067657
+2024-11-27 14:24:54 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.8195311026452494
+2024-11-27 14:24:54 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.9233374535572035
+2024-11-27 14:24:54 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.9281612174949974
+2024-11-27 14:24:55 - FewShotSeg - INFO - Validation mean IOU for Batch : 1.0
+2024-11-27 14:24:55 - FewShotSeg - INFO - Validation mean ACC for Batch : 1.0
+2024-11-27 14:24:55 - FewShotSeg - INFO - Validation mean IOU for Batch : 1.0
+2024-11-27 14:24:55 - FewShotSeg - INFO - Validation mean ACC for Batch : 1.0
+2024-11-27 14:24:55 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.9359672292572361
+2024-11-27 14:24:55 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.9391052388482095
+2024-11-27 14:24:55 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.9482786913329571
+2024-11-27 14:24:55 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.950104615604268
+2024-11-27 14:24:56 - FewShotSeg - INFO - Validation mean IOU for Batch : 1.0
+2024-11-27 14:24:56 - FewShotSeg - INFO - Validation mean ACC for Batch : 1.0
+2024-11-27 14:24:56 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.93612303567982
+2024-11-27 14:24:56 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.9380955161116921
+2024-11-27 14:24:56 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.8954513672606932
+2024-11-27 14:24:56 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.8997413728380308
+2024-11-27 14:24:57 - FewShotSeg - INFO - Validation mean IOU for Batch : 1.0
+2024-11-27 14:24:57 - FewShotSeg - INFO - Validation mean ACC for Batch : 1.0
+2024-11-27 14:24:57 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.9238291528188114
+2024-11-27 14:24:57 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.9272199144318878
+2024-11-27 14:24:57 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.9034584664496077
+2024-11-27 14:24:57 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.9081463001011663
+2024-11-27 14:24:57 - FewShotSeg - INFO - Validation mean IOU for Batch : 1.0
+2024-11-27 14:24:57 - FewShotSeg - INFO - Validation mean ACC for Batch : 1.0
+2024-11-27 14:24:58 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.8776009707721182
+2024-11-27 14:24:58 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.8807161190042442
+2024-11-27 14:24:58 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.9405933101102638
+2024-11-27 14:24:58 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.9424728809889218
+2024-11-27 14:24:58 - FewShotSeg - INFO - Validation mean IOU for Batch : 1.0
+2024-11-27 14:24:58 - FewShotSeg - INFO - Validation mean ACC for Batch : 1.0
+2024-11-27 14:24:58 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.9035831205183821
+2024-11-27 14:24:58 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.9064490316766076
+2024-11-27 14:24:59 - FewShotSeg - INFO - Validation mean IOU for Batch : 1.0
+2024-11-27 14:24:59 - FewShotSeg - INFO - Validation mean ACC for Batch : 1.0
+2024-11-27 14:24:59 - FewShotSeg - INFO - Validation mean IOU for Batch : 0.7271143790003753
+2024-11-27 14:24:59 - FewShotSeg - INFO - Validation mean ACC for Batch : 0.7280575539568346
+2024-11-27 14:24:59 - FewShotSeg - INFO - Validation mean IOU for Batch : 1.0
+2024-11-27 14:24:59 - FewShotSeg - INFO - Validation mean ACC for Batch : 1.0
+2024-11-27 14:24:59 - FewShotSeg - INFO - Validation mean IOU for Batch : 1.0
+2024-11-27 14:24:59 - FewShotSeg - INFO - Validation mean ACC for Batch : 1.0

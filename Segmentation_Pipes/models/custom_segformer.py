@@ -208,6 +208,10 @@ class SegformerDecodeHead(SegformerPreTrainedModel):
             bias=False,
         )
         
+        self.conv1x1 = nn.Conv2d(in_channels=112 * 112, out_channels=64, kernel_size=1)  # Reduce to 64 channels
+        self.resnet_conv1x1 = nn.Conv2d(in_channels=2048, out_channels=768, kernel_size=1)
+        
+        
         self.batch_norm = nn.BatchNorm2d(config.decoder_hidden_size)
         self.activation = nn.ReLU()
 
@@ -247,40 +251,66 @@ class SegformerDecodeHead(SegformerPreTrainedModel):
         print("support_states ", support_states.shape)
         
         #----
-        # query feat
+        # query feat for dinov2
+        # query_state = encoder_hidden_states[4]
+        # print("query_states ", query_state.shape)
+        # height, width = query_state.shape[2], query_state.shape[3]
+        # query_state = self.custom_mlp(query_state)
+        # query_state = query_state.permute(0, 2, 1)
+        # query_state = query_state.reshape(batch_size, -1, height, width)
+        # # upsample
+        # query_state = nn.functional.interpolate(
+        #     query_state, size=(112,112), mode="bilinear", align_corners=False
+        # )       
+        # print("query_states ", query_state.shape)
+        
+        #---
+        # query feat for resnet 
         query_state = encoder_hidden_states[4]
         print("query_states ", query_state.shape)
-        height, width = query_state.shape[2], query_state.shape[3]
-        query_state = self.custom_mlp(query_state)
-        query_state = query_state.permute(0, 2, 1)
-        query_state = query_state.reshape(batch_size, -1, height, width)
-        # upsample
-        query_state = nn.functional.interpolate(
-            query_state, size=(112,112), mode="bilinear", align_corners=False
-        )       
-        print("query_states ", query_state.shape)
+        #print("Extracted features shape:", query_state.shape)  # Output: torch.Size([2, 2048])
+        # Upsample spatial dimensions
+        upsample = nn.Upsample(size=(112, 112), mode='bilinear', align_corners=False)
+        upsampled_spatial = upsample(query_state)  # [2, 2048, 112, 112]
+
+        # Reduce channels using 1x1 convolution
+        query_state = self.resnet_conv1x1(upsampled_spatial)  # [2, 768, 112, 112]
+
+        #print(query_state.shape)  # Output: torch.Size([2, 768, 112, 112])
         
-        #---- 
-        # # Normalize the support and query feature vectors along the channel dimension
-        # support_normalized = support_states / (support_states.norm(dim=1, keepdim=True) + 1e-6)
-        # query_normalized = query_state / (query_state.norm(dim=1, keepdim=True) + 1e-6)
+        
+        #----------------------------------
+        # Cosine similarity ! 
+        # Normalize query and support states
+        #query_norm = query_state / query_state.norm(dim=1, keepdim=True)  # Normalize along the channel dimension
+        #support_norm = support_states / support_states.norm(dim=1, keepdim=True)
+        #cosine_similarity = (query_norm * support_norm).sum(dim=1, keepdim=True)  # [2, 1, 112, 112]
+        #print("cosine_similarity ", cosine_similarity.shape)  # Output: torch.Size([2, 1, 112, 112])
 
-        # # Reshape to [Batch, Channels, Height*Width]
-        # support_flat = support_normalized.view(batch_size, 768, -1)  # [B, C, H*W]
-        # query_flat = query_normalized.view(batch_size, 768, -1)      # [B, C, H*W]
+        # Spatial Correlation matrix
+        # Reshape tensors to [batch, channels, height*width]
+        #query_reshaped = query_state.view(2, 768, -1)  # [2, 768, 112*112]
+        #support_reshaped = support_states.view(2, 768, -1)  # [2, 768, 112*112]
 
-        # # Compute cosine similarity
-        # cosine_similarity = torch.bmm(support_flat.permute(0, 2, 1), query_flat)  # [B, H*W, H*W]
+        # # Matrix multiplication for full correlation
+        # full_correlation = torch.bmm(query_reshaped.permute(0, 2, 1), support_reshaped)  # [2, 112*112, 112*112]
+        # full_correlation = full_correlation.view(2, 112, 112, 112, 112)  # Reshape to spatial dimensions
+        # #print(full_correlation.shape)  # Output: torch.Size([2, 112, 112, 112, 112])
+        # full_correlation_reshaped = full_correlation.permute(0, 3, 4, 1, 2).contiguous()  # [Batch, H_s, W_s, H_q, W_q]
+        # full_correlation_reshaped = full_correlation_reshaped.view(2, 112 * 112, 112, 112)  # [Batch, Channels (H_s*W_s), H_q, W_q]
 
-        # # Reshape to spatial dimensions
-        # cosine_similarity_map = cosine_similarity.view(batch_size, H, W, H, W)  # [B, H, W, H, W]
-                
-        #----
+        # # Define a 1x1 Conv to reduce channels
+        # # => wrong approach 
+        # reduced_correlation = self.conv1x1(full_correlation_reshaped)  # [Batch, Reduced Channels, H_q, W_q]
+        # print(reduced_correlation.shape)  # Output: [2, 64, 112, 112]
+                                
+        #----------------------------------
         # Weighted GAP
         # Masked Average Pooling
         mask_ = encoder_hidden_states[5]
         weighted_support_states = Weighted_GAP(supp_feat=support_states, mask=mask_)
         print("weighted_support_states", weighted_support_states.shape)
+        
                 
         all_factors = torch.cat([query_state, support_states, weighted_support_states][::-1], dim=1)
         print("all_factors : ", all_factors.shape)
@@ -340,6 +370,101 @@ class FewShotFormer(SegformerPreTrainedModel):
         >>> logits = outputs.logits  # shape (batch_size, num_labels, height/4, width/4)
         >>> list(logits.shape)
         [1, 150, 128, 128]
+        ```"""
+        return_dict = return_dict if return_dict is not None else self.config.use_return_dict
+        output_hidden_states = (
+            output_hidden_states if output_hidden_states is not None else self.config.output_hidden_states
+        )
+
+        if labels is not None and self.config.num_labels < 1:
+            raise ValueError(f"Number of labels should be >=0: {self.config.num_labels}")
+
+        outputs = self.segformer(
+            pixel_values,
+            output_attentions=output_attentions,
+            output_hidden_states=True,  # we need the intermediate hidden states
+            return_dict=return_dict,
+        )
+
+        encoder_hidden_states = outputs.hidden_states if return_dict else outputs[1]
+
+        
+        #------------------------- 
+        # DECODER
+        
+        # support hidden states
+        encoder_hidden_states = list(encoder_hidden_states)
+        # query hidden states
+        encoder_hidden_states.append(dino_features)
+        # label for support mask pooling 
+        encoder_hidden_states.append(labels)
+    
+        
+        
+        logits = self.decode_head(encoder_hidden_states)
+
+        loss = None
+        if labels is not None:
+            # upsample logits to the images' original size
+            upsampled_logits = nn.functional.interpolate(
+                logits, size=labels.shape[-2:], mode="bilinear", align_corners=False
+            )
+            if self.config.num_labels > 1:
+                #loss_fct = CrossEntropyLoss(ignore_index=self.config.semantic_loss_ignore_index)
+                #loss = loss_fct(upsampled_logits, labels)
+                
+                #------------------------------------------------------- 
+                # custom cross entropy or dice loss
+                class_weights = torch.tensor([0.1, 1.0])
+                class_weights = class_weights.to("cuda:1")
+                criterion = nn.CrossEntropyLoss(weight=class_weights)
+                loss = criterion(upsampled_logits, labels)
+
+                
+            elif self.config.num_labels == 1:
+                valid_mask = ((labels >= 0) & (labels != self.config.semantic_loss_ignore_index)).float()
+                loss_fct = BCEWithLogitsLoss(reduction="none")
+                loss = loss_fct(upsampled_logits.squeeze(1), labels.float())
+                loss = (loss * valid_mask).mean()
+
+        if not return_dict:
+            if output_hidden_states:
+                output = (logits,) + outputs[1:]
+            else:
+                output = (logits,) + outputs[2:]
+            return ((loss,) + output) if loss is not None else output
+
+        return SemanticSegmenterOutput(
+            loss=loss,
+            logits=logits,
+            hidden_states=outputs.hidden_states if output_hidden_states else None,
+            attentions=outputs.attentions,
+        )
+        
+        
+#--
+
+
+class FewShotFormer(SegformerPreTrainedModel):
+    def __init__(self, config):
+        super().__init__(config)
+        self.segformer = SegformerModel(config)
+        self.decode_head = SegformerDecodeHead(config)
+
+        # Initialize weights and apply final processing
+        self.post_init()
+
+    def forward(
+        self,
+        pixel_values: torch.FloatTensor,
+        labels: Optional[torch.LongTensor] = None,
+        dino_features: Optional[torch.FloatTensor] = None,
+        output_attentions: Optional[bool] = None,
+        output_hidden_states: Optional[bool] = None,
+        return_dict: Optional[bool] = None,
+    ) -> Union[Tuple, SemanticSegmenterOutput]:
+        r"""
+        correlation matrix added
         ```"""
         return_dict = return_dict if return_dict is not None else self.config.use_return_dict
         output_hidden_states = (

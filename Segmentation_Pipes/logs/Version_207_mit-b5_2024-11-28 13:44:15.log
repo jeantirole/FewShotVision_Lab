@@ -1,0 +1,13 @@
+2024-11-28 13:44:15 - FewShotSeg - INFO - Config Options:
+{
+    "_VERSION": "207",
+    "_EPOCHS": 50,
+    "_N_SHOTS": 5,
+    "_N_INSTANCE": 1,
+    "_MODEL_SAVE": true,
+    "_MODEL_VERSION": "nvidia/mit-b5",
+    "_MODEL_VERSION_SAVE": "mit-b5",
+    "_BATCH_SIZE": 2,
+    "_DEVICE": "cuda:1"
+}
+2024-11-28 13:44:22 - FewShotSeg - INFO - Epoch: 0
